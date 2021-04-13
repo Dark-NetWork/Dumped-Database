@@ -1,0 +1,27 @@
+.gov Government
+
+.bd Bangladesh
+
+RE Generation Mix National Database of Renewable Energy
+
+SREDA National Database of Renewable Energy 
+
+http://www.renewableenergy.gov.bd/index.php/index.php?id=06&kid=3048
+
+the back-end DBMS is MySQL
+web server operating system: Linux CentOS 6
+web application technology: PHP 5.6.40, Apache 2.2.15
+the back-end DBMS: MySQL >= 5.0.12
+
+available databases [11]:
+[+] information_schema
+[+] ndre_database
+[+] re_database
+[+] renewableenergy
+[+] solar_helpdesk
+[+] solar_irc
+[+] solar_nem
+[+] solar_srra
+[+] solar_stakeh
+[+] solar_training
+[+] test
