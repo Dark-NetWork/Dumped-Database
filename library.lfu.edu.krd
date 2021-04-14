@@ -1,0 +1,37 @@
+.edu Education
+
+.krd Imaginary Kurdistan
+
+Lebanese French University , E-Library System
+
+LFU - E-Library
+
+http://library.lfu.edu.krd/books.php?cat=5
+
+the back-end DBMS is MySQL
+the back-end DBMS: MySQL >= 5.0.12
+banner: '5.7.33'
+
+available databases [2]:
+[+] information_schema
+[+] libraryl_lib
+
+Database: libraryl_lib
+[3 tables]
++------------+
+| books      |
+| categories |
+| users      |
++------------+
+
+Database: libraryl_lib
+Table: users
+[4 entries]
++-----+-------+-----------------------+--------+-----------+
+| uid | uname | uemail                | urolle | upassword |
++-----+-------+-----------------------+--------+-----------+
+| 1   | admin | admin@localhost       | 1      | 12345     |
+| 2   | user1 | user1@ecs.lfu.edu.krd | 1      | 12345678  |
+| 3   | user2 | user2@ecs.lfu.edu.krd | 1      | 12345678  |
+| 4   | user3 | user3@ecs.lfu.edu.krd | 1      | 12345678  |
++-----+-------+-----------------------+--------+-----------+
