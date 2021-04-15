@@ -1,4 +1,4 @@
-.com 	commercial
+.com 	Commercial
 
 IT Services and Software Development company - BlueboxInfosoft
 
