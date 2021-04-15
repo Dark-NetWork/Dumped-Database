@@ -4,6 +4,10 @@ IT Services and Software Development company - BlueboxInfosoft Pvt. Ltd.
 
 http://www.blueboxinfosoft.com/careers/job.php?id=16
 
+the back-end DBMS is MySQL
+web application technology: LiteSpeed, PHP
+the back-end DBMS: MySQL >= 5.0 (MariaDB fork)
+
 available databases [5]:                                                                                                                                             
 [+] information_schema
 [+] itsguru_blueboxi_blueboxinfosoft
