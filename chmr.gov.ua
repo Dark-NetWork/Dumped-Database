@@ -1,4 +1,4 @@
-.gov government
+.gov Government
 
 .ua Ukraine
 
