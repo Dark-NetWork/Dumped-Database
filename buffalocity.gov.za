@@ -8,7 +8,7 @@ https://www.buffalocity.gov.za/article.php?id=5abe1d4
 
 web server operating system: Windows 10 or 2016 or 2019
 web application technology: PHP 5.6.40, Microsoft IIS 10.0
-back-end DBMS: MySQL >= 5.0.12
+the back-end DBMS: MySQL >= 5.0.12
 
 [+] buffaloc_projectt_bcmapp
 [+] freshproduce
