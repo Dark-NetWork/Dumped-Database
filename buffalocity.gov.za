@@ -6,6 +6,7 @@ Buffalo City Metropolitan Municipality
 
 https://www.buffalocity.gov.za/article.php?id=5abe1d4
 
+the back-end DBMS is MySQL
 web server operating system: Windows 10 or 2016 or 2019
 web application technology: PHP 5.6.40, Microsoft IIS 10.0
 the back-end DBMS: MySQL >= 5.0.12
