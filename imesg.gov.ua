@@ -8,7 +8,11 @@ Institute of Mechanics and Electrification of the Silskiy State Gift
 
 https://www.imesg.gov.ua/info/index.php?id=334
 
+the back-end DBMS is MySQL
+web server operating system: Linux Ubuntu
+web application technology: Nginx, PHP 5.3.10
 the back-end DBMS: MySQL >= 5.0.12
+
 
 available databases [2]:
 [+] imesg_db_utf
