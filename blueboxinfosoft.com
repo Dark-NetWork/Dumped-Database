@@ -1,6 +1,6 @@
 .com 	Commercial
 
-IT Services and Software Development company - BlueboxInfosoft
+IT Services and Software Development company - BlueboxInfosoft Pvt. Ltd.
 
 http://www.blueboxinfosoft.com/careers/job.php?id=16
 
