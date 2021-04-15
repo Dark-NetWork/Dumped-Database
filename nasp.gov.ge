@@ -10,8 +10,8 @@ State Ownership National Agency
 
 http://nasp.gov.ge/pages/project.php?id=7
 
+the back-end DBMS is MySQL
 web application technology: Apache
-
 the back-end DBMS: MySQL >= 5.0 (MariaDB fork)
 
 available databases [2]:                                                                                                                                             
