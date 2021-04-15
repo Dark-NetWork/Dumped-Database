@@ -10,7 +10,11 @@ http://chmr.gov.ua/myrada/html/212642.php?id=212642
 
 http://rada.ck.ua/myrada/html/185242.php?id=185242
 
-the back-end DBMS is MySQL >= 5.5
+the back-end DBMS is MySQL
+web application technology: Nginx
+the back-end DBMS: MySQL >= 5.5
+
+
 
 available databases [3]:
 [+] information_schema
