@@ -1,0 +1,78 @@
+.gov Government
+
+.ph Philippines
+
+PS-PhilGEPS	
+
+Republic Of The Philippines
+
+Procurement Service 
+
+https://apps.ps-philgeps.gov.ph/catalogue/item_preview.php?item_code=53131626-HS-S01
+
+the back-end DBMS is Microsoft SQL Server
+web application technology: PHP 7.4.12, PHP, Apache 2.4.46
+the back-end DBMS: Microsoft SQL Server 2014
+
+available databases [54]:                                                                                                                                            
+[*] FA_PROCUREMENT_SERVICE_2019_2020
+[*] FA_PROCUREMENT_SERVICE_2021
+[*] FA_PS_DEPOT_BACOLOD_2018
+[*] FA_PS_DEPOT_BACOLOD_2019_MAY_ONWARDS
+[*] FA_PS_DEPOT_BACOLOD_2021_APRIL_ONWARDS
+[*] FA_PS_DEPOT_BAGUIO_2018
+[*] FA_PS_DEPOT_BAGUIO_2019
+[*] FA_PS_DEPOT_BAGUIO_2021
+[*] FA_PS_DEPOT_BAGUO_2019_NOVEMBER_ONWARDS
+[*] FA_PS_DEPOT_BUTUAN_2018
+[*] FA_PS_DEPOT_BUTUAN_2020_JULY_ONWARDS
+[*] FA_PS_DEPOT_BUTUAN_JAN_JUNE_2018
+[*] FA_PS_DEPOT_CDO_2018
+[*] FA_PS_DEPOT_CDO_2020_MAY_ONWARDS
+[*] FA_PS_DEPOT_CDO_JAN_APRIL_2018
+[*] FA_PS_DEPOT_CEBU_2018
+[*] FA_PS_DEPOT_CEBU_2020_JUNE_ONWARDS
+[*] FA_PS_DEPOT_CEBU_JAN_MAY_2018
+[*] FA_PS_DEPOT_DAVAO_2018
+[*] FA_PS_DEPOT_DAVAO_2020
+[*] FA_PS_DEPOT_DAVAO_JAN_2018
+[*] FA_PS_DEPOT_KORONADAL_2018
+[*] FA_PS_DEPOT_KORONADAL_2019_SEPTEMBER_ONWARDS
+[*] FA_PS_DEPOT_LAUNION_2018
+[*] FA_PS_DEPOT_LAUNION_2019_DECEMBER_ONWARDS
+[*] FA_PS_DEPOT_LAUNION_PREAUDIT_2019
+[*] FA_PS_DEPOT_LEGAZPI_2018
+[*] FA_PS_DEPOT_LEGAZPI_2020_JULY_ONWARDS
+[*] FA_PS_DEPOT_LEGAZPI_JAN_JUNE_2018
+[*] FA_PS_DEPOT_MINHUB_2018
+[*] FA_PS_DEPOT_MINHUB_2019
+[*] FA_PS_DEPOT_MINHUB_2021
+[*] FA_PS_DEPOT_PALAWAN_2018
+[*] FA_PS_DEPOT_PALAWAN_2020
+[*] FA_PS_DEPOT_PAMPANGA_2018
+[*] FA_PS_DEPOT_PAMPANGA_2021
+[*] FA_PS_DEPOT_TACLOBAN_2018
+[*] FA_PS_DEPOT_TACLOBAN_2019_AUGUST_ONWARDS
+[*] FA_PS_DEPOT_TUGUEGARAO_2018
+[*] FA_PS_DEPOT_TUGUEGARAO_2019_SEPTEMBER_ONWARDS
+[*] FA_PS_PHILGEPS_2018
+[*] FA_PS_PHILGEPS_2020
+[*] FA_TEST_SITE2
+[*] FA_TEST_SITE3
+[*] FA_TRAINING_SITE1
+[*] FA_TRAINING_SITE2
+[*] FA_TRAINING_SITE_VIRTUAL_STORE2
+[*] FACTERPNG
+[*] master
+[*] model
+[*] msdb
+[*] ReportServer
+[*] ReportServerTempDB
+[*] tempdb
+
+Microsoft SQL Server 2014 (SP2-GDR) (KB4019093) - 12.0.5207.0 (X64) 
+        Jul  3 2017 02:25:44 
+        Copyright (c) Microsoft Corporation
+        Standard Edition (64-bit) on Windows NT 6.3 <X64> (Build 9600: ) (Hypervisor)
+        
+Pwd : C:\xampp72\htdocs\dashboard\reports\index.php
