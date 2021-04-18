@@ -1,0 +1,540 @@
+.gov Government
+
+.gr Greece
+
+Munıcıpalıty Of Agrını
+
+https://agrinio.gov.gr/agrinio/tourist_main_page.php?id=
+
+the back-end DBMS is MySQL
+web application technology: Apache 2.4.33, PHP 5.6.35
+the back-end DBMS: MySQL >= 5.6
+
+available databases [17]:                                                                                                                                            
+[*] agrinio_all
+[*] agrinio_dimotologio
+[*] agrinio_gov
+[*] events
+[*] information_schema
+[*] koipa
+[*] kousis
+[*] kousis1
+[*] mysql
+[*] performance_schema
+[*] svak_db
+[*] sys
+[*] visitagrinio_db
+[*] xeimonas_dipethe1
+[*] xeimonas_dipinag
+[*] xeimonas_keda
+[*] xeimonas_protathlima
+
+Database: events                                                                                                                                                     
+[10 tables]
++---------------------+
+| categories          |
+| company             |
+| contacts            |
+| contacts_categories |
+| dokimastikos        |
+| events              |
+| selected            |
+| selected_tags       |
+| sms_log             |
+| users               |
++---------------------+
+
+Database: events                                                                                                                                                     
+Table: users
+[4 entries]
++-----------+-----------+
+| userName  | password  |
++-----------+-----------+
+| dkammenos | dkk441969 |
+| admin     | admin123  |
+| karadimas | kar123!   |
+| kapniari  | kap123    |
++-----------+-----------+
+
+Database: agrinio_dimotologio                                                                                                                                        
+[2 tables]
++---------+
+| kratisi |
+| p_users |
++---------+
+
+Database: agrinio_dimotologio                                                                                                                                        
+Table: p_users
+[8 entries]
++------------+----------+-----------+
+| phone      | username | passwd    |
++------------+----------+-----------+
+| 2641046990 | grafeio1 | kekoi123! |
+| 2641046990 | grafeio2 | kekoi123! |
+| 2641046990 | grafeio3 | kekoi123! |
+| 2641046990 | grafeio4 | kekoi123! |
+| 2641046990 | grafeio5 | kekoi123! |
+| 2641046990 | grafeio6 | kekoi123! |
+| 2641046990 | grafeio7 | kekoi123! |
+| 2641046990 | grafeio8 | kekoi123! |
++------------+----------+-----------+
+
+Database: xeimonas_protathlima                                                                                                                                       
+[12 tables]
++-----------------------+
+| wp_commentmeta        |
+| wp_comments           |
+| wp_links              |
+| wp_options            |
+| wp_postmeta           |
+| wp_posts              |
+| wp_term_relationships |
+| wp_term_taxonomy      |
+| wp_termmeta           |
+| wp_terms              |
+| wp_usermeta           |
+| wp_users              |
++-----------------------+
+
+Database: xeimonas_protathlima
+Table: wp_users
+[1 entry]
++-------------+---------------+------------------------+------------------------------------+
+| user_login  | user_nicename | user_email             | user_pass                          |
++-------------+---------------+------------------------+------------------------------------+
+| protathlima | protathlima   | x.christin@hotmail.com | $P$BOVRMFIePN0vF9I0OK4OiczxiYWjrI/ |
++-------------+---------------+------------------------+------------------------------------+
+
+Database: koipa                                                                                                                                                      
+[13 tables]
++-----------------------+
+| wp_commentmeta        |
+| wp_comments           |
+| wp_links              |
+| wp_options            |
+| wp_postmeta           |
+| wp_posts              |
+| wp_posts_temp         |
+| wp_term_relationships |
+| wp_term_taxonomy      |
+| wp_termmeta           |
+| wp_terms              |
+| wp_usermeta           |
+| wp_users              |
++-----------------------+
+
+Database: koipa
+Table: wp_users
+[3 entries]
++-------------+---------------+-------------------------+------------------------------------+
+| user_login  | user_nicename | user_email              | user_pass                          |
++-------------+---------------+-------------------------+------------------------------------+
+| dimitrisman | dimitrisman   | admin@agrinio.gr        | $P$B.koFpBKzuk5twRKBfHPbmUT3.rio81 |
+| user1       | user1         | dithman@gmail.com       | $P$BAoPW.s9DBsYc6SE/Kk6.f0xAFun9W/ |
+| alexkat     | alexkat       | katsonis.alex@gmail.com | $P$BKQxxWopnv/u2/TVyEyxPp5QNnh6dU1 |
++-------------+---------------+-------------------------+------------------------------------+
+
+Database: svak_db                                                                                                                                                    
+[17 tables]
++----------------------------+
+| wp_actionscheduler_actions |
+| wp_actionscheduler_claims  |
+| wp_actionscheduler_groups  |
+| wp_actionscheduler_logs    |
+| wp_commentmeta             |
+| wp_comments                |
+| wp_links                   |
+| wp_options                 |
+| wp_postmeta                |
+| wp_posts                   |
+| wp_term_relationships      |
+| wp_term_taxonomy           |
+| wp_termmeta                |
+| wp_terms                   |
+| wp_usermeta                |
+| wp_users                   |
+| wp_wpforms_tasks_meta      |
++----------------------------+
+
+Database: svak_db
+Table: wp_users
+[5 entries]
++------------+---------------+--------------------------+------------------------------------+
+| user_login | user_nicename | user_email               | user_pass                          |
++------------+---------------+--------------------------+------------------------------------+
+| admin      | admin         | sa@WA.COM                | $P$BDDaJCsZbeZVsNz6Qs99CiusaJzCQt. |
+| asardelis  | asardelis     | asardelis@agrinio.gov.gr | $P$B4vhW3Za6twWJkplG17UTcjRb6Cwu71 |
+| dithman    | dithman       | dithman@gmail.com        | $P$BgtYpIMbPVKVobhL8ZKrmXLoZdzcKz0 |
+| dkammenos  | dkammenos     | dkammenos@agrinio.gr     | $P$BmDxXgzto/Lsj1KyW4pZ.vrnFb0uS5/ |
+| svak       | svak          | SBAKAgrinio@outlook.com  | $P$BaIk8wxBax/Q/ygBJgAjYy.bsNhred1 |
++------------+---------------+--------------------------+------------------------------------+
+
+Database: visitagrinio_db                                                                                                                                            
+[77 tables]
++-------------------------------+
+| wp_cf_form_entries            |
+| wp_cf_form_entry_meta         |
+| wp_cf_form_entry_values       |
+| wp_cf_forms                   |
+| wp_cf_pro_messages            |
+| wp_cf_queue_failures          |
+| wp_cf_queue_jobs              |
+| wp_cf_tracking                |
+| wp_cf_tracking_meta           |
+| wp_commentmeta                |
+| wp_comments                   |
+| wp_duplicator_pro_entities    |
+| wp_duplicator_pro_packages    |
+| wp_ea_error_logs              |
+| wp_icl_content_status         |
+| wp_icl_core_status            |
+| wp_icl_flags                  |
+| wp_icl_languages              |
+| wp_icl_languages_translations |
+| wp_icl_locale_map             |
+| wp_icl_message_status         |
+| wp_icl_mo_files_domains       |
+| wp_icl_node                   |
+| wp_icl_reminders              |
+| wp_icl_string_pages           |
+| wp_icl_string_positions       |
+| wp_icl_string_status          |
+| wp_icl_string_translations    |
+| wp_icl_string_urls            |
+| wp_icl_strings                |
+| wp_icl_translate              |
+| wp_icl_translate_job          |
+| wp_icl_translation_batches    |
+| wp_icl_translation_status     |
+| wp_icl_translations           |
+| wp_links                      |
+| wp_options                    |
+| wp_postmeta                   |
+| wp_posts                      |
+| wp_smush_dir_images           |
+| wp_supsystic_tbl_columns      |
+| wp_supsystic_tbl_diagrams     |
+| wp_supsystic_tbl_rows         |
+| wp_supsystic_tbl_tables       |
+| wp_term_relationships         |
+| wp_term_taxonomy              |
+| wp_termmeta                   |
+| wp_terms                      |
+| wp_toolset_associations       |
+| wp_toolset_post_guid_id       |
+| wp_toolset_relationships      |
+| wp_toolset_type_sets          |
+| wp_usermeta                   |
+| wp_users                      |
+| wp_wfblockediplog             |
+| wp_wfblocks7                  |
+| wp_wfconfig                   |
+| wp_wfcrawlers                 |
+| wp_wffilechanges              |
+| wp_wffilemods                 |
+| wp_wfhits                     |
+| wp_wfhoover                   |
+| wp_wfissues                   |
+| wp_wfknownfilelist            |
+| wp_wflivetraffichuman         |
+| wp_wflocs                     |
+| wp_wflogins                   |
+| wp_wfls_2fa_secrets           |
+| wp_wfls_settings              |
+| wp_wfnotifications            |
+| wp_wfpendingissues            |
+| wp_wfreversecache             |
+| wp_wfsnipcache                |
+| wp_wfstatus                   |
+| wp_wftrafficrates             |
+| wp_yoast_seo_links            |
+| wp_yoast_seo_meta             |
++-------------------------------+
+
+Database: visitagrinio_db
+Table: wp_users
+[4 entries]
++------------------------------+-----------------------------+------------------------------+------------------------------------+
+| user_login                   | user_nicename               | user_email                   | user_pass                          |
++------------------------------+-----------------------------+------------------------------+------------------------------------+
+| stamatis.stamatiou@gmail.com | stamatis-stamatiougmail-com | stamatis.stamatiou@gmail.com | $P$BuVGvBjyPY2hvZhrXb9/L9D6SRhsqz/ |
+| evi                          | evi                         | evi.varotsi@gmail.com        | $P$BqdxiIlHWr7ZDDKqH2byCehu3D.AQm. |
+| agadakou                     | agadakou                    | agadakou@gmail.com           | $P$B67yexw3WI8mnqoAcPj40quTY6dzAI1 |
+| visitagriniowebsite          | visitagriniowebsite         | admin@agrinio.gr             | $P$BePvmG5crf7T49mdMOnAOqoVJr/wC.. |
++------------------------------+-----------------------------+------------------------------+------------------------------------+
+
+Database: xeimonas_dipethe1                                                                                                                                          
+[25 tables]
++-----------------------+
+| class                 |
+| eggrafa               |
+| eggrafa1              |
+| epafes                |
+| kat                   |
+| katalogos             |
+| menu                  |
+| menu1                 |
+| pages                 |
+| pages1                |
+| photo                 |
+| video                 |
+| wp_commentmeta        |
+| wp_comments           |
+| wp_links              |
+| wp_options            |
+| wp_postmeta           |
+| wp_posts              |
+| wp_term_relationships |
+| wp_term_taxonomy      |
+| wp_termmeta           |
+| wp_terms              |
+| wp_usermeta           |
+| wp_users              |
+| xrhstes               |
++-----------------------+
+
+Database: xeimonas_dipethe1
+Table: wp_users
+[3 entries]
++------------+---------------+---------------------------+------------------------------------+
+| user_login | user_nicename | user_email                | user_pass                          |
++------------+---------------+---------------------------+------------------------------------+
+| dipethe    | dipethe       | admin@agrinio.gr          | $P$B9jJUShNhvXB4a31tqSBoQvfW0jm0g. |
+| user1      | user1         | dithman@gmail.com         | $P$Bfr56K8IsgC9u.5J24awVTCONDsZGV. |
+| livia      | livia         | dipetheagriniou@otenet.gr | $P$BtRw000JtgHMITaMc6q6oheUw27Rki/ |
++------------+---------------+---------------------------+------------------------------------+
+
+Database: xeimonas_dipinag                                                                                                                                           
+[26 tables]
++-------------------------------------------------+
+| wp_commentmeta                                  |
+| wp_comments                                     |
+| wp_links                                        |
+| wp_options                                      |
+| wp_postmeta                                     |
+| wp_posts                                        |
+| wp_term_relationships                           |
+| wp_term_taxonomy                                |
+| wp_termmeta                                     |
+| wp_terms                                        |
+| wp_usermeta                                     |
+| wp_users                                        |
+| wp_woocommerce_api_keys                         |
+| wp_woocommerce_attribute_taxonomies             |
+| wp_woocommerce_downloadable_product_permissions |
+| wp_woocommerce_log                              |
+| wp_woocommerce_order_itemmeta                   |
+| wp_woocommerce_order_items                      |
+| wp_woocommerce_payment_tokenmeta                |
+| wp_woocommerce_payment_tokens                   |
+| wp_woocommerce_sessions                         |
+| wp_woocommerce_shipping_zone_locations          |
+| wp_woocommerce_shipping_zone_methods            |
+| wp_woocommerce_shipping_zones                   |
+| wp_woocommerce_tax_rate_locations               |
+| wp_woocommerce_tax_rates                        |
++-------------------------------------------------+
+
+Database: xeimonas_dipinag
+Table: wp_users
+[2 entries]
++------------+---------------+------------------------+------------------------------------+
+| user_login | user_nicename | user_email             | user_pass                          |
++------------+---------------+------------------------+------------------------------------+
+| dipinag    | dipinag       | pinakothiki@agrinio.gr | $P$BJKBSvdz0ZpCgzAgYNzf7SGuJkiPEQ/ |
+| user1      | user1         | dithman@gmail.com      | $P$Blr3Ylap9fTVJY4qrzkc6Vc30GiyYo/ |
++------------+---------------+------------------------+------------------------------------+
+
+Database: xeimonas_keda                                                                                                                                              
+[13 tables]
++-----------------------+
+| wp_commentmeta        |
+| wp_comments           |
+| wp_fb3d_pages         |
+| wp_links              |
+| wp_options            |
+| wp_postmeta           |
+| wp_posts              |
+| wp_term_relationships |
+| wp_term_taxonomy      |
+| wp_termmeta           |
+| wp_terms              |
+| wp_usermeta           |
+| wp_users              |
++-----------------------+
+
+Database: xeimonas_keda
+Table: wp_users
+[3 entries]
++------------+---------------+-----------------------+------------------------------------+
+| user_login | user_nicename | user_email            | user_pass                          |
++------------+---------------+-----------------------+------------------------------------+
+| politismos | politismos    | admin@agrinio.gr      | $P$BeP8kjoCkbOZtIVYOvvZ0VWbhkZcqo1 |
+| vaso       | vaso          | vgioti82@yahoo.gr     | $P$BmaY6xhmxOcqq4xOvlDoDt/a4thltJ/ |
+| keda_user  | keda_user     | politismos@agrinio.gr | $P$B4okdm.tSVIlj2UGZqmN5aHZU6SdBn1 |
++------------+---------------+-----------------------+------------------------------------+
+
+Database: agrinio_gov                                                                                                                                                
+[44 tables]
++------------------------------+
+| wp_commentmeta               |
+| wp_comments                  |
+| wp_itsec_bans                |
+| wp_itsec_distributed_storage |
+| wp_itsec_fingerprints        |
+| wp_itsec_geolocation_cache   |
+| wp_itsec_lockouts            |
+| wp_itsec_logs                |
+| wp_itsec_mutexes             |
+| wp_itsec_opaque_tokens       |
+| wp_itsec_temp                |
+| wp_itsec_user_groups         |
+| wp_links                     |
+| wp_options                   |
+| wp_postmeta                  |
+| wp_posts                     |
+| wp_posts_temp                |
+| wp_term_relationships        |
+| wp_term_taxonomy             |
+| wp_termmeta                  |
+| wp_terms                     |
+| wp_usermeta                  |
+| wp_users                     |
+| wp_wfblockediplog            |
+| wp_wfblocks7                 |
+| wp_wfconfig                  |
+| wp_wfcrawlers                |
+| wp_wffilechanges             |
+| wp_wffilemods                |
+| wp_wfhits                    |
+| wp_wfhoover                  |
+| wp_wfissues                  |
+| wp_wfknownfilelist           |
+| wp_wflivetraffichuman        |
+| wp_wflocs                    |
+| wp_wflogins                  |
+| wp_wfls_2fa_secrets          |
+| wp_wfls_settings             |
+| wp_wfnotifications           |
+| wp_wfpendingissues           |
+| wp_wfreversecache            |
+| wp_wfsnipcache               |
+| wp_wfstatus                  |
+| wp_wftrafficrates            |
++------------------------------+
+
+Database: agrinio_gov
+Table: wp_users
+[29 entries]
++---------------+---------------+-------------------------------+------------------------------------+
+| user_login    | user_nicename | user_email                    | user_pass                          |
++---------------+---------------+-------------------------------+------------------------------------+
+| dimitrisman   | dimitrisman   | admin@agrinio.gr              | $P$B.koFpBKzuk5twRKBfHPbmUT3.rio81 |
+| user1         | user1         | dithman@gmail.com             | $P$BOWVCOFEgB2j.p.BMw1EZncJJxi6tr. |
+| renazerva     | renazerva     | rezerva@agrinio.gr            | $P$BKfxEpS20miPK4jBE/rPR53JRg/pAD/ |
+| dista         | dista         | dagrpromithion@agrinio.gr     | $P$BqtExTrdHK/7gFNaEpY2YxWyfmOm9H0 |
+| evivasil      | evivasil      | evivasil@agrinio.gr           | $P$BJUbbRfJ1tb9wds/OS3BK9ZSLCc4M/. |
+| pzonaras      | pzonaras      | pzonaras@agrinio.gr           | $P$BX6KqgaQxcZltkB4DR4rHLp2Wy7lRM0 |
+| asardelis     | asardelis     | asardelis@agrinio.gr          | $P$BRLaf.oQu2Grxk1meRPpHXGXOr1eOe. |
+| dtselios      | dtselios      | dtselios@agrinio.gr           | $P$BqB72X.VSl2jt/c6tBS19jE67vm9CM1 |
+| athinamix     | athinamix     | athinamix@agrinio.gr          | $P$BrY2HdI6vZodPWaZ2HaiHof3Fn62a7/ |
+| dtsakanikas   | dtsakanikas   | dtsakanikas@agrinio.gr        | $P$BotNCLSqFriYhtcZ07kkQjdlEUEO6.0 |
+| bpanou        | bpanou        | bpanou@agrinio.gr             | $P$Bt9luwwcx05US4KLdqKtxVYvS1ga4H/ |
+| tragoulia     | tragoulia     | atragoulia@agrinio.gr         | $P$BUqRxY0hMXs4pRopknwBS/y8E1w3rC1 |
+| lpapasotiri   | lpapasotiri   | lpapasotiri@agrinio.gr        | $P$BCtKxb9YDsmrcsKSSMcIHYbMy95R.k/ |
+| fantonopoulos | fantonopoulos | fantonopoulos@agrinio.gr      | $P$BSIj9LCuMUxLz6pIWYjBLlnfWPHdNh1 |
+| papavasili    | papavasili    | dpapavasili@agrinio.gr        | $P$BIej8lFB8voElTVALDifCTzb8RkSX60 |
+| stamatis      | stamatis      | stamatis@agrinio.gr           | $P$BKFPcmu3uvNvKCfydpTfL2rcH/6.ZJ/ |
+| mliatsou      | mliatsou      | mliatsou@agrinio.gr           | $P$B1xjAM6G9AT.NLpLTDgZve.P8cYrhw1 |
+| dkammenos     | dkammenos     | dkammenos@agrinio.gr          | $P$BwViUBV67hiqA6dT3XmzcaaQs/Khce/ |
+| nserpanos     | nserpanos     | nserpanos@agrinio.gr          | $P$B4VP5AgTn7vb2G10R6HakgTs9H5gxx/ |
+| cgriva        | cgriva        | cgriva@agrinio.gr             | $P$BXS0kpxDU6PCV1w3zZta/L2ROBPxCo1 |
+| chryma        | chryma        | chryma@gmail.com              | $P$BqX9WPz.4qaB7GS/Y4VAxZnxzJyHjN0 |
+| mgioti        | mgioti        | mgioti@agrinio.gr             | $P$BLXig3ZGzJI5hdC6cpL/SEdMyTFmL8. |
+| arists        | arists        | arists@agrinio.gr             | $P$BjZ.hYpJggmuQJGjajOPAGq.IrSCUH1 |
+| xristoforos   | xristoforos   | xbaltas@agrinio.gr            | $P$B2Dbig6ZniVO7JXNIvLTGJvdDnejGW1 |
+| pkavallaris   | pkavallaris   | pkavallaris@agrinio.gr        | $P$BTUBJ4j27QBZVZZYhCXYnSHylIQblQ0 |
+| liveri        | liveri        | aliveri@agrinio.gr            | $P$BMXkVC.hlaiTfiY4W46HOFm2BegqHE. |
+| maria         | maria         | mevaggelatou@agrinio.gr       | $P$BGD6vWL79GH5FqQTOHNTu435t2sln1. |
+| valentina     | valentina     | vstathokostopoulou@agrinio.gr | $P$BEhZGto6T.JP0Oyjfmu/riUAS1QMew0 |
+| thkaperda     | thkaperda     | thkaperda@agrinio.gr          | $P$BQzEkXKUEp/sN32bigqUOnBL3ojMNU/ |
++---------------+---------------+-------------------------------+------------------------------------+
+
+Database: agrinio_all                                                                                                                                                
+[74 tables]
++-------------------------+
+| apofaseis_bak_16-9-2019 |
+| log_07-11-2017          |
+| log                     |
+| adeies                  |
+| aitima                  |
+| aitima_fotismos         |
+| aitima_previous         |
+| aitima_sec              |
+| apodektes_prot          |
+| apofaseis               |
+| apofaseis_bak           |
+| apofaseis_bak_4_2019    |
+| apousies                |
+| argies                  |
+| diagrafes               |
+| diavouleysi             |
+| e_apodektes             |
+| e_apostoleis            |
+| e_koinopoiisi           |
+| e_ypografes             |
+| eggrafa                 |
+| energeia                |
+| esoda_aithsh            |
+| esoda_arxeia            |
+| esoda_kad               |
+| etos                    |
+| geo_aitima              |
+| kat                     |
+| kat_kind                |
+| klimakio                |
+| koipa_arxeia            |
+| koipa_eggrafi           |
+| koipa_kataxorisi        |
+| koipa_stathmoi          |
+| koipa_users             |
+| kratisi                 |
+| log_20032018            |
+| log_24112017            |
+| log_6_11_2017           |
+| log_new_backup          |
+| log_old                 |
+| memo                    |
+| metakiniseis            |
+| mkousis                 |
+| mstergaz                |
+| oktamina                |
+| oktamina_arxeia         |
+| p_users                 |
+| p_users1                |
+| protokollo              |
+| s_basket                |
+| s_customer              |
+| s_kat                   |
+| s_order_p               |
+| s_orders                |
+| s_product               |
+| s_temp                  |
+| s_xreosi                |
+| s_xrhstes               |
+| sox120                  |
+| spoydes                 |
+| stadio_parousies        |
+| stadio_users            |
+| statistics              |
+| stats                   |
+| tbl_emp_details         |
+| teams                   |
+| teams_agones            |
+| tennis_reserve          |
+| theseis                 |
+| vathmos                 |
+| xreosi                  |
+| xreosi_prot             |
+| xreosi_prot_user        |
++-------------------------+
