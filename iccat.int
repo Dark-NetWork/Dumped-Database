@@ -1,0 +1,36 @@
+.int international Organizations
+
+International Atlantic Tuna Conservation Commission
+
+https://www.iccat.int/en/VesselsRecordDet.asp?id=3473
+
+the back-end DBMS is Microsoft SQL Server
+web server operating system: Windows 2016 or 2019 or 10
+web application technology: ASP, ASP.NET, Microsoft IIS 10.0
+the back-end DBMS: Microsoft SQL Server 2016
+
+Microsoft SQL Server 2016 (SP2-CU2) (KB4340355) - 13.0.5153.0 (X64) 
+        Jun 28 2018 17:24:28 
+        Copyright (c) Microsoft Corporation
+        Standard Edition (64-bit) on Windows Server 2016 Standard 10.0 <X64> (Build 14393: ) (Hypervisor)
+
+available databases [19]:
+[*] coBCDs
+[*] coEntities
+[*] coPorts
+[*] coVessels
+[*] master
+[*] model
+[*] msdb
+[*] stTrade
+[*] T1
+[*] tempdb
+[*] wDBbcd
+[*] wDBCards
+[*] wDBcomp
+[*] wDBgbyp
+[*] wDBincbcd
+[*] wDBmse
+[*] wDBpub
+[*] wDBstat
+[*] wDBweb2017
