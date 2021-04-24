@@ -45,9 +45,3 @@ database management system users password hashes:
     password hash: NULL
 [*] sa [1]:
     password hash: NULL
-
-[+] TransMonee
-[+] WEB_APLIKACII
-[+] WEB_NOVA
-[+] WEBR0411
-[+] WEBtestInj
