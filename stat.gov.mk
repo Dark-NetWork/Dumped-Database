@@ -2,9 +2,9 @@
 
 .mk Macedonia
 
-Macedonia Northern Republic
+Republic of Severna Macedonia
 
-State Statistical Office
+State Plant For Statistics
 
 State Institute of Statistics
 
