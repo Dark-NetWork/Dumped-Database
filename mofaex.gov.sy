@@ -1,0 +1,15 @@
+.gov Government
+
+.sy Syria
+
+Website of the Ministry of Foreign Affairs and Emigrants - Syrian Arab Republic
+
+Syrian Arab Republic Ministry of Foreign Affairs and Expatriates
+
+http://www.mofaex.gov.sy/moh/pcr/chooseday.php?id=2
+
+web application technology: Nginx, PHP, PHP 5.4.16
+the back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+
+available databases [1]:
+[+] orders
