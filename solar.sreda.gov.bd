@@ -17,17 +17,17 @@ the back-end DBMS: MySQL >= 5.0.12
 banner: '5.1.73'
 
 available databases [11]:                                                                                                                                            
-[*] information_schema
-[*] ndre_database
-[*] re_database
-[*] renewableenergy
-[*] solar_helpdesk
-[*] solar_irc
-[*] solar_nem
-[*] solar_srra
-[*] solar_stakeh
-[*] solar_training
-[*] test
+[+] information_schema
+[+] ndre_database
+[+] re_database
+[+] renewableenergy
+[+] solar_helpdesk
+[+] solar_irc
+[+] solar_nem
+[+] solar_srra
+[+] solar_stakeh
+[+] solar_training
+[+] test
 
 Database: ndre_database                                                                                                                                              
 [59 tables]
