@@ -1,0 +1,402 @@
+.gov Government
+
+.bd Bangladesh
+
+SREDA | Database of Renewable Energy Stakeholders 
+
+Sustainable and Renewable
+
+Energy Development Authority
+
+https://stdb.sreda.gov.bd/index.php?id=02&kid=60
+
+the back-end DBMS is MySQL
+web server operating system: Linux CentOS 6
+web application technology: Apache 2.2.15, PHP 5.6.40
+back-end DBMS: MySQL >= 5.0.12
+banner: '5.1.73'
+
+available databases [11]:                                                                                                                                            
+[+] information_schema
+[+] ndre_database
+[+] re_database
+[+] renewableenergy
+[+] solar_helpdesk
+[+] solar_irc
+[+] solar_nem
+[+] solar_srra
+[+] solar_stakeh
+[+] solar_training
+[+] test
+
+Database: ndre_database                                                                                                                                              
+[59 tables]
++----------------------------+
+| groups                     |
+| about                      |
+| backup_mail_send           |
+| backup_sms_send            |
+| brand                      |
+| cart                       |
+| cat_select                 |
+| category                   |
+| ci_sessions                |
+| comment                    |
+| content_block              |
+| content_block_arrange      |
+| content_block_bn           |
+| content_page_list          |
+| css                        |
+| css_ip                     |
+| districts                  |
+| divisions                  |
+| ee_data_entry              |
+| ee_data_entry_backup       |
+| ee_data_entry_trash        |
+| img                        |
+| ip                         |
+| ip_login                   |
+| login                      |
+| login_attempts             |
+| msg                        |
+| orders                     |
+| page                       |
+| post                       |
+| post_comment               |
+| post_tag                   |
+| post_type                  |
+| re_agency                  |
+| re_data_entry              |
+| re_data_entry_backup       |
+| re_data_entry_project_type |
+| re_data_entry_trash        |
+| re_finance                 |
+| re_project                 |
+| re_project_status          |
+| re_type                    |
+| review                     |
+| role                       |
+| role_permission            |
+| shipping_address           |
+| social                     |
+| sub_cat                    |
+| sub_comment                |
+| system_name                |
+| tag                        |
+| tbl_fuel_generation        |
+| total_pgen_txt             |
+| upazilas                   |
+| user_page_list             |
+| users                      |
+| visitor                    |
+| visitor_log                |
+| visitor_page               |
++----------------------------+
+
+Database: ndre_database
+Table: users
+[36 entries]
++----------------+-----------------------------+-----------------------------+------------------------------------------+
+| mobile         | name                        | mail                        | pass                                     |
++----------------+-----------------------------+-----------------------------+------------------------------------------+
+| 01915628545    | zaman                       | sarkerzaman@gmail.com       | 243ec8b29e1b05380ffd6f978c95da6d5c0245c1 |
+| +8801740969291 | Md. Rashedul Alam           | rashed4912@gmail.com        | ec50a8c38624716a13039be1c25c7daab57727c9 |
+| +8801715139056 | S M Sanzad Lumen            | sanzad.lumen@gmail.com      | 7d9f75b1cd37aa33d4c1deccf13b991f945cceb1 |
+| 01730066983    | Md. Mohaimenul Islam        | xenrec.nwpgcl@gmail.com     | 17732bec6eb729aa8a39d8ad5daf58db0dc9ce01 |
+| 01714814236    | Tapos Kumar Saha            | tapossaha000@gmail.com      | 7ce0359f12857f2a90c7de465f40a95f01cb5da9 |
+| 01714814236    | Tapos Kumar Saha            | pa.solar@sreda.gov.bd       | 7f7392639816cbb629049fcdc566c63c869ff17c |
+| +8801754987208 | Shafiuddin Haider           | haider.shafiuddin@gmail.com | 7ce0359f12857f2a90c7de465f40a95f01cb5da9 |
+| 01731508916    | Afrina Sharmin              | afrina.sharmin@gmail.com    | 7ce0359f12857f2a90c7de465f40a95f01cb5da9 |
+| 01711297969    | Engr. Md. Ruhul Amin        | wzpdcl.ce@gmail.com         | b3347e342a0d88ae981db494fb84e7abfa12318d |
+| 01711875724    | Engr. Md. Nazrul Islam Khan | nikhanrdabogra61@gmail.com  | 7c4a8d09ca3762af61e59520943dc26494f8941b |
+| 01670484396    | Mohammad Rashedul Islam     | rashed@idcol.org            | 1e0af3e8f655dc0f8ac275ca996b1b35b407453b |
+| 01719459285    | Md. Elias Hossain           | elias.hossain@egcb.com.bd   | 94310a085f7fca7d17b56efe30b0ae9857e21357 |
+| 01552384637    | Md. Akram Hossain Mondal    | akrambogra63@gmail.com      | fd3ac8c8eaf91957d78f168d409679a7facb6119 |
+| 01755516619    | Md. Nazmul Haque            | dir.rernd@bpdb.gov.bd       | eb131274a50b64854d28b50bd5dc5ca584ddc48f |
+| 01787678652    | Md. Abdur Rouf              | edproject@cpgcbl.gov.bd     | 62df1466d4ecf229f20a480845cf589adb395c6a |
+| 01712524220    | Mohammed Wahidul Islam      | wahid.badc@gmail.com        | 6d26026c97ed9b86394702a663cc209b35dcd6d9 |
+| 01975262692    | Ms. Ananya Rubayat          | ananya.rubayat@giz.de       | 7c4a8d09ca3762af61e59520943dc26494f8941b |
+| 01755637538    | Md. Rezwanul Hoque          | rezwanul1209@gmail.com      | d99ddc70b3a42381608cfd2277e28a6d35ed33cb |
+| 01769012786    | Lt. Col. Sultan Abdul Hasib | emedtecoord@gmail.com       | 6367c48dd193d56ea7b0baad25b19455e529f5ee |
+| 01714261586    | Md. Ferdaws Rahman          | ferdawsrpcl@gmail.com       | ca8ef4012a1b46157972dcd7376b3d39f6e92190 |
+| 01755541480    | Md. Abul Monsur             | xenrer@dpdc.org.bd          | f34f5e2243aa566e383fa611b086b362b2247e0e |
+| 12345          | Saleh Md. Jasim             | ict@pgcb.org.bd             | 8005f65a348d460ea471c5495ed712a8ddd674e9 |
+| 01718308131    | Md. Rubel Pasha             | dmmisict@apscl.com          | b41ed415fff41b507817ba7f42efe827d85cd56f |
+| 01717243041    | Wahid Palash                | wahidpalash13@gmail.com     | 6367c48dd193d56ea7b0baad25b19455e529f5ee |
+| 01911250892    | Mahmud                      | ap@dphe.gov.bd              | 6367c48dd193d56ea7b0baad25b19455e529f5ee |
+| 01712058408    | Md. Murtaza                 | murtazalged@gmail.com       | 6367c48dd193d56ea7b0baad25b19455e529f5ee |
+| 01712181992    | Md. Harunur Rashid          | ddpower@berc.org.bd         | 9c1cb9589ba33bf74ef1152c32d6c32410bb4174 |
+| 0170000000000  | Md. Rashedul Alam           | abc@ddm.gov.bd              | d5695055d5a4038c4c5d5ac84792bdd377ad5a58 |
+| 01671300156    | Imran Sayeed                | imransayeed@idcol.org       | 1798a15d09fd38eaaa10af3e06cd39c98c484501 |
+| 0170000000000  | Md. Rashedul Alam           | abc@bmda.gov.bd             | da39a3ee5e6b4b0d3255bfef95601890afd80709 |
+| 01754987208    | Shafiuddin Haider           | ict@sreda.gov.bd            | 7ce0359f12857f2a90c7de465f40a95f01cb5da9 |
+| 0123456789     | Lina Binta Ataur Rahman     | lina@idcol.org              | 2b9156e402909640cb09695062a950fb84235474 |
+| 01742567118    | Md. Pavel Mahmud            | paveleeecuet@gmail.com      | 92c0d20dfa8e64eaa15698f29dc420612956dbde |
+| 01715-545289   | Md. Mokhlusur Rahman        | mokhles_buet@yahoo.com      | ee1992b6ffe7df1d4b4ce8859d27db4672e40341 |
+| 01749017769    | Md. Shamsul Huda            | shudabmda@gmail.com         | 9f92965266354d4ebb4500c838d50acf1ed64eea |
+| 01746079293    | Kazi Ahsan Uddin            | ahsan@idcol.org             | 6367c48dd193d56ea7b0baad25b19455e529f5ee |
++----------------+-----------------------------+-----------------------------+------------------------------------------+
+
+Database: re_database                                                                                                                                                
+[63 tables]
++----------------------------+
+| groups                     |
+| about                      |
+| backup_mail_send           |
+| backup_sms_send            |
+| brand                      |
+| cart                       |
+| cat_select                 |
+| category                   |
+| ci_sessions                |
+| comment                    |
+| content_block              |
+| content_block_arrange      |
+| content_block_bn           |
+| content_page_list          |
+| css                        |
+| css_ip                     |
+| districts                  |
+| divisions                  |
+| ee_data_entry              |
+| ee_data_entry_backup       |
+| ee_data_entry_trash        |
+| img                        |
+| ip                         |
+| ip_login                   |
+| lastupdate                 |
+| login                      |
+| login_attempts             |
+| msg                        |
+| orders                     |
+| page                       |
+| post                       |
+| post_comment               |
+| post_tag                   |
+| post_type                  |
+| re_agency                  |
+| re_agency_sub              |
+| re_data_entry              |
+| re_data_entry_backup       |
+| re_data_entry_project_type |
+| re_data_entry_trash        |
+| re_finance                 |
+| re_project                 |
+| re_project_status          |
+| re_type                    |
+| review                     |
+| role                       |
+| role_permission            |
+| security                   |
+| shipping_address           |
+| social                     |
+| sub_cat                    |
+| sub_comment                |
+| system_name                |
+| tag                        |
+| tbl_fuel_generation        |
+| total_pgen_txt             |
+| upazilas                   |
+| user_old_backup            |
+| user_page_list             |
+| users                      |
+| visitor                    |
+| visitor_log                |
+| visitor_page               |
++----------------------------+
+
+Database: re_database
+Table: users
+[188 entries]
++---------------+--------------------------------------------------------------+----------------------------------+------------------------------------------+
+| mobile        | name                                                         | mail                             | pass                                     |
++---------------+--------------------------------------------------------------+----------------------------------+------------------------------------------+
+| 01915628545   | zaman                                                        | sarkerzaman@gmail.com            | 243ec8b29e1b05380ffd6f978c95da6d5c0245c1 |
+| 01740969291   | Md. Rashedul Alam                                            | rashed4912@gmail.com             | ec50a8c38624716a13039be1c25c7daab57727c9 |
+| 01715139056   | S M Sanzad Lumen                                             | sanzad.lumen@gmail.com           | 7d9f75b1cd37aa33d4c1deccf13b991f945cceb1 |
+| 01730066983   | Md. Mohaimenul Islam                                         | xenrec.nwpgcl@gmail.com          | 17732bec6eb729aa8a39d8ad5daf58db0dc9ce01 |
+| 01714814236   | Tapos Kumar Saha                                             | tapossaha000@gmail.com           | 7ce0359f12857f2a90c7de465f40a95f01cb5da9 |
+| 01714814236   | Tapos Kumar Saha                                             | pa.solar@sreda.gov.bd            | 7f7392639816cbb629049fcdc566c63c869ff17c |
+| 01754987208   | Shafiuddin Haider                                            | haider.shafiuddin@gmail.com      | 7ce0359f12857f2a90c7de465f40a95f01cb5da9 |
+| 01731508916   | Afrina Sharmin                                               | afrina.sharmin@gmail.com         | 7ce0359f12857f2a90c7de465f40a95f01cb5da9 |
+| 01711297969   | Engr. Md. Ruhul Amin                                         | wzpdcl.ce@gmail.com              | b3347e342a0d88ae981db494fb84e7abfa12318d |
+| 01711875724   | Engr. Md. Nazrul Islam Khan                                  | nikhanrdabogra61@gmail.com       | 7c4a8d09ca3762af61e59520943dc26494f8941b |
+| 01670484396   | Mohammad Rashedul Islam                                      | rashed@idcol.org                 | 8029b5177d7c1c3111211068ce5c3e9d0c0cc6c0 |
+| 01719459285   | Md. Elias Hossain                                            | elias.hossain@egcb.com.bd        | 94310a085f7fca7d17b56efe30b0ae9857e21357 |
+| 01552384637   | Md. Akram Hossain Mondal                                     | akrambogra63@gmail.com           | fd3ac8c8eaf91957d78f168d409679a7facb6119 |
+| 01755516619   | Md. Nazmul Haque                                             | dir.rernd@bpdb.gov.bd            | eb131274a50b64854d28b50bd5dc5ca584ddc48f |
+| 01787678652   | Md. Abdur Rouf                                               | edproject@cpgcbl.gov.bd          | 62df1466d4ecf229f20a480845cf589adb395c6a |
+| 01712524220   | Mohammed Wahidul Islam                                       | wahid.badc@gmail.com             | 6d26026c97ed9b86394702a663cc209b35dcd6d9 |
+| 01975262692   | Ms. Ananya Rubayat                                           | ananya.rubayat@giz.de            | 7c4a8d09ca3762af61e59520943dc26494f8941b |
+| 01755637538   | Md. Rezwanul Hoque                                           | rezwanul1209@gmail.com           | d99ddc70b3a42381608cfd2277e28a6d35ed33cb |
+| 01769012782   | Md. Arafath Mashil                                           | emedtecoord@gmail.com            | 6367c48dd193d56ea7b0baad25b19455e529f5ee |
+| 01714261586   | Md. Ferdaws Rahman                                           | ferdawsrpcl@gmail.com            | ca8ef4012a1b46157972dcd7376b3d39f6e92190 |
+| 01755541480   | Md. Abul Monsur                                              | xenrer@dpdc.org.bd               | f34f5e2243aa566e383fa611b086b362b2247e0e |
+| 01777760421   | Saleh Md. Jasim                                              | ict@pgcb.org.bd                  | 8005f65a348d460ea471c5495ed712a8ddd674e9 |
+| 01718308131   | Md. Rubel Pasha                                              | dmmisict@apscl.com               | b41ed415fff41b507817ba7f42efe827d85cd56f |
+| 01717243041   | Wahid Palash                                                 | wahidpalash13@gmail.com          | 6367c48dd193d56ea7b0baad25b19455e529f5ee |
+| 01911250892   | Mahmud                                                       | ap@dphe.gov.bd                   | 6367c48dd193d56ea7b0baad25b19455e529f5ee |
+| 01712058408   | Md. Murtaza                                                  | murtazalged@gmail.com            | 6367c48dd193d56ea7b0baad25b19455e529f5ee |
+| 0170000000000 | Department of Disaster Management                            | ddmreport@gmail.com              | d5695055d5a4038c4c5d5ac84792bdd377ad5a58 |
+| 01671300156   | Imran Sayeed                                                 | imransayeed@idcol.org            | 1798a15d09fd38eaaa10af3e06cd39c98c484501 |
+| 01754987208   | Shafiuddin Haider                                            | ict@sreda.gov.bd                 | 7ce0359f12857f2a90c7de465f40a95f01cb5da9 |
+| 0123456789    | Lina Binta Ataur Rahman                                      | lina@idcol.org                   | 2b9156e402909640cb09695062a950fb84235474 |
+| 01742567118   | Md. Pavel Mahmud                                             | paveleeecuet@gmail.com           | 92c0d20dfa8e64eaa15698f29dc420612956dbde |
+| 01715545289   | Md. Mokhlusur Rahman                                         | mokhles_buet@yahoo.com           | ee1992b6ffe7df1d4b4ce8859d27db4672e40341 |
+| 01749017769   | Md. Shamsul Huda                                             | shudabmda@gmail.com              | 9f92965266354d4ebb4500c838d50acf1ed64eea |
+| 01746079293   | Kazi Ahsan Uddin                                             | ahsan@idcol.org                  | 6367c48dd193d56ea7b0baad25b19455e529f5ee |
+| 01740969291   | Md. Rashedul Alam                                            | ad.solar@sreda.gov.bd            | 720e487e06d6b15bb186df97f2d2aedc15be856c |
+| 01700709764   | Md. Shoyaib Hossain                                          | sh0605006@gmail.com              | 67065eec4f692c4a0691d3649c44e137e935f33d |
+| 01730794847   | Md. Shaifullah Rayhan                                        | rayhan@nesco.gov.bd              | 67065eec4f692c4a0691d3649c44e137e935f33d |
+| 01844221655   | Md. Nazmul Karim                                             | nazmul@biffl.org.bd              | 67065eec4f692c4a0691d3649c44e137e935f33d |
+| 01313467456   | Md. Kamrul Islam                                             | kamrul.cpgcblbdgov@gmail.com     | 67065eec4f692c4a0691d3649c44e137e935f33d |
+| 01673615644   | RE of TR/KABIKHA by IDCOL                                    | likhon@idcol.org                 | 67065eec4f692c4a0691d3649c44e137e935f33d |
+| 01876896054   | Naznin Nahar Nipu                                            | solarprojects.bpdb@gmail.com     | 67065eec4f692c4a0691d3649c44e137e935f33d |
+| 01769400031   | Gazipur PBS-1                                                | gazipbs@yahoo.com                | <blank>                                  |
+| 01769400024   | Dhaka PBS-1                                                  | dhakapbs01@gmail.com             | <blank>                                  |
+| 01750150250   | Didar Islam                                                  | didar.solaric@gmail.com          | <blank>                                  |
+| 01755579638   | Dhaka Region-1                                               | rep_dhk@idcol.org                | <blank>                                  |
+| 01735757577   | Dhaka Region-2                                               | tarikul.idcol@gmail.com          | <blank>                                  |
+| 01755579666   | Rangpur Region                                               | rep_rnp@idcol.org                | <blank>                                  |
+| 01755621609   | Kushtia Region                                               | palashhalder17@gmail.com         | <blank>                                  |
+| 01755579668   | Thakurgaon Region                                            | rep_tkg@idcol.org                | <blank>                                  |
+| 01819238185   | Ashadur Rahman Akand                                         | makand@idcol.org                 | <blank>                                  |
+| 01740969291   | Md. Rashedul Alam                                            | mdra2363@gmail.com               | <blank>                                  |
+| 01769400025   | Dhaka PBS-2                                                  | dhakapbs2@gmail.com              | <blank>                                  |
+| 01769400688   | Dhaka PBS-3                                                  | dhakapbs3@gmail.com              | <blank>                                  |
+| 01769402396   | Dhaka PBS-4                                                  | dhakapbs4@gmail.com              | <blank>                                  |
+| 01769402666   | Gazipur PBS-2                                                | gazipbs2@gmail.com               | <blank>                                  |
+| 01769400055   | Narayanganj PBS-1                                            | narayanganjpbs1@gmail.com        | <blank>                                  |
+| 01769402150   | Narayanganj PBS-2                                            | narayanganjpbs2@gmail.com        | <blank>                                  |
+| 01777259991   | Mr. Rabiul Islam                                             | rabiul.ssa@pmo.gov.bd            | <blank>                                  |
+| 01712653334   | Anima Rani Biswas                                            | anima.biswas@yahoo.com           | <blank>                                  |
+| 01535491638   | Afsana Bilkis                                                | afsanabilkis@yahoo.com           | <blank>                                  |
+| 01918184079   | A. S. M. Kashem                                              | sas_service@bangabhaban.gov.bd   | <blank>                                  |
+| 01711979438   | Md. Rafiqul Haque                                            | m.arunarchi.bd@gmail.com         | <blank>                                  |
+| 01715050707   | Syeda Masuma Khanam                                          | masuma0306@gmail.com             | <blank>                                  |
+| 01812008639   | Mohammad Golam Azam                                          | sas.admin1@moi.gov.bd            | <blank>                                  |
+| 01686710100   | A K M Ali Ahad Khan                                          | ahad_10bcs@yahoo.com             | <blank>                                  |
+| 01916039027   | Muhammed Asaduzzaman Nur                                     | asadnur13@gmail.com              | <blank>                                  |
+| 01913828479   | Md. Mostafa Zaman                                            | zaman.ifad@gmail.com             | <blank>                                  |
+| 01550151264   | Bidyut Chandra Aich                                          | bidyutca@yahoo.com               | <blank>                                  |
+| 9545361       | G. M. Abdul Quader                                           | gmaquader@gmail.com              | <blank>                                  |
+| 01712228762   | Sanjib Kumar Debnath                                         | sanjib.bau@gmail.com             | <blank>                                  |
+| 01712716469   | Papon Das                                                    | sepndpowergen@gmail.com          | <blank>                                  |
+| 01712534099   | Sona Mani Chakma                                             | mihircosta@gmail.com             | <blank>                                  |
+| 01552327637   | Shamshur Rahman Khan                                         | shamshu_1970@yahoo.com           | <blank>                                  |
+| 01715116887   | Mohammad Shahadat Khandaker                                  | sk16046@gmail.com                | <blank>                                  |
+| 01714402810   | Md. Ariful Islam                                             | programmer@mole.gov.bd           | <blank>                                  |
+| 01755500465   | A.N.M. Azizul Haque                                          | azizulhaque2004@yahoo.com        | <blank>                                  |
+| 02-9584889    | Md. Mafrul Alam                                              | programmer@emrd.gov.bd           | <blank>                                  |
+| 01927217825   | Taslima Aktar                                                | ds.admin@moysports.gov.bd        | <blank>                                  |
+| 01711066963   | Md Tajul Islam Mia                                           | manutaz63@gmail.com              | <blank>                                  |
+| 01920816293   | Engr. Susanta Roy                                            | engsroy@gmail.com                | <blank>                                  |
+| 01712512489   | Md. Sarwar Hossain                                           | sarwarbadc@gmail.com             | <blank>                                  |
+| 01711000223   | Md. Nazirul Islam                                            | nazirul_bmda@yahoo.com           | <blank>                                  |
+| 01713286319   | Md. Mozaffor Ahmed                                           | xenpnd@apscl.com                 | <blank>                                  |
+| 01777799646   | Mohammad Noore Alam Siddiki                                  | noore.alam@egcb.com.bd           | <blank>                                  |
+| 01709651694   | Mohammad Rafiqul Islam                                       | analyst@sid.gov.bd               | <blank>                                  |
+| 01816845230   | Nadira Haider                                                | haidernadira.fns@gmail.com       | <blank>                                  |
+| 01716582719   | Afia Khatoon                                                 | afia85e@yahoo.com                | <blank>                                  |
+| 01717783628   | Mamun Sarder                                                 | sasadmin2@mocat.gov.bd           | <blank>                                  |
+| 01552332588   | Muhammad Shahriar Bashar                                     | bashar@agni.com                  | <blank>                                  |
+| 01749740325   | Md. Atiqur Rahman                                            | sm@most.gov.bd                   | <blank>                                  |
+| 01710904099   | Muhammad Anwar Hossain                                       | anwar@ictd.gov.bd                | <blank>                                  |
+| 01718693200   | Mihir Kanti Sarkar                                           | mihircse@gmail.com               | <blank>                                  |
+| 01769400010   | Brahman Baria PBS                                            | bbariapbs@yahoo.com              | <blank>                                  |
+| 01769400011   | Bagerhat PBS                                                 | bagerhatpbs@yahoo.com            | <blank>                                  |
+| 01769400012   | Barisal PBS-1                                                | bapbs1@gmail.com                 | <blank>                                  |
+| 01769400013   | Barisal PBS-2                                                | barisalpbs2@gmail.com            | <blank>                                  |
+| 01769400014   | Bhola PBS                                                    | bhopbs@gmail.com                 | <blank>                                  |
+| 01769400015   | Bogra PBS-1                                                  | bograpbs@gmail.com               | <blank>                                  |
+| 01769400090   | Bogra PBS-2                                                  | bograpbs2@gmail.com              | <blank>                                  |
+| 01769400016   | Chandpur PBS-1                                               | chandpbs@yahoo.com               | <blank>                                  |
+| 01769402151   | Chandpur PBS-2                                               | chandpurpbs2@gmail.com           | <blank>                                  |
+| 01769400018   | Chittagong PBS-1                                             | ctgpbs1@yahoo.com                | <blank>                                  |
+| 01769400019   | Chittagong PBS-2                                             | ctgpbs2@yahoo.com                | <blank>                                  |
+| 01769400020   | Chittagong PBS-3                                             | ctgpbs3sitakunda@gmail.com       | <blank>                                  |
+| 01769400021   | Comilla PBS-1                                                | comillapbs01@gmail.com           | <blank>                                  |
+| 01769400022   | Comilla PBS-2                                                | comillapbs2@gmail.com            | <blank>                                  |
+|  01769400733  | Comilla PBS-3                                                | comillapbs3@gmail.com            | <blank>                                  |
+| 01769402173   | Comilla PBS-4                                                | comillapbs4@gmail.com            | <blank>                                  |
+| 01769400026   | Dinajpur PBS-1                                               | dpbsone@gmail.com                | <blank>                                  |
+| 01769400027   | Dinajpur PBS-2                                               | dpbstwo@gmail.com                | <blank>                                  |
+| 01769400028   | Faridpur PBS                                                 | faridpur_pbs@hotmail.com         | <blank>                                  |
+| 01769400029   | Feni PBS                                                     | fenipbs84@gmail.com              | <blank>                                  |
+| 01769400030   | Gaibandha PBS                                                | gbndhapbs@yahoo.com              | <blank>                                  |
+| 01746779090   | Mohammad Nairuzzaman                                         | jewel15931@gmail.com             | <blank>                                  |
+| 01716685646   | Mohammad Faruqe Hossen                                       | f.hossen@yahoo.com               | <blank>                                  |
+| 01769400032   | Gopalganj PBS                                                | gopalgonj_pbs@yahoo.com          | <blank>                                  |
+| 01769400033   | Habiganj PBS                                                 | habigonjpbs@yahoo.com            | <blank>                                  |
+| 01769400035   | Jalampur PBS                                                 | jamalpurpbs@gmail.com            | <blank>                                  |
+| 01769400036   | Jessore PBS-1                                                | jessorepbs1@gmail.com            | <blank>                                  |
+| 01769400037   | Jessore PBS-2                                                | jessorepbs2@yahoo.com            | <blank>                                  |
+| 01769400038   | Jhalokathi PBS                                               | jhalpbs@gmail.com                | <blank>                                  |
+| 01769400039   | Jhinaidah PBS                                                | jhenaidah_pbs@yahoo.com          | <blank>                                  |
+| 01769400040   | Khulna PBS                                                   | khulnapbs@gmail.com              | <blank>                                  |
+| 01769400041   | Kishoreganj PBS                                              | kishpbs@yahoo.com                | <blank>                                  |
+| 01769400042   | Kurgram-Lalmonirhat PBS                                      | krlpbs@yahoo.com                 | <blank>                                  |
+| 01769400017   | Chapainababganj PBS                                          | chanawabpbs@yahoo.com            | <blank>                                  |
+| 01769400040   | Kustia PBS                                                   | kuspbs@gmail.com                 | <blank>                                  |
+| 01769400044\n | Laxmipur PBS                                                 | shahjahanbabul@gmail.com         | <blank>                                  |
+| 01769400045   | Madaripur PBS                                                | gm.madaripurpbs@yahoo.com        | <blank>                                  |
+| 01769400046   | Magura PBS                                                   | maguprapbs_gm@yahoo.com          | <blank>                                  |
+| 01769400047   | Manikganj PBS                                                | gmpbsmnk@yahoo.com               | <blank>                                  |
+| 01769400048   | Meherpur PBS                                                 | gmmpbs@gmail.com                 | <blank>                                  |
+| 01769400034   | Jaipurhat PBS                                                | gmjoypurhatpbs@gmail.com         | <blank>                                  |
+| 01769400049   | Moulivibazar PBS                                             | mbazar_pbs@yahoo.com             | <blank>                                  |
+| 01769400050   | Munshiganj PBS                                               | mngpbs@yahoo.com                 | <blank>                                  |
+| 01769400051   | Mymensingh PBS-1                                             | gmmpbs1@gmail.com                | <blank>                                  |
+| 01769400052   | Mymensingh PBS-2                                             | mymensinghpbs2@gmail.com         | <blank>                                  |
+| 01769400053   | Mymensingh PBS-3                                             | mpbs3@yahoo.com                  | <blank>                                  |
+| 01769400054   | Naogaon PBS-1                                                | naogaonpbs1@gmail.com            | <blank>                                  |
+| 01769402190   | Naogaon PBS-2                                                | naogaonpbs2@gmail.com            | <blank>                                  |
+| 01769400056   | Narshingdi PBS-1                                             | narsingdipbs1@yahoo.com          | <blank>                                  |
+| 01769400057   | Narshingdi PBS-2                                             | narsingdipbs2@yahoo.com          | <blank>                                  |
+| 01769400058   | Natore PBS-1                                                 | natorepbs1@gmail.com             | <blank>                                  |
+| 01769400059   | Natore PBS-2                                                 | natorepbs2lalpur@yahoo.com       | <blank>                                  |
+| 01769400060   | Netrokona PBS                                                | netrokonapbs@gmail.com           | <blank>                                  |
+| 01769400061   | Nilphamari PBS                                               | nilpbs@gmail.com                 | <blank>                                  |
+| 01769400062   | Noakhali PBS                                                 | gm.noa.pbs@gmail.com             | <blank>                                  |
+| 01769400063   | Pabna PBS-1                                                  | pabna1.gm@gmail.com              | <blank>                                  |
+| 01769400065   | Pirojpur PBS                                                 | gmppbs@yahoo.com                 | <blank>                                  |
+| 01769400066   | Potuakhali PBS                                               | gmppbs@hotmail.com               | <blank>                                  |
+| 01769400067   | Rajbari PBS                                                  | rajbaripbs@yahoo.com             | <blank>                                  |
+| 01769400068   | Rajshahi PBS                                                 | rajpbshq@gmail.com               | <blank>                                  |
+| 01769400069   | Rangpur PBS-1                                                | rangpurpbs1@yahoo.com            | <blank>                                  |
+| 01769400070   | Rangpur PBS-2                                                | gmrpbs2@gmail.com                | <blank>                                  |
+| 01769400071   | Shariyatpur PBS                                              | shariatpurpbs@gmail.com          | <blank>                                  |
+| 01769400072   | Shatkhira PBS                                                | satkhirapbs@yahoo.com            | <blank>                                  |
+| 01769400073   | Sherpur PBS                                                  | sherpurpbs@yahoo.com             | <blank>                                  |
+| 01769400074   | Sirajgonj PBS-1                                              | sirajpbs@yahoo.com               | <blank>                                  |
+| 01769402135   | Sirajgonj PBS-2                                              | sirajgonjpbs02@gmail.com         | <blank>                                  |
+| 01769400075   | Sumanganj PBS                                                | sunampbs@gmail.com               | <blank>                                  |
+| 01769400076   | Sylhet PBS-1                                                 | syl_pbs1@yahoo.com               | <blank>                                  |
+| 01769400077   | Sylhet PBS-2                                                 | sylhetpbs2@gmail.com             | <blank>                                  |
+| 01769400078   | Tangail PBS                                                  | tangail_pbs@yahoo.com            | <blank>                                  |
+| 01769400079   | Thakurgaon PBS                                               | thkpbs@gmail.com.com             | <blank>                                  |
+| 01550155060   | Department of Telecommunications (DoT)                       | wazed1971@yahoo.com              | <blank>                                  |
+| 02-9812755    | Telephone Shilpa Sangstha (TSS)                              | sonalichowdhury99@gmail.com      | <blank>                                  |
+| 01552202873   | Bangladesh Telecommunication Regulatory Commission  (BTRC)   | mohammadali@btrc.gov.bd          | <blank>                                  |
+| 01672696965   | Bangladesh Communications Satellite Company Limited  (BCSCL) | tanvir.rezvi@bcscl.com.bd        | <blank>                                  |
+| 01885749889   | Bangladesh Submarine Cable Company Limited  (BSCCL)          | am.ict@bsccl.com                 | <blank>                                  |
+| 01550059629   | Bangladesh Cable Shilpa Limited (BCSL)                       | orinkhan@gmail.com               | <blank>                                  |
+| 01550155045   | Teletalk Bangladesh Ltd (TBL)                                | biswambhar.gayen@teletalk.com.bd | <blank>                                  |
+| 01710720117   | Bangladesh Post office  (BPO)                                | mone15_cse@yahoo.com             | <blank>                                  |
+| 01550151307   | Bangladesh Telecommunications Company Ltd  (BTCL)            | basir_bttb98@yahoo.com           | <blank>                                  |
+| 01721787331   | Md. Yeaseer Arafat                                           | planning.nesco@nesco.gov.bd      | <blank>                                  |
+| 01715138766   | Department of Livestock Services (DLS)                       | ocict@dls.gov.bd                 | <blank>                                  |
+| 01749024016   | Bangladesh Fisheries Development Corporation (BFDC)          | bfdc_64@yahoo.com                | <blank>                                  |
+| 01813226766   | Bangladesh Fisheries Research Institute (BFRI)               | teknilpan@gmail.com              | <blank>                                  |
+| 01717340450   | Department of Fisheries                                      | samir.21bau@gmail.com            | <blank>                                  |
+| 01913715335   | Bangladesh Livestock Research Institute                      | amanullah@blri.gov.bd            | <blank>                                  |
+| 01747821833   | Marine Fisheries Academy                                     | principalmfa@yahoo.com           | <blank>                                  |
+| 02-9856326    | RE in Special TR                                             | monitang64@yahoo.com             | <blank>                                  |
+| 01717068147   | Md. Rakibul Hasan                                            | rakibhasan20@yahoo.com           | <blank>                                  |
+| 0176940002    | Cox Bazar PBS                                                | coxspbs@yahoo.com                | <blank>                                  |
+| 01733782886   | Md. Zamil Uddin                                              | mzu.bard@gmail.com               | <blank>                                  |
+| 01556325728   | Ms. Chandramallika Ghosh                                     | chandramallika.ghosh@giz.de      | <blank>                                  |
+| 01937391910   | S. M Nazim Uddin                                             | nazim.uddin@imed.gov.bd          | <blank>                                  |
+| 01521253845   | Md. Abdullah Al Faisal                                       | alfaisal@idcol.org               | <blank>                                  |
+| 01719367786   | Hassan Muhaiminul Aziz                                       | maziz@idcol.org                  | <blank>                                  |
++---------------+--------------------------------------------------------------+----------------------------------+------------------------------------------+
