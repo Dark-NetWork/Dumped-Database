@@ -1,0 +1,37 @@
+.gov Government
+
+.ar Argentina
+
+Quilmes Government
+
+https://www.quilmes.gov.ar/servicios/busqueda.php?id=4
+
+the back-end DBMS is MySQL
+the back-end DBMS operating system: Linux Ubuntu
+the back-end DBMS: MySQL >= 5.0.0
+banner: '5.7.33-0ubuntu0.16.04.1'
+
+available databases [2]:
+[+] guiatramites
+[+] information_schema
+
+Database: guiatramites
+[16 tables]
++-------------------+
+| consultas_dia     |
+| temas_tramites    |
+| tr_areas          |
+| tr_consulta       |
+| tr_doc            |
+| tr_doc_temp3      |
+| tr_mostrar        |
+| tr_mostrar_temp   |
+| tr_pasos          |
+| tr_pasos_temp     |
+| tr_temas          |
+| tr_temas2         |
+| tr_tramites       |
+| tr_tramites_temp2 |
+| tr_x_consultas    |
+| tramites_area     |
++-------------------+
