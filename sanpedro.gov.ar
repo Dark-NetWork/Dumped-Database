@@ -1,0 +1,1011 @@
+.gov Government
+
+.ar Argentina
+
+Municipality of San Pedro 
+
+Municipalidad San Pedro
+
+https://www.sanpedro.gov.ar/2016/secretarias.php?id=4
+
+the back-end DBMS is MySQL
+the back-end DBMS: MySQL >= 5.0.12
+banner: '5.5.31-log'
+
+available databases [2]:
+[+] desarrollo_humano
+[+] information_schema
+
+Database: desarrollo_humano
+[125 tables]
++------------------------------------------+
+| mod_documentos_backup-4-4-2016           |
+| areas                                    |
+| audittrail                               |
+| autoridades                              |
+| autoridades_cargos                       |
+| autoridades_direcciones                  |
+| autoridades_secretarias                  |
+| autoridades_subsecretarias               |
+| autoridades_vista                        |
+| auxiliar                                 |
+| barrios_nuevo                            |
+| defensa_reclamo                          |
+| denuncias_anonimas                       |
+| departamentos                            |
+| descripcionessaf                         |
+| detalleaux                               |
+| especialidades                           |
+| farmacia_detalle_salida_vista            |
+| farmacia_ingresos_detalle_vista          |
+| farmacia_ingresos_tipos                  |
+| farmacia_ingresos_vista                  |
+| farmacia_movimiento                      |
+| farmacia_movimiento_copy                 |
+| farmacia_movimiento_detalle              |
+| farmacia_movimiento_detalle_copy         |
+| farmacia_programas_medicos               |
+| farmacia_tipos_operaciones               |
+| generos                                  |
+| hospital_parametros_medicos              |
+| hospital_turnos_usuarios                 |
+| laboratorio_atenciones                   |
+| laboratorio_atenciones_protocolo         |
+| laboratorio_atenciones_protocolo_detalle |
+| laboratorio_nomenclador                  |
+| laboratorio_nomenclador_detalle          |
+| laboratorio_pacientes                    |
+| laboratorio_tipo_dato                    |
+| laboratorios_n                           |
+| licitaciones                             |
+| licitaciones_detalle_vista               |
+| licitaciones_estados                     |
+| licitaciones_tipos                       |
+| licitaciones_total_vista                 |
+| localidades                              |
+| masvida                                  |
+| medicam                                  |
+| mercaderia                               |
+| mesa_atenciones                          |
+| mesa_de_entrada_motivos                  |
+| mesa_entrada                             |
+| mesa_personas                            |
+| mod_datos_abiertos                       |
+| mod_datos_abiertos_rubros                |
+| mod_documentos                           |
+| mod_documentos_estados                   |
+| mod_documentos_tipos                     |
+| mod_noticias                             |
+| mod_programas                            |
+| mod_subsidios                            |
+| mod_tipos_programas                      |
+| modernizacion_mapa_rubro                 |
+| modernizacion_mapas                      |
+| modernizacion_mapas_rubros               |
+| modernizacion_mapas_subrubros            |
+| modernizacion_rubros                     |
+| municipalidad_expedientes                |
+| niveles_usuarios                         |
+| noticias                                 |
+| noticias_banners                         |
+| noticias_enlaces_destacados              |
+| noticias_imagenes                        |
+| noticias_rubros                          |
+| obras_sociales                           |
+| pacientes                                |
+| pacientes_copy                           |
+| pedido                                   |
+| proveedores                              |
+| proveedores_farmacia                     |
+| proveedores_registro                     |
+| rayos_archivos                           |
+| rayos_atenciones                         |
+| rentas_puestos                           |
+| safpersona                               |
+| salidas_farmacia                         |
+| stock_farmacia                           |
+| tasas                                    |
+| tramites_direcciones                     |
+| tramites_online                          |
+| tramites_resumen_cantidad                |
+| tramites_secretarias                     |
+| tramites_subcretaria                     |
+| turismo_banners                          |
+| turismo_categorias                       |
+| turismo_categorias_galeria               |
+| turismo_contenido                        |
+| turismo_eventos                          |
+| turismo_eventos_imagenes                 |
+| turismo_galeria                          |
+| turismo_slider                           |
+| turismo_subcategoria                     |
+| turnos_medicos                           |
+| turnos_web                               |
+| userlevelpermissions                     |
+| userlevels                               |
+| usuarios                                 |
+| usuarios_intranet                        |
+| usuarios_medicos                         |
+| usuarios_niveles_intranet                |
+| usuarios_noticias                        |
+| usuarios_proveedores                     |
+| usuarios_turismo                         |
+| usuarios_web                             |
+| usuarios_web_copy                        |
+| vista_agrup_rubros_datos_abiertos        |
+| vista_boletin_agrupa_anio                |
+| vista_datos_abiertos                     |
+| vista_detalle_datos_abiertos             |
+| vista_detalle_decretos_anio              |
+| vista_mapa_general                       |
+| vista_mesa_entrada                       |
+| vista_mod_documentos_group_anio          |
+| vista_proveedores_usuarios               |
+| vista_safpersona                         |
+| vista_secretarias_dependientes           |
+| vista_turnos                             |
++------------------------------------------+
+
+Database: desarrollo_humano
+Table: usuarios_turismo
+[1 entry]
++--------+---------+--------+
+| nombre | usuario | pass   |
++--------+---------+--------+
+| Daniel | daniel  | daniel |
++--------+---------+--------+
+
+Database: desarrollo_humano
+Table: usuarios_noticias
+[1 entry]
++---------+---------+---------+
+| nombre  | usuario | pass    |
++---------+---------+---------+
+| Juliana | jsalmo  | holanda |
++---------+---------+---------+
+
+Database: desarrollo_humano
+Table: usuarios_intranet
+[7 entries]
++-----------------------+------------+------------------+
+| nombre                | usuario    | pass             |
++-----------------------+------------+------------------+
+| Mario Sanchez Negrete | msn        | MUNISP2016       |
+| Marcela Gast\xf3      | mgasto     | Sanpedro12341654 |
+| Silvio Corti          | scorti     | scorti.,         |
+| Cecilio Salazar       | csalazar   | csalazar.,       |
+| Karina Chiarella      | kchiarella | kchiarella.,     |
+| Silvio Jaime          | sjaime     | sjaime.,         |
+| Gabriel Gaona         | ggaona     | gabriel          |
++-----------------------+------------+------------------+
+
+Database: desarrollo_humano
+Table: usuarios
+[28 entries]
++-----------------------+--------------+------------------+
+| nombre                | usuario      | pass             |
++-----------------------+--------------+------------------+
+| MARINA FERNANDEZ      | MARU         | PERON2006        |
+| NANCY JAIME           | NANCY        | 3839             |
+| CHIARELA              | SECRETARIA   | KARINA           |
+| MERCEDES DOMENICONI   | MERCEDES     | 161282           |
+| MARINA MERLINI        | MARINA       | ROCCO            |
+| MARIEL LEGUIZAMON     | MARIEL       | 200279           |
+| LUCIANA ARMENDI       | LUCIANA      | 3001             |
+| SILVIA VILLARRUEL     | SILVIA       | JULI             |
+| SOSA HUGO             | HUGO         | ramiro           |
+| ADRIANA BISSO         | BISSO        | 3103             |
+| SILVINA CHEDIACK      | SIL          | 123              |
+| STELLA MARTINEZ       | STELLA       | 456              |
+| JAIME SOLEDAD         | SOLEDAD      | 3009             |
+| Daniel Luna           | dluna        | pastel           |
+| PEREZ                 | PEREZ        | GABY             |
+| ANSALONI MACARENA     | MACARENA     | maca             |
+| HANSEN FEDERICO       | FEDERICO     | FEDE             |
+| GUERRERO SILVINA      | SILVINA      | BICHO            |
+| ALTOLAGUIRRE          | SANTIAGO     | MESA             |
+| MATTIG AUGUSTO        | AUGUSTO      | aguila03         |
+| COMENTI ANDREA        | ANDREA       | elena            |
+| TERCERA EDAD          | TERCERA EDAD | SOLECRIS         |
+| Mario Sanchez Negrete | msn          | msn1;            |
+| Cecilio Salazar       | csalazar     | pellegrini180    |
+| Marcela Gasto         | mgasto       | Sanpedro12341654 |
+| Karina Chiarella      | dhumano      | ocesar260        |
+| hennan Contreras      | hc           | Sanpedro99       |
+| Gaona                 | ggaona       | gabriel          |
++-----------------------+--------------+------------------+
+
+Database: desarrollo_humano
+Table: usuarios_medicos
+[264 entries]
++-------------------------------+------------------------+----------------+
+| nombre                        | usuario                | pass           |
++-------------------------------+------------------------+----------------+
+[17:13:40] [WARNING] console output will be trimmed to last 256 rows due to large table size
+| BERTONE RAUL ALBERTO          | bertone                | bertone        |
+| LARGHI ADRIANA CLARA          | larghi                 | larghi         |
+| WALSH ELIZABETH MARGARITA     | walsh                  | walsh          |
+| NAVARRI ANALIA JUDITH         | navarri                | navarri        |
+| ORTEGA HORACIO EUGENIO        | ortega                 | ortega         |
+| CRUZ SERGIO                   | cruz                   | cruz           |
+| DELL ACQUA ALEJANDRA          | dell acquaa            | dell acquaa    |
+| DELL ACQUA HUGO LUIS          | dell acquah            | dell acquah    |
+| KERVIN MARIA BELEN            | kervin                 | kervin         |
+| PAVAN ROLANDO ANGEL           | pavan                  | pavan          |
+| AIRALDI NATALI                | airaldi                | airaldi        |
+| VELLON CLAUDIA SANDRA         | BELLON                 | bellon         |
+| GUILLAUME DOZO ELISA CRISTINA | guillaume              | guillaume      |
+| PIQUIONI PAULO                | piquioni               | piquioni       |
+| ROSSI RICARDO ANIBAL          | rossi                  | rossi          |
+| MARINO ALDO SALVADOR          | marino                 | marino         |
+| MASCHERONI                    | mascheroni             | mascheroni     |
+| GUTIERREZ CARLOS EDUARDO      | gutierrez              | gutierrez      |
+| URRUTIA MARIA FRANCISCA       | urrutia                | urrutia        |
+| ZANOCCO MARIA SUSANA          | zanocco                | zanocco        |
+| PELLEGRINO SERGIO             | pellegrino             | pellegrino     |
+| BATALLA GRABRIELA BEATRIZ     | batalla                | batalla        |
+| ACTIS MARTINO ADRIANA MABEL   | actis                  | actis          |
+| WAGNER GUSTAVO                | wagner                 | wagner         |
+| PALADINI PABLO DANIEL         | paladinip              | paladinip      |
+| RONTE LIDIA BEATRIZ           | ronte                  | ronte          |
+| BILBAO MARIA CLARA            | bilbao                 | bilbao         |
+| PRINA MARIA EUGENIA           | prina                  | prina          |
+| CODO ZULMA                    | codo                   | codo           |
+| FIORITO MONICA ESTHER         | fiorito                | fiorito        |
+| GIGENA RODOLFO                | gigena                 | gigena         |
+| PLANA MIGUEL ANGEL            | plana                  | plana          |
+| DOLDAN LILIANA                | doldan                 | doldan         |
+| ESQUIVEL NORMA                | esquivel               | santino        |
+| SPAGO ROMINA                  | spago                  | spago          |
+| CAPOZZUCA ADRIANA             | capozzuca              | capozzuca      |
+| DEBOGLIO SANDRA               | deboglio               | deboglio       |
+| PIQUIONI PABLO                | pablo                  | pablo          |
+| TOMASIELLO TERESA             | tomasiello             | tomacielo      |
+| BLANCO BETIANA                | blanco                 | blanco         |
+| VACUNACION                    | VACUNACION             | vacunacion     |
+| PERROU CAROLINA               | CAROLINA               | carolina       |
+| CORONEL ROJAS EDWIN           | coronel                | coronel        |
+| BINI                          | BINI                   | bini           |
+| MORALES SILVANA BEATRIZ       | silvana                | silvana        |
+| URETA DANIEL HORACIO          | ureta                  | ureta          |
+| ROSALES GUILLERMO             | rosales                | rosales        |
+| KREBS RODOLFO                 | krebs                  | krebs          |
+| SANCHEZ ANDREA                | andreas                | andreas        |
+| OVIEDO MIGUEL                 | oviedo                 | oviedo         |
+| GONZALEZ MARION               | mariong                | mariong        |
+| LETICIA                       | leticia                | leticia        |
+| HEMOTERAPIA                   | hemoterapia            | hemoterapia    |
+| TORRONDEL MARCELA             | MARCELA                | marcela        |
+| UBALTON LIDIA                 | ubalton                | ubalton        |
+| EJARQUE SILVIO                | ejarque                | ejarque        |
+| DERMATOLOGO                   | DERMIS                 | dermis         |
+| BURGUEÑO MARIA LIDIA          | burguenio              | burguenio      |
+| SCORCHELLI MIRTA              | mirtas                 | mirtas         |
+| MANIN ANDREA                  | manin                  | manin          |
+| ALBIDE ROBLES GRACIELA        | TORTUGA                | gachy          |
+| NOXIUS LUCIA                  | lucia                  | elverde        |
+| CHAVEZ                        | chavezdra              | chavez         |
+| POTENZA CAROLINA              | POTENZA                | potenza        |
+| CONTROL Y PEDIATRIA           | controll               | controll       |
+| MARTINEZ SANDRA               | smartinez              | loqvosquieras  |
+| DIAZ SILVINA                  | silvina                | silvina        |
+| PICHIONI PABLO                | ppichioni              | pablo          |
+| SURIDA  ALICIA ESTER          | surida                 | cynthia        |
+| CABRERA MARIELA               | CABRERA MARIELA        | mariela        |
+| ALBERRO DANIEL ALEJANDRO      | ALBERRO DANIEL         | DANIEL         |
+| ABELEDO MATIAS ARIEL          | ABELEDO MATIAS         | MATIAS         |
+| ROSALES GUILLERMO DAMIAN      | ROSALES GUILLERMO      | guillermo      |
+| SCANIO HERNAN DIEGO           | SCANIO HERNAN          | hernan         |
+| FENOCCHIO FRANCISCO JAVIER    | FENOCCHIO FRANCISCO    | francisco      |
+| NOTO DIEGO ROMANO             | NOTO DIEGO             | diego          |
+| SERRANO LUIS ALBERTO          | SERRANO LUIS           | luis           |
+| SUALDEA JAVIER ALEJANDRO      | SUALDEA JAVIER         | javier         |
+| PICHIONI PABLO ARIEL JESUS    | PICHIONI PABLO         | pablo          |
+| GALLO PABLO JOSE ANDRES       | GALLO PABLO            | pablo          |
+| ALARCON GUSTAVO HERNAN        | ALARCON GUSTAVO        | gustavo        |
+| ESPINOSA OSVALDO FABIAN       | ESPINOSA OSVALDO       | osvaldo        |
+| NANCO HAROLDO                 | NANCO HAROLDO          | haroldo        |
+| LEGUIZAMON MARIANO HERMAN     | LEGUIZAMON MARIANO     | mariano        |
+| SOLIS  MARCELA LILIANA        | SOLIS  MARCELA         | MARCELA        |
+| FERNANDEZ GLADYS LUJAN        | FERNANDEZ GLADYS LUJAN | gladys         |
+| OJEDA GRACIELA DEL CARMEN     | OJEDA GRACIELA         | graciela       |
+| FIDALGO MILAGROS              | FIDALGO MILAGROS       | milagros       |
+| SANCHEZ GABRIELA              | SANCHEZ GABRIELA       | gabriela       |
+| DUARTE NATALIA VERONICA       | DUARTE NATALIA         | natalia        |
+| GUERRERO MARA AYELEN          | GUERRERO MARA AYELEN   | mara           |
+| DIEZ YESSICA MACARENA         | DIEZ YESSICA           | yessica        |
+| ALBARRACIN FATIMA ISABEL      | ALBARRACIN FATIMA      | fatima         |
+| ISLA VALERIA MARIANA          | ISLA VALERIA           | valeria        |
+| CENTURION MARIELA NOEMI       | CENTURION MARIELA      | mariela        |
+| LAFALCE DIEGO JOSE            | LAFALCE DIEGO          | diego          |
+| ZARATE RAMON DANIEL           | ZARATE RAMON           | ramon          |
+| ONTIVERO ADRIANA EDITH        | ONTIVERO ADRIANA       | adriana        |
+| ALMIRON JOSE ERNESTO          | ALMIRON JOSE           | jose           |
+| AGUILERA GUSTAVO JAVIER       | AGUILERA GUSTAVO       | gustavo        |
+| SOTO JUAN JOSE                | SOTO JUAN              | juan           |
+| GOMEZ CARLOS GONZALO          | GOMEZ CARLOS           | carlos         |
+| RAMIREZ MARCELO FABIAN        | RAMIREZ MARCELO        | marcelo        |
+| PEREZ JORGE EDUARDO           | PEREZ JORGE            | jorge          |
+| NOSEDA ENRIQUE DANIEL         | NOSEDA ENRIQUE         | noseda         |
+| PEREZ SUSANA RAQUEL           | PEREZ SUSANA           | SUSANA         |
+| BUENO MARIA DEL CARMEN        | BUENO MARIA            | maria          |
+| ROMERO ALEJANDRA BEATRIZ      | ROMERO ALEJANDRA       | alejandra      |
+| GIZICH MARIA DEL CARMEN       | GIZICH MARIA           | maria          |
+| BASALDUA GLADYS TERESA        | BASALDUA GLADYS        | gladys         |
+| QUISPE CARMEN ROXANA          | QUISPE CARMEN          | carmen         |
+| MARIN NATALIA                 | MARIN NATALIA          | natalia        |
+| GARCIA MARIELA BEATRIZ        | GARCIA MARIELA         | mariela        |
+| ERB MARIA FERNANDA            | ERB MARIA              | maria          |
+| ROMERO MARINA SOLEDAD         | ROMERO MARINA          | marina         |
+| MOREYRA YESICA                | MOREYRA YESICA         | yesica         |
+| MANDRACCIO ROSANA             | rosana                 | 270875         |
+| CUCIT SILVIA                  | scucit                 | silviac        |
+| GONZALEZ JAVIER               | indio                  | indio          |
+| CASTAÑARES DAVID              | DAVID                  | 0705           |
+| CECILIA DE GUARDIA            | cecilia                | cecilia        |
+| MATAVOS MARIA DEL CARMEN      | marita                 | mara0512       |
+| NUÑEZ SANDRA                  | sandran                | 090576         |
+| MEDRANO MARIA DEL CARMEN      | MARIA DEL CARMEN       | joaquin        |
+| DEVITO MAIRA                  | devito                 | devito         |
+| COLON LORENA                  | COLON                  | COLON          |
+| PALADINI MARINA               | PALADINI               | PALADINI       |
+| RICHELLI MARIANA              | RICHELLI               | RICHELLI       |
+| PEÑA GABRIELA                 | PEÑA                   | PEÑA           |
+| PRIDA FERNANDA                | PRIDA                  | PRIDA          |
+| POZZOLO MIRTA                 | POZZOLO                | MIRTA          |
+| TORRES LILIANA                | TORRES                 | LILIANA        |
+| TUERO ALEJANDRO ANGUEL        | TUERO                  | TUERO          |
+| ABELEDO MATIAS                | ABELEDO                | ABELEDO        |
+| PINEDA PAULA                  | PINEDA                 | PINEDA         |
+| HUGO                          | HUGO                   | 113029         |
+| SANTANA RAMON AURELIANO       | SANTANA                | 111264         |
+| SERVICIOS SOCIALES            | SERVICIO               | servicio       |
+| SERRA WALTER                  | SERRA                  | WALTER         |
+| GABRIEL BENITEZ               | gabriel                | justiciasocial |
+| GALATTI MARINA                | galatti                | galatti        |
+| GOMEZ CATALINA                | katty                  | 1234           |
+| ZUCCONI GIOIA                 | gioia                  | gioia          |
+| GUTIERREZ ORMACHEA            | GUTIERREZ ORMACHEA     | ORMACHEA       |
+| GUTIERREZ LOURDES             | GUTIERREZ LOURDES      | LOURDES        |
+| MARTINEZ NADIA                | MARTINEZ NADIA         | NADIA          |
+| IVANCICH RODOLFO              | IVANCICH               | RODOLFO        |
+| PRINA GIMENA                  | PRINA GIMENA           | GIMENA         |
+| CARRION LEONARDO              | CARRION                | LEONARDO       |
+| PEÑA LEONARDO                 | PEÑA LEONARDO          | LEONARDO       |
+| GRILLO PABLO                  | GRILLO                 | PABLO          |
+| LEO OSCAR                     | LEO OSCAR              | oscar          |
+| CRUCIANELLI GASTON            | CRUCIANELLI            | GASTON         |
+| ALVAREZ GISELA                | ALVAREZ                | GISELA         |
+| FERNANDEZ LAURA               | lauraf                 | lauraf         |
+| BARAYBAR ANALIA               | BARAYBAR               | ANALIA17       |
+| modifica historias            | historias              | historias      |
+| BUSTOS MABEL                  | BUSTOS MABEL           | mabel          |
+| GOMEZ SOLEDAD                 | GOMEZ SOLEDAD          | soledad        |
+| PARIS FLORENCIA               | PARIS FLORENCIA        | florencia      |
+| SURINACH AGUSTINA             | SURINACH AGUSTINA      | AGUSTINA       |
+| GRACIAS GORNE MARIANA         | GRACIA GORNE           | garcia gorne   |
+| PRIDA VERONICA                | pridav                 | pridav         |
+| SAVIO LILIANA                 | SAVIO                  | liliana        |
+| NOTO DIEGO                    | noto                   | noto           |
+| ORMACHEA ALBERTO              | ORMACHEA ALBERTO       | ORMACHEA       |
+| FRATANTUENO SANDRA            | fratantueno            | sandra         |
+| YUNES PIA                     | yunes                  | yunes          |
+| GARCIA GORNE                  | gorne                  | gorne          |
+| BACCARI PAOLA                 | baccari                | baccari        |
+| mayra2                        | mayra2                 | mayra2         |
+| TAURIZANO FABIAN RICARDO      | taurizanof             | taurizanof     |
+| ORMOCHEA ALBERTO              | ORMOCHEA               | ormochea       |
+| pasantia yonatan              | yonatan                | yonatan        |
+| pasantia puntano              | puntano                | valeria        |
+| pasantia carrizo              | carrizo                | elias          |
+| OBRA SOCIAL SIN TURNO         | obra                   | obra           |
+| pasantia daniel comba         | daniel comba           | 36550146       |
+| pasantia anahi rocio          | anahi rocio            | anro           |
+| batle karen                   | karen                  | karen2193      |
+| pasantia ramos agustian       | ramos                  | agustin        |
+|  GIULIANO ANALIA              | giuliano               | analia         |
+| pasantia lucchesi giuliana    | lucchesi giuliana      | tomas          |
+| outeda claudia                | outeda                 | outedac        |
+| pasantia caceres mariana      | caceres mariana        | mariana23      |
+| GARNELO                       | garnelo                | garnelo        |
+| RODRIGUEZ LURDES              | RODRIGUEZL             | rodriguezl     |
+| DORUGATTI                     | dorugatti              | dorugatti      |
+| SOCIC                         | socic                  | socic          |
+| GOMEZ ALMEIDA                 | GOMEZ                  | ALMEIDA        |
+| RODRIGUEZ LURDE               | RODRIGUEZ              | LURDE          |
+| ACOSTA FABIAN RUBEN           | acosta                 | ACOSTA         |
+| RUSSO GIULIANA                | RUSSO                  | GIULIANA       |
+| Morales Pablo                 | morales                | pablo          |
+| burini jonathan               | burini                 | jonathan       |
+| gomez raquel                  | gomez raquel           | raquel         |
+| juarez fernando               | juarez                 | fernando       |
+| sgrinzi rita                  | sgrinzi                | rita           |
+| calvet juan                   | calvet                 | juan           |
+| ASTORGA MARIA                 | ASTORGA                | MARIA          |
+| LEONE KAREN                   | LEONE                  | KAREN          |
+| PEREZ MARIA LAURA             | PEREZ MARIA LAURA      | LAURA          |
+| MARMO MIRIAM                  | MARMO MIRIAM           | MIRIAM         |
+| RAMOS VALERIA                 | RAMOS VALERIA          | VALERIA        |
+| DE LA FUENTE ALEXIS           | DE LA FUENTE ALEXIS    | ALEXIS         |
+| GOMEZ YOLANDA                 | GOMEZ YOLANDA          | YOLANDA        |
+| AGAZZI RENATA                 | AGAZZI RENATA          | RENATA         |
+| DELUCA ANTONELA               | DELUCA ANTONELA        | ANTONELA       |
+| DIVIASI ALEJANDRO             | DIVIASI ALEJANDRO      | ALEJANDRO      |
+| INSFRAN CARLOS                | INSFRAN CARLOS         | CARLOS         |
+| MARISCOTTI JUAN PABLO         | MARISCOTTI JUAN PABLO  | JUANPABLO      |
+| MONGUZZI SERGIO               | MONGUZZI SERGIO        | SERGIO         |
+| PRIMOLETTI YAQUELIN           | PRIMOLETTI YAQUELIN    | YAQUELIN       |
+| ROMANCZUK MAXIMILIANO         | ROMANCZUK MAXIMILIANO  | MAXIMILIANO    |
+| SPADA PAULINA                 | SPADA PAULINA          | PAULINA        |
+| ROSELLI FRANCO                | ROSELLI FRANCO         | FRANCO         |
+| GALMARINI DIEGO               | GALMARINI DIEGO        | DIEGO          |
+| CURRA VANESA NATALIA          | CURRA                  | 28286543       |
+| Spotti Adrian                 | adrian                 | pechofrio      |
+| COMEZAÑA MARIA                | COMEZAÑA               | MARIA31        |
+| rad                           | rad                    | rad            |
+| GAETANO SOLEDAD               | GAETANO                | soledad        |
+| MOLINA VALERIA                | MOLINA                 | VALERIA        |
+| ROMANZUCK                     | ROMANZUCK              | ROMANZUCK      |
+| MENDIETA                      | MENDIETA               | MENDIETA       |
+| DOTTI                         | DOTTI                  | DOTTI          |
+| MECO                          | MECO                   | MECO           |
+| Vitale Gaston                 | Vitale                 | gaston         |
+| CABALITO                      | CABALITO               | cabalito       |
+| ROMERO BRAIAN                 | ROMERO                 | 38527368       |
+| MARTINEZ                      | MARTINEZ               | LOQVOSQUIERAS  |
+| TRIÑANES SILVIA               | triñanes               | 1234           |
+| SOSA HUGO                     | hugos                  | ramiro         |
+| GUISOLFO JULIANA              | guisolfo               | juliana        |
+| BORDA VERONICA                | borda                  | veronica       |
+| MEDICO DE GUARDIA             | MEDICO DE GUARDIA      | MEDICO         |
+| ADROVER SABRINA               | ADROVER                | bianca         |
+| MANDRACCIO ROSANA             | MANDRACCIO             | 3110           |
+| ANALIA BARAYBAR               | ANAB                   | anab           |
+| CAP CANALETAS                 | canaletas              | capcanaletas   |
+| CAP AROMOS                    | aromos                 | caparomos      |
+| CAP ARCO IRIS                 | arcoiris               | caparcoiris    |
+| CAP VILLA DIPIETRI            | dipietri               | capvdipietri   |
+| CAP PUEBLO DOYLE              | doyle                  | cappdoyle      |
+| CAP MATEO SBERT               | sbert                  | capsbert       |
+| CAP 1 DE MAYO                 | 1demayo                | cap1demayo     |
+| CAP VUELTA DE OBLIGADO        | vobligado              | capobligado    |
+| CAP GOBERNADOR CASTRO         | gcastro                | capgcastro     |
+| CAP SANTA LUCIA               | slucia                 | capslucia      |
+| CAP LA BUENA MOZA             | bmoza                  | capbmoza       |
+| CAP RIO TALA                  | riotala                | caprtala       |
+| CAP BAJO TALA                 | bajotala               | capbtala       |
+| CAP TOSQUERA                  | tosquera               | captosquera    |
+| CAP CIC                       | cic                    | capcic         |
+| VALLADARES CARLOS             | valladares             | carlos         |
+| Hospital Castro               | hcastro26              | hcastro26      |
++-------------------------------+------------------------+----------------+
+
+Database: desarrollo_humano
+Table: usuarios_web_copy
+[3478 entries]
++------------------------------------------------------------------+---------------------------------------------+---------------------------------------------------+
+| nombre                                                           | usuario                                     | pass                                              |
++------------------------------------------------------------------+---------------------------------------------+---------------------------------------------------+
+[17:22:55] [WARNING] console output will be trimmed to last 256 rows due to large table size
+| Fernando Abaca                                                   | abacaf4@gmail.com                           | 7pu08oi9                                          |
+| osorio walter                                                    | locker2011@hotmail.com.ar                   | riotala                                           |
+| Mariana Cabrera                                                  | marianacarlac@hotmail.com                   | 001972                                            |
+| soledad gallego                                                  | zopilotes12@gmail.com                       | teje1234                                          |
+| Agustina Lechner                                                 | aguslechner@hotmail.com                     | agustina77                                        |
+| Brenda  Sosa                                                     | bys030397@gmail.com                         | 15560120bys                                       |
+| Maria virginia garibaldi                                         | mvgari364@gmail.com                         | 32957364                                          |
+| Alan rafael bentancourt                                          | yanetgiachello@hotmail.com.ar               | 061190                                            |
+| MARIA LAURA MEZA                                                 | mlaurameza@outlook.com                      | 39393601                                          |
+| roberto                                                          | robetosaul@gmail.com                        | trifranro73                                       |
+| Marianela manzelli                                               | malemanzelli14@hotmail.com                  | bocajuniors12                                     |
+| Manuela Echevarria                                               | aylenechevarria@gmail.com                   | JuanSara                                          |
+| Díaz beatriz                                                     | tetypiku@gmai.com                           | deminay                                           |
+| Adriana lorenzo                                                  | adrianalorenzo73@hotmail.com                | miangel04                                         |
+| Ricardo Luján Leali                                              | richartecnic@hotmail.con                    | 1958+fui                                          |
+| Palma Rosana                                                     | roxanapalma@0115gmail.com                   | federico                                          |
+| Lucas Nicolas Vega                                               | administracion.sanpedro@hipergas.com        | propano2018                                       |
+| malena arregues                                                  | marregues@decreditos.com                    | leonel                                            |
+| roth roberto alfonso                                             | lucas_roth1986@hotmail.com                  | 31061986                                          |
+| Gamietea Fatima                                                  | fatysanpedro@gmail.com                      | apolosimon75                                      |
+| gladys antonela resnich                                          | antoresnich@hotmail.com                     | cuerdafloja                                       |
+| Raul Hector Cnokaert                                             | marytacnok@gmail.com                        | hospital18                                        |
+| Mirta Gladys gonzalez                                            | perygonzalehuesa@hotmail.com                | huesaygonzalez                                    |
+| vanina maes                                                      | lailacalvet@hotmail.com                     | martin                                            |
+| Cecilia Denise Fontana                                           | ceci.fontana81@gmail.com                    | grego2911                                         |
+| CESAR DANIEL RAMALLO                                             | rama710@hotmail.com                         | chulaycesar2016                                   |
+| Silvia Laura Ortiz                                               | lau-1995@hotmail.com.ar                     | ort692                                            |
+| Laura Ayelen Candi                                               | lcandi@sanpedro.gob.ar                      | Amalaka2                                          |
+| Juan José Aranguren                                              | juanjo.aranguren@gmail.com                  | Juanjo31                                          |
+| Hober alberto monti                                              | hober_064@yahoo.com.ar                      | BRAIAN                                            |
+| Marianela Nuñez                                                  | marianelanunez16@hotmail.com                | 43055631marianela                                 |
+| Manuel Borchio                                                   | mborchio@yahoo.com.ar                       | 707399                                            |
+| laura gabriela  rodriguez                                        | electroservicechispa@gmail.com              | l24956163                                         |
+| Giuliana birador                                                 | giubirador@gmail.com                        | gustavito                                         |
+| Giuliana birador                                                 | marisabirador@gmail.com                     | gustavo                                           |
+| Agustina Canabal                                                 | aguscanabal@gmail.com                       | totovalen                                         |
+| Francisco Juan Lionello                                          | panorama97@yahoo.com.ar                     | sanluis4321                                       |
+| federico makarezyk                                               | federicomakarczyk@gmail.com                 | 36006576                                          |
+| Daniela Meden                                                    | danielameden@gmail.com                      | 170164Dani                                        |
+| daniel fiesoli                                                   | drfieso@gmail.com                           | manolo                                            |
+| Eliana Cantiani                                                  | elianacantiani@hotmail.com                  | 12208325                                          |
+| Bonet Dario                                                      | dariobonet@live.com                         | bumoza                                            |
+| Esteban Salva                                                    | estebanjsalva@hotmail.com                   | bateria                                           |
+| Mauro Rodriguez                                                  | mauronrodriguez@gmail.com                   | 02CandePilar                                      |
+| El Piguel SA                                                     | cmitretl@yahoo.cpm.ar                       | SanPedro                                          |
+| adriana monduri                                                  | adrianamonduri@hotmail.com                  | ivo071092                                         |
+| leandro nahuel frangi                                            | lean.18frangi@gmail.com                     | 123456                                            |
+| Gael bustos                                                      | noeliaviera2374@gmail.com                   | noeliaviera123                                    |
+| emmanuel petroni                                                 | emanuelpetroni@hotmail.com                  | corriente                                         |
+| Dincau lujan                                                     | lujandincau@gmail.com                       | lujandincau                                       |
+| ROCIO MORRESI                                                    | rociomorresi@hotmail.com                    | 12140670                                          |
+| Ramiro González                                                  | Ramiro18@hotmail.com                        | viejaslocas                                       |
+| Ramiro González                                                  | Ramiro.g18@hotmail.com                      | viejaslocas                                       |
+| Eduardo Alfredo Braillard                                        | eabraillard@gmail.com                       | pi1629lar                                         |
+| Ramiro González                                                  | Ramiro.Pipi18@gmail.com                     | viejaslocas                                       |
+| Luciana Vanesa Giménez                                           | gimenezluciana606@gmail.com                 | 7019                                              |
+| Luciana Vanesa Giménez                                           | luciana.lg49@gmail.com                      | 32657019                                          |
+| Rocío Codó                                                       | rociocodo@gmail.com                         | Arcor2018                                         |
+| diego bergallo                                                   | Bergallo1276@hotmail.com                    | shotokan                                          |
+| javier sanchez                                                   | javiersanchez782@hotmail.com                | lucas2804                                         |
+| Barrios Laura                                                    | lbborchio@gmail.com                         | 737099                                            |
+| damaris milagros ramos                                           | se.produjo.un.error@gmail.com               | cavernicola123                                    |
+| Luis Ángel Olmedo                                                | langelolmedo@yahoo.com.ar                   | bas081jar733                                      |
+| Fernandomarcelolobianco                                          | fernandomarcelolobianco.34@gmaeil.com.ar    | 90786765564534                                    |
+| Micaela Enríquez                                                 | mikaela_818@hotmail.com                     | serlibre10                                        |
+| Castellan Mariangeles                                            | macastellan@gmail.com                       | 454684                                            |
+| Alicia belo                                                      | alfo_xime.15@hotmail.com                    | 437237                                            |
+| Alicia belo                                                      | lobosalfp@gmail.com                         | losamonp                                          |
+| Esther lineros                                                   | ester.l_02@hotmail.com                      | 222324                                            |
+| Katia Alemis                                                     | katiemma981@gmail.com                       | Jocelynalemis                                     |
+| Vanina silva                                                     | vanina.silva961@hotmail.com                 | bauti38527516                                     |
+| Celeste Ravenna                                                  | celeravenna@hotmail.com                     | macera5390                                        |
+| Aldana tolesano                                                  | aldy_06@outlook.com                         | jazmin                                            |
+| Melina Bellagamba                                                | bellagambamelina11@gmail.com                | 19981102                                          |
+| Yanina Lorena Ramon                                              | ramonyanina@hotmail.com                     | 12052609                                          |
+| claudia paola salazar                                            | paorami2090099@gmail.com                    | ra48985317                                        |
+| Caceres virginia                                                 | virginianahy@gmail.com                      | nahiara44                                         |
+|  Maria Candela Ramón                                             | canderamon@gmail.com                        | candelaramon18                                    |
+|  Sofia Rodriguez                                                 | chofachofera@hotmail.com                    | ickkck15                                          |
+| Erica Viviana atencio                                            | atencioerica3@gmail.com                     | isayfelu                                          |
+| Martinez lucas                                                   | martinezlucas794@gmail.com                  | chuli689                                          |
+| Sofia macarena francia                                           | sofitaturenu@gmail.com                      | natasharenata2                                    |
+| valeria paolinelli                                               | valeleo555@gmail.com                        | sharon55                                          |
+| Marina Noemí Garibaldi                                           | margaribaldo01@gmail.com                    | marinanoemi                                       |
+| Leonardo franco                                                  | Leo_nardo_franco@hotmail.com                | 32193650                                          |
+| leonardo franco                                                  | lucaurzua@gmail.com                         | 35702239                                          |
+| candela ramon                                                    | candelaramon18@gmail.com                    | 39490343                                          |
+| Cristian gabriel pacheco                                         | gabriel_22_65@hotmail.com                   | 36550217                                          |
+| Cristian gabriel pacheco                                         | elsa.ferrara@outlook.es                     | 36550217                                          |
+| jonatan eduardo bon                                              | jonatanbon2018@gmail.com                    | 33423005                                          |
+| fabiana cecilia taurizano                                        | fabianataurizano@gmail.com                  | ceci123                                           |
+| Fabiana cecilia taurizano                                        | fabicecitaurizano@gmail.com                 | cecilia123                                        |
+| Lorena                                                           | Loremario25.lm@gmail.com                    | lore38527                                         |
+| Casco marta                                                      | gingani@tiarc.com.ar                        | carme1976                                         |
+| maria paula lelong                                               | paulalelong@hotmail.com                     | horacioy.                                         |
+| Victor alberto manuel olmos                                      | olmosemanuel193@gmail.com                   | 27817848                                          |
+| Marisa Lujan Oilher                                              | lmarisaoilher@hotmail.com                   | Amo3nietos                                        |
+| Ari yuri tolosa                                                  | aryu_15@live.com.ar                         | 18898548                                          |
+| johanna peralta                                                  | Peraltayohanna42@gmail.com                  | 123456789dylan                                    |
+| Alejandro Javier González                                        | lucreciaandrea_comba@hotmail.com            | lucre29723729                                     |
+| hector agustin montes                                            | hectormontes222@hotmail.com                 | 15525237a                                         |
+| Paula Olivera                                                    | alegrimoldi@hotmail.com                     | ale35tuca77                                       |
+| Rufina Speranzoli                                                | dianalopezz@outlook.com                     | 56717546                                          |
+| Speranzoli Rufina                                                | dianalopezz2016@outlook.com                 | 56717546                                          |
+| Gaston Chediak                                                   | gastonchediak@hotmail.com                   | 32324395                                          |
+| Camarasa Sandra                                                  | sandracamarasa71@hotmail.com                | aimela                                            |
+| Eugenia Capre                                                    | eugeniacapre@gmail.com                      | casona1830                                        |
+| Miguel Ullmann                                                   | ullmannmiguel@hotmail.com                   | rivertri                                          |
+| norma kasajima                                                   | normakasajima@hotmail.com                   | golycan66                                         |
+| Micaela Maldonado                                                | micaela.maldonado96@outlook.com             | elsa140                                           |
+| Karina Andrea Belpoliti                                          | gino.2003@hotmail.com                       | karina2017                                        |
+| Zaira Stephanie Baez  Juarez                                     | zaru.baez@hotmail.com                       | yayipupi                                          |
+| Maria Sol Taurizano                                              | solcitaurizano@hotmail.com.ar               | soltaurizano                                      |
+| Cintia jimena salmoiraghi                                        | cintiasalmoiraghi@gmail.com                 | thomasdenisse                                     |
+| Damián Rodríguez                                                 | melyromero2233@gmail.com                    | ben3576                                           |
+| GABRIEL CASTRO                                                   | GABRIELCASTRO145@GMAIL.COM                  | 35238610                                          |
+| Lucía Gomez                                                      | luciagomez1960@hotmail.com                  | lucia13937466                                     |
+| Jordan Bolaño                                                    | bonjordan28@gmail.com                       | solzoebonn                                        |
+| marcos sebastian dusac                                           | dusac_sebastian@hotmail.com                 | patito1617                                        |
+| Maria Sol Taurizano                                              | solcitaurizano@hotmail.com                  | soltaurizano                                      |
+| Adriana Bianco                                                   | est_adriana@hotmail.com                     | ADRIANA                                           |
+| Jose LORDI                                                       | joselordi@fibertel.com.ar                   | susana                                            |
+| Yohana michaud                                                   | johanamichaud8@gmail.com                    | 46812774                                          |
+| Lidia Sperandini                                                 | ivanasanpedro@gmail.com                     | lidia1943                                         |
+| Ignacio bargues                                                  | zg.-cs@hotmail.com                          | colorao123                                        |
+| marcos peiro                                                     | perfumeriapeiro@hotmail.com                 | mdpsp2018                                         |
+| Marianela Martinez                                               | marianelamartinez84@hotmail.com             | estudioprina                                      |
+| Enzo Alarcon                                                     | enzito14a@gmail.com                         | 426532                                            |
+| Pamela agostina Oribe                                            | pamelaoribe543@gmail.com                    | pame1234                                          |
+| Eduardo Dusio                                                    | eddusio@gmail.com                           | 123451                                            |
+| Oscar Iuvale                                                     | marisoliuvale_22@hotmail.com                | 492024                                            |
+| Facundo Torres                                                   | marianatorres1989@hotmail.com               | 34727621                                          |
+| Lucía                                                            | velolucia53@gmail.com                       | 33950501                                          |
+| SUSANA SOLEDAD MARTINEZ                                          | solemartinez1988@gmail.com                  | soled143                                          |
+| DANTE JORGE GÉNOVA                                               | estgendel@ictnet.com.ar                     | 002245                                            |
+| Daniel Gustavo Girard                                            | marianelag_sp@hotmail.com                   | 123456                                            |
+| Graciela beatriz cesar                                           | graciela_cesar78@hotmail.com.ar             | cosmito                                           |
+| Diego Miguel Corvino                                             | diegocorvino@gmail.com                      | maiasofiacorvino                                  |
+| Mariana López                                                    | mariansp2481@hotmail.com                    | 28794068                                          |
+| Antonella llorens                                                | llorensantonella2212@gmail.com              | hola1234                                          |
+| RODOLFO MANUEL MEDINA                                            | estudiocontableforte@hotmail.com            | sofiadf2                                          |
+| Maria Lujan Martinez                                             | luji99_martinez@hotmail.com                 | enzoyfran_losamo18                                |
+| José LORDI                                                       | jlordi@papelprensa.com.ar                   | Susana280218                                      |
+| Artigues Mariela Susana                                          | alejandrasagrera02@yahoo.com.ar             | 32193537                                          |
+| julio rocca                                                      | j.rocca@outlook.com                         | laputa2486                                        |
+| silvia patricia populin                                          | silviapopulin@hotmail.com                   | mimar3148                                         |
+| Carolina maria consolini                                         | caroconsolini@yahoo.com.ar                  | 2018catalina                                      |
+| GEORGINA BELEN GENOVA                                            | ggenova@ictnet.com.ar                       | 006789                                            |
+| BURINI BRAIAN                                                    | estsanchez.sofiam@gmail.com                 | sofi1988                                          |
+| Estudio Pelluchón                                                | oipestudio@hotmail.com                      | oip1961                                           |
+| Maria julia risso caffieri                                       | julyrisso54@gmail.com                       | 34727542risso                                     |
+| MINDURRY SOFIA                                                   | ESTUDIOSANCHEZNAVINES@GMAIL.COM             | sofi1988                                          |
+| González Graciela Noemi                                          | kmr4755@hotmail.com.ar                      | lauriylonen45                                     |
+| Diana Mariel Farabollini                                         | marielfara@hotmail.com                      | 4faras                                            |
+| patricio pedernera                                               | patricioapedernera@gmail.com                | clkgtrxjr15a                                      |
+| Kevin Biana                                                      | fedesp159@hotmail.com                       | 35114410                                          |
+| Mercedes Biana                                                   | dayluz15b@gmail.com                         | superstars                                        |
+| Gladys cabrera                                                   | Gladyscabrera150@gmail.com                  | viejaslocas                                       |
+| Rasio Olga                                                       | olgarasio@gmail.com                         | caseros520                                        |
+| NULL                                                             | mili.nehuen@hotmail.com                     | milinehuenlosamo                                  |
+| Gastón perticarari                                               | gastonperty03@gmail.com                     | vivilavida                                        |
+| Jose Manuel Muntane                                              | josemmuntane@hotmail.com                    | estudiocolo111                                    |
+| LESCANO MERCEDES                                                 | ESTUDIOSPOSITO@YAHOO.COM.AR                 | MERCE273                                          |
+| yamila molina                                                    | yamimolina337@gmail.com                     | 3329aylen                                         |
+| Jumbo Retail Argentina S.A.                                      | impuestos@disco.com.ar                      | jumbo001                                          |
+| SPOSITO SILVIA                                                   | SSPOSITO@ARNET.COM.AR                       | 271SILVIA                                         |
+| MARIA ZUNILDA GAIDO                                              | federico_cataldo@arnetbiz.com.ar            | 25290068                                          |
+| Marisa noriega                                                   | marisa.n4@gmail.com                         | amoamishijos4                                     |
+| Marisa noriega                                                   | Marisa.39en@gmail.com                       | amoamishijos39                                    |
+| Juan Pablo Mariño                                                | jpmchavesmari@gmail.com                     | matias02                                          |
+| Daiana Pujal                                                     | daipujalchavesmari@gmail.com                | matias02                                          |
+| Ruben Ucero                                                      | rucerochavesmari@gmail.com                  | matias02                                          |
+| Alexis Cuels                                                     | acuelschavesmari@gmail.com                  | matias02                                          |
+| Claudia Santillan                                                | csantillanchavesmari@gmail.com              | matias02                                          |
+| Maria Elena Perez                                                | mepchavesmari@gmail.com                     | matias02                                          |
+| Ivan Stringhini                                                  | pinichavesmari@gmail.com                    | matias02                                          |
+| quete importa                                                    | notengo@gmail.com                           | meestasjodiendo                                   |
+| Norma blanco                                                     | blancoalejandra305@gmail.com                | briuri1503                                        |
+| Belen marisol                                                    | aylen2233acosta@gmail.com                   | hijateamo                                         |
+| Sara Soria                                                       | sarasoriaamoamisnietos@gmail.com            | amomisnietos                                      |
+| SPOSITO SILVIA                                                   | estudiosposito@gmail.com                    | 271SILVIA                                         |
+| selene lopez                                                     | eze_ezequiel_95@hotmail.com                 | 3329548574                                        |
+| Carola  Alejandra fuente                                         | castro_gd_1988@hotmail.com                  | 608gerardo                                        |
+| guillermo navarro                                                | guillermonavarro@live.com                   | juancito22                                        |
+| Paula Benvenutto                                                 | paula69b@hotmail.com                        | 123456                                            |
+| Evangelina Boffa                                                 | boffaevangelina@gmail.com                   | juaniyuki13                                       |
+| Jesica molina                                                    | jesimol72@hotmail.com                       | mi5favoritajr                                     |
+| María José Villalba                                              | majo.villalba15@gmail.com                   | 123456                                            |
+| Fernando Estelrrich                                              | fernando.estelrrich@gmail.com               | fernandito                                        |
+| Sofía hunziker                                                   | soofiaa.07@hotmail.com                      | nada12345                                         |
+| Los Grobo Agropecuaria S.A.                                      | impuestos@losgrobo.com                      | losgrobo123                                       |
+| Carlos De Freitas                                                | carlos.defreitas@deheza.com.ar              | ES1380                                            |
+| Javier Alberto Gasto                                             | agasto.alberto.gasto@gmail.com              | sanpedro2018                                      |
+| Juan Angel Almada                                                | juanito0166@hotmail.com                     | salta1051                                         |
+| Thomas western                                                   | thomaswestern@outlook.es                    | cualquiera87                                      |
+| claudio petrelli                                                 | claumarcelo@hotmail.com.ar                  | NOVIEMBRE23                                       |
+| Natalia Rozza                                                    | natalia.rozza@naldo.com.ar                  | naldo206                                          |
+| Villegas Emiliano                                                | glvento@hotmail.com                         | muni2018                                          |
+| ZORRILLA LORENA                                                  | lolo_lorey@hotmail.com                      | lore123                                           |
+| GABRIELA TIRAMONTI                                               | estudiotiramonti@gmail.com                  | GABYTI14                                          |
+| INTERTURIS                                                       | maria.adorno@osde.com.ar                    | INTER1180                                         |
+| Ariel Romero                                                     | ariel.romero@swissmedical.com.ar            | swiss2018                                         |
+| Thomas wilfredo western                                          | thomaswestern@outlook.com.ar                | cualquiera                                        |
+| EVHSA SA                                                         | teso@e-evhsa.com.ar                         | estudio03                                         |
+| melina monzon                                                    | melimonzon9@gmail.com                       | maicolteamo                                       |
+| TELECOM                                                          | meerodriguez@teco.com.ar                    | TELECOM                                           |
+| VIVIANA MARIA BUDIÑO                                             | PAOLAFB2000@YAHOO.COM.AR                    | BUDIÑO27                                          |
+| Dario Rochstein                                                  | drochstein@ashira-sa.com.ar                 | ashi37                                            |
+| OSDE Organizacion de Servicios Directos Empresarios              | maria.catulo@osde.com.ar                    | osde33                                            |
+| Luciano David Rodriguez                                          | rodriguezlucianod@yahoo.com.ar              | uasouasol2705                                     |
+| ELECTRONICA MEGATONE S.A.                                        | slatzko@emusimundo.com                      | sanpedro2018                                      |
+| gerardo carlos gonzalez miño                                     | gerardogonzaleztaller@hotmail.com           | PRIMAVERA80                                       |
+| Marcelo Fano                                                     | Mefano@gmail.com                            | diegoydavid18                                     |
+| Mutual Federada 25 de Junio S.P.R                                | contaduria@federada.com                     | federada25                                        |
+| BANCO MACRO SA                                                   | rosanavavrin@macro.com.ar                   | sanpedro                                          |
+| Prear Pretensados Argentinos S.A.                                | nsanchez@prear.com.ar                       | prear01                                           |
+| Diego alberto soliz                                              | diesoliz391@gmail.com                       | 3219367010                                        |
+| JORGELINA NOELIA BATALLA                                         | jorgelinabatallapeluqueria@hotmail.com      | PRIMAVERA80                                       |
+| PARDO SA                                                         | flatrubesse@pardohogar.com.ar               | PARMA054                                          |
+| Hernan Santi                                                     | nancho900@gmail.com                         | nancho0399                                        |
+| karina greco                                                     | kliagreco@yahoo.com.ar                      | 10sept08                                          |
+| Frangi Camila                                                    | jael.essers@hotmail.com                     | camila30                                          |
+| mariela romagnano                                                | marielaromagnano@gmail.com                  | marielalaloca                                     |
+| Abraham ale                                                      | loco.sp_22@hotmail.com                      | abrahamale                                        |
+| Agustina berola                                                  | branchitoaler@gmail.com                     | agusbero                                          |
+| DASTOLFO JONATAN JAVIER                                          | marisabeatrizjulia@gmail.com                | jonatan87                                         |
+| Lucia Mora                                                       | lsmora77@hotmail.com                        | anna2012                                          |
+| Barcala Maria Bernarda                                           | rasiomariajulia@gmail.com                   | 200620                                            |
+| Pereyra Ruben                                                    | pereyraestudio@yahoo.com.ar                 | rupe2012                                          |
+| FABIO OSCAR DELL' ACQUA                                          | estudiofd@hotmail.com                       | rosario12                                         |
+| daniel alberto gonzalez                                          | ferremosquito@hotmail.com                   | mosquito18                                        |
+| ARCOR SAIC                                                       | impuestos@arcor.com                         | 502793                                            |
+| Pablo Damian Pucurull                                            | pucu_2@hotmail.com                          | 8759pucu                                          |
+| JAVIER TAGLIATORI                                                | estudiotagliatori@gmail.com                 | aom921                                            |
+| SERRA CLAUDIA ALEJANDRA                                          | CLAUDIA@COOPRAMALLO.COM.AR                  | WALTER1124                                        |
+| MAXICONSUMO SA                                                   | impuestos@maxiconsumo.com                   | 300584                                            |
+| MATIAS SWISTUN                                                   | maswistun@anses.gov.ar                      | mato1122                                          |
+| OLGA OILHER                                                      | olguitaoilher@hotmail.com                   | olga1211                                          |
+| Gladys AGUIRRE                                                   | gladysitatiaguirre@yahoo.com.ar             | escribania                                        |
+| Patricio Olivera Martinez                                        | pato_o19@hotmail.com                        | mdpo1979                                          |
+| SILVIA MARIELA MOHR                                              | oficinafrangi@hotmail.com                   | sanpedro2018                                      |
+| Graciela Cristina Miño                                           | gracielaminopescaderia@hotmail.com          | PRIMAVERA80                                       |
+| MARTIN ALBERTO GONZALEZ MIÑO                                     | gonzalezminomartinpescaderia@hotmail.com    | PRIMAVERA80                                       |
+| Eduardo daniel mangione                                          | mangioneeduardodanielverduleria@hotmail.com | PRIMAVERA80                                       |
+| karina gelis                                                     | karinavgelis@gmail.com                      | 0806                                              |
+| Adriana silvina Gastó                                            | adrianagasto@hotmail.com                    | mitre1850                                         |
+| Tobias Maes                                                      | tobi.maes@hotmail.es                        | paraquelaqueres                                   |
+| Micaela Emilia                                                   | micaelaemiliagomez@hotmail.com              | gmemilia15                                        |
+| andrea colicinio                                                 | andrealcolicinio@gmail.com                  | rivotril                                          |
+| Lucas Olivieri                                                   | marion_lili@yahoo.com.ar                    | lucas8                                            |
+| Serena olivero                                                   | serecapita@hotmail.com                      | 7229sere                                          |
+| Francisco Nahuel Gomez                                           | gfranrp0@gmail.com                          | river35                                           |
+| Natalia perez                                                    | Naatiperez139@gmail.com                     | Lucasteamo123                                     |
+| Duarte María Eugenia                                             | Mary.26.duarte@gmail.com                    | 26091997                                          |
+| FRANCISCO CHAZARRETA                                             | migarageserigrafico@gmail.com               | daniloco                                          |
+| Antonio Emilio Pando                                             | apando@arnetbiz.com.ar                      | antonio04                                         |
++------------------------------------------------------------------+---------------------------------------------+---------------------------------------------------+
+
+Database: desarrollo_humano
+Table: usuarios_web
+[12561 entries]
++-------------------------------------------------------------------+---------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+| nombre                                                            | usuario                                     | pass                                                                                                                          |
++-------------------------------------------------------------------+---------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+[17:22:27] [WARNING] console output will be trimmed to last 256 rows due to large table size
+| Analia paola Dias                                                 | ani08.06.84@gmail.com                       | amapola1234                                                                                                                   |
+| Pascual Tucci                                                     | viverotucci@hotmail.com                     | blanqui55                                                                                                                     |
+| Hector Andrés Gamarra                                             | andresgamarra@gmail.com                     | ma4635MA                                                                                                                      |
+| Cinthia Ailen Weinzettel                                          | marsicojoaquin790@gmail.com                 | weinzettel1999                                                                                                                |
+| Ardiles Iván                                                      | ivan_a_884@hotmail.com                      | sanpedro2021                                                                                                                  |
+| Laura Paola Bravo                                                 | antonellapinedobravo.lb@gmail.com           | hospital                                                                                                                      |
+| Selva Villalba                                                    | selsol.herrera1986@gmail.com                | MauriYLau2021#                                                                                                                |
+| Carla Daniela Armingol                                            | carly_1704@hotmail.com                      | etanol789                                                                                                                     |
+| Alan                                                              | joaquinperalta28@gmail.com                  | alan38692040                                                                                                                  |
+| Bianca Alegre                                                     | alegrebianca885@gmail.com                   | 987654                                                                                                                        |
+| Faustino peralta                                                  | fjperalta100@hotmail.com                    | Fausto6962                                                                                                                    |
+| JUAN DE LA FUENTE                                                 | jdelafuentear@gmail.com                     | extasis75                                                                                                                     |
+| bertoni claudia                                                   | BERTONICLAUDIA@HOTMAIL.COM                  | Eloisa1701                                                                                                                    |
+| Jaquelina Gisele Cacho                                            | jaquelina721@gmail.com                      | Rgbwf8uGtLXdSzZ                                                                                                               |
+| Carolina Guerreiro                                                | caroguerreiro@yahoo.com.ar                  | sanpedro                                                                                                                      |
+| Pérez jesica azucena                                              | jesicaperez098@gmail                        | 3329510443                                                                                                                    |
+| Jessica perez                                                     | perezjesica123@gmail.com                    | 3329510443                                                                                                                    |
+| Julio benegas                                                     | julio_benegas@yahoo.com                     | vectra2020                                                                                                                    |
+| Sanchez Florencia                                                 | sanchezflorenciaanabela@gmail.com           | Florencia123                                                                                                                  |
+| EUGENIA DE LA CASA                                                | euggeniadelacasa@gmail.com                  | juana1702                                                                                                                     |
+| EUGENIA DE LA CASA                                                | eugeniadelacasa@gmail.com                   | juana1702                                                                                                                     |
+| ariel guillermo ferola                                            | gaby.paleta@hotmail.com                     | latablita123                                                                                                                  |
+| Aldana florencia                                                  | aldanarojas04@hotmail.com                   | kimbanda98                                                                                                                    |
+| PABLO JOSE DOVAL                                                  | pablojdoval@hotmail.com                     | Hoja1234                                                                                                                      |
+| PABLO JOSE DOVAL                                                  | pablojdoval@hotamail.com                    | Hoja1234                                                                                                                      |
+| PABLO JOSE DOVAL                                                  | pablodoval721@gmail.com                     | Hoja1234                                                                                                                      |
+| Rebeca Caselles                                                   | casellesrebe@gmail.com                      | propacufle93                                                                                                                  |
+| Juan Ramon Reinoso                                                | juan_reinoso_19@hotmail.com                 | 164935                                                                                                                        |
+| CAMARASA EDGARDO DANIEL                                           | camarasaedgardo@gmail.com                   | EZSAcam39                                                                                                                     |
+| Maria Florencia Barbieri                                          | florbarbieri1979@gmail.com                  | Cualquiercosa12                                                                                                               |
+| Philips Argentina S.A.                                            | ar.argentina@philip.com                     | ajkng3Wb                                                                                                                      |
+| pablo comezaña                                                    | pcomezana@arcor.com                         | pablito12                                                                                                                     |
+| teresita maria                                                    | tereacuna@yahoo.com.ar                      | minimi15                                                                                                                      |
+| Milagros lopez                                                    | miliiisp79@gmail.com                        | sanmartin1510                                                                                                                 |
+| Solange Dell Acqua                                                | solangedellacqua@hotmail.com                | benjamin3333                                                                                                                  |
+| hector victor pascual                                             | marialonardoni@hotmail.com.ar               | rafael28                                                                                                                      |
+| Gustavo Javier Muñoz                                              | javiergm816@gmail.com                       | javier2021                                                                                                                    |
+| liliana lorena rios                                               | lily29395@gmail.com                         | 05091984                                                                                                                      |
+| Valentina prado                                                   | valenprado1998@gmail.com                    | 01061998valentina                                                                                                             |
+| Hernán Luchini                                                    | hernan.luchini2001@gmail.com                | Luchini1621                                                                                                                   |
+| MAURICIO SCOCCIMARRA                                              | madresanta.sp@gmail.com                     | vemidelmau                                                                                                                    |
+| Valeria eisenbeil                                                 | valeriaeisenbeil@gmail.com                  | milton06                                                                                                                      |
+| Kevin Alexander Medina                                            | medinakevinalecander1@gmail.com             | Alba575941                                                                                                                    |
+| Fernando Nicolas  altamirano sciolla                              | altamiranofernando21@gmail.com              | f1e2r3n4a5n6d7o8                                                                                                              |
+| Milton Fernando Molloja                                           | milton_molloja@hotmail.com                  | 153462153.153                                                                                                                 |
+| LAURA HARSCH                                                      | hlaura@live.com.ar                          | mariana2021                                                                                                                   |
+| Brenda                                                            | pedrozzobrenda02@gmail.com                  | brenda55                                                                                                                      |
+| Brenda                                                            | pedrozobrenda02@gmail.com                   | brenda55                                                                                                                      |
+| Marcos Duarte                                                     | markitos.bjr1905@gmail.com                  | Boca1905                                                                                                                      |
+| Emiliano                                                          | emilianogarcia95@outlook.com                | kobe091118                                                                                                                    |
+| CATALINA                                                          | CatalinaOlivero@outlook.es                  | Cata1995                                                                                                                      |
+| Enrique Giurlani                                                  | giurlani@hotmail.com                        | alma1308                                                                                                                      |
+| Rocio chanponnay                                                  | rociochanponnay73@gmail.com                 | 40255674                                                                                                                      |
+| Natalia Lencina                                                   | natalialencina@outlook.com.ar               | municipio2021                                                                                                                 |
+| maria lujan lopez                                                 | marialujanlopez@yahoo.com                   | miradas12                                                                                                                     |
+| Magali leguizamon                                                 | maga.leguizamon.7@facebook.com              | puntoycoma                                                                                                                    |
+| Magali leguizamon                                                 | leguizamonmagali00@gmail.com                | puntoycoma                                                                                                                    |
+| IVAN PASINI                                                       | givirsa@gmail.com                           | Estudio2021                                                                                                                   |
+| Federico Manuel                                                   | perezbrea@gmail.com                         | sanpedro2021                                                                                                                  |
+| Francisco Montes                                                  | montes.francisco.c@gmail.com                | Montes95                                                                                                                      |
+| Yamila llovera                                                    | yamilallovera97@gmail.com                   | 40670719                                                                                                                      |
+| hernan                                                            | rhm7719@gmail.com                           | volvos60                                                                                                                      |
+| Soledad Belén Ascua                                               | ssolascua@gmail.com                         | damemas939                                                                                                                    |
+| julieta                                                           | julieta.doti@hotmail.com                    | lunaliz                                                                                                                       |
+| Carranza aldana                                                   | aldanacarranza917@gmail.com                 | ark232019                                                                                                                     |
+| dasd                                                              | hola@hotmail.com                            | holahola123                                                                                                                   |
+| Celeste Anabella Ferrer                                           | celepitu11@hotmail.com                      | india2016                                                                                                                     |
+| Silvina Beatriz Aliano                                            | soledad-k10@hotmail.com                     | silvinaHOSPITAL                                                                                                               |
+| GRACIELA ELISA                                                    | s.oteroelorza@gmail.com                     | picaflor21                                                                                                                    |
+| enzo calabrese                                                    | enzo99mdqg@gmail.com                        | chupala1026                                                                                                                   |
+| enzo calabrese                                                    | enzo99mdq@gmail.com                         | chupala1026                                                                                                                   |
+| RIESGO CERO SEGURIDAD SRL                                         | RIESGOCERO24HS@GMAIL.COM                    | flor2523                                                                                                                      |
+| Marianela Nuñez                                                   | marianelanunez2019@hotmail.com              | 43055631marianela                                                                                                             |
+| christian ramon espinoza                                          | espinozacristian36@gmail.com                | Natali8991                                                                                                                    |
+| Oilher barbara rosario                                            | barbioilher01@gmail.com                     | 40942880                                                                                                                      |
+| Fabian  Ariel Moreyra                                             | famoreyra@gmail.com                         | Bianfa171                                                                                                                     |
+| anahi vargas                                                      | hoarymustache@gmail.com                     | 656556                                                                                                                        |
+| anahi vargas                                                      | chokejose@hotmail.com                       | 656556                                                                                                                        |
+| RAUL FABIO VIRILI                                                 | PALU_VAJU@HOTMAIL.COM                       | 05221823                                                                                                                      |
+| Carlos                                                            | aeropalacio@hotmail.com                     | laspecas                                                                                                                      |
+| Cecilia Paola Fernandez                                           | ceci_fernandez@hotmail.com.ar               | pedro208                                                                                                                      |
+| Monica Benitez                                                    | uma.valentino@hotmail.com                   | Thevaccines                                                                                                                   |
+| GUSTAVO ADRIAN CANGARO                                            | cangaroabogado@hotmail.com                  | apache29                                                                                                                      |
+| roque  carlos                                                     | electronicasp4@gmail.com                    | tango1000                                                                                                                     |
+| Belén Rico                                                        | belenrico984@gmail.com                      | 637372jp                                                                                                                      |
+| SERGIO LUIS                                                       | proveedores@corralondefrancesco.com.ar      | Sldf7896                                                                                                                      |
+| Emilio Esteve                                                     | emilioesteve@hotmail.com                    | abogado2011                                                                                                                   |
+| Maria Celeste Lescano                                             | celestelescano95@gmail.com                  | Misamores123                                                                                                                  |
+| Daiana Zubieta                                                    | daizubieta@gmail.com                        | lola0812                                                                                                                      |
+| Rodrigo ceballos                                                  | ceballosr507@gmail.com                      | 12345rc                                                                                                                       |
+| Hugo Alberto Ramos                                                | el_granjal@fibertel.com.ar                  | Vacunacovid19                                                                                                                 |
+| Maria Graciela Ashardjian                                         | gashardjian@gmail.com                       | Brujita652                                                                                                                    |
+| Jonas Escobar                                                     | jonasariel.escobar.4@gmail.com              | jonascabj003                                                                                                                  |
+| Macarena López                                                    | macarenalopezespinosa@hotmail.com           | Pkdfr45r                                                                                                                      |
+| Malena Morales                                                    | malenamorales015@gmail.com                  | morales3527K                                                                                                                  |
+| Diaz Noemí Soledad                                                | franches.casta@gmail.com                    | sanespedito                                                                                                                   |
+| Gustavo Jose                                                      | gustavo.pellenc@hotmail.com                 | renataelena2                                                                                                                  |
+| Gisela Rodríguez                                                  | giselarodriguez.sp@gmail.com                | givaro89                                                                                                                      |
+| claudio fabian andrada                                            | claudio.andrada@yahoo.com.ar                | gestoria                                                                                                                      |
+| Nancy Gisele Ramirez                                              | ramirezgisel284@gmail.com                   | universo                                                                                                                      |
+| ruben blanco                                                      | marianela.raso@gmail.com                    | 4694762                                                                                                                       |
+| Rocio oliveto                                                     | rociochulokendal@gmail.com                  | kendal2018                                                                                                                    |
+| OSPECON UOCRA                                                     | sruiz@uocra.org                             | patrimonio                                                                                                                    |
+| Lorena                                                            | lr795334@gmail.com                          | luciomansilla2930                                                                                                             |
+| HORACIO OSCAR TAMAME                                              | jorallo@lartirigoyen.com                    | Impuestos2021                                                                                                                 |
+| GOERNER CARLOS ERNESTO                                            | marinrosito@gmail.com                       | caroca2930                                                                                                                    |
+| Alexis Emanuel Sandoval                                           | elgrancesar93@hotmail.com                   | pistola97                                                                                                                     |
+| Belén Medina                                                      | belu_vnm@hotmail.com                        | HzWti7EN4rXN6ab                                                                                                               |
+| Rosa mabel camacho                                                | Silvia.b.juarez@hotmail.com.ar              | caseros1650                                                                                                                   |
+| SIGISMUNDI S.A.                                                   | adm.sigismundi@gmail.com                    | beaumont745                                                                                                                   |
+| walter alvarez                                                    | walvarez65@yahoo.com.ar                     | beaumont745                                                                                                                   |
+| Hugo Antonio Dias                                                 | hugoadias@hotmail.com                       | ciro2908                                                                                                                      |
+| Alison romina cuartas                                             | alison.romina.cuartas2015@hotmail.com       | pDQF8NHFkxDpPT2                                                                                                               |
+| Beatriz antonia vargas                                            | bv726896@gmail.com                          | 33027738                                                                                                                      |
+| Dario funes                                                       | funes.cata.dario123@gmail.com               | catadario123                                                                                                                  |
+| Jonathan Grimoldi                                                 | jgrimoldi94@gmail.com                       | Jona2020                                                                                                                      |
+| Ana Camacho                                                       | ana55camacho61@gmail.com                    | anamuni                                                                                                                       |
+| María Florencia braico                                            | florcitabraico@gmail.com                    | f15542860                                                                                                                     |
+| Ruben Oscar                                                       | luerre@hotmail.com                          | lucas2002                                                                                                                     |
+| SOFIA MARIEL POZZI                                                | sofiapozzi24@gmail.com                      | Montecarlo2505                                                                                                                |
+| Pereira abril fiama                                               | Abrilpereira27@hotmail.com                  | Aarbolfamiliar20                                                                                                              |
+| GUSTAVO CONTI                                                     | GUSTAVOCONTI18030@GMAIL.COM                 | WANTAJUN                                                                                                                      |
+| churruarin dayana mariel                                          | wanda.conti0905@gmail.com                   | wantajun                                                                                                                      |
+| Verónica Patricia Torrens                                         | verotorrens00@gmail.com                     | veronicalarajonas1996                                                                                                         |
+| Cnokaert Ma Natalia                                               | mnataliacnokaert@hotmail.com                | pepo322muni                                                                                                                   |
+| rodriguez enrique nelson                                          | elubeth-36@hotmail.com.ar                   | eli3329                                                                                                                       |
+| Alan Gabriel Krausse                                              | ludmilavmillan@gmail.com                    | americ70                                                                                                                      |
+| Marianela Colicinio                                               | malecolicinio@gmail.com                     | feli1510                                                                                                                      |
+| Esteban Anibal Calderon                                           | calderasp@hotmail.com                       | caldera82                                                                                                                     |
+| Constanza fernandez                                               | cotiifernandez22@gmail.com                  | coticoti22                                                                                                                    |
+| Mateo                                                             | mateotardioarg@gmail.com                    | Motocicleta175!!                                                                                                              |
+| Tomás                                                             | serioestudiotomas@gmail.com                 | Valfi0321                                                                                                                     |
+| La Teresa LB SA                                                   | disa@lapaz.coop                             | doñaines                                                                                                                      |
+| Natali Ayelen Salas                                               | natalisalas19.19@gmail.com                  | almamoro360                                                                                                                   |
+| Tobias Sarroca                                                    | albaniatobias@gmail.com                     | albania87                                                                                                                     |
+| francisco camilo puig                                             | guillermo-cuello@hotmail.com                | sanpedro2021                                                                                                                  |
+| INDEXA SA                                                         | gfaretta@rpjabogados.com                    | indexa3070                                                                                                                    |
+| JOSEFINA VIVOT                                                    | certificaciones@escribaniavivot.com.ar      | vivot2021                                                                                                                     |
+| Alfredo Ruben Malacrida                                           | grillomalacrida@gmail.com                   | julietapaula                                                                                                                  |
+| Ebelio gomez                                                      | christopherymica@gmail.com                  | 40287737cris                                                                                                                  |
+| Chiara ludmila dimitro                                            | dimitroludmila5@gmail.com                   | 46275960                                                                                                                      |
+| Burgos Esperanza                                                  | burgoshuntesperanza@gmail.com               | hopi123chano                                                                                                                  |
+| Óscar Francisco Hernán Báez                                       | oscarfhbaez@gmail.com                       | octubre112019                                                                                                                 |
+| Aldana Luján tesuri                                               | aldanalujant@gmail.com                      | luisanateamo4                                                                                                                 |
+| MARIA EUGENIA BATTAUZ                                             | mebattauz@hotmail.com                       | patentes2021                                                                                                                  |
+| EMERY CLEONICE RASIO                                              | hlapuschin@ancal.com.ar                     | 19621997                                                                                                                      |
+| posto guillermo francisco                                         | anayagus06@hotmail.com                      | valen6863                                                                                                                     |
+| Katherine Romero                                                  | romerokatherine099@gmail.com                | 42883960                                                                                                                      |
+| Eliana anush kaltakdjian                                          | anukaltakdjian@gmail.com                    | ernestocremona                                                                                                                |
+| Carolina Fenouil                                                  | carolinafenouil@gmail.com                   | barrio76                                                                                                                      |
+| FLORENCIA                                                         | flr@escribaniaesponda.com.ar                | mayo46012                                                                                                                     |
+| Veronica omar                                                     | omarvaleria83@gmail.com                     | veronicalatuperrita1                                                                                                          |
+| Velazquez Jacqueline Micaela                                      | jaquevelazquez454@gmail.com                 | figueroadaliz                                                                                                                 |
+| Velazquez Jacqueline Micaela                                      | jaquevelazque454@gmail.com                  | figueroadaliz                                                                                                                 |
+| dilello andrea                                                    | andreadilello@hotmail.com                   | gaviola5223                                                                                                                   |
+| Aldana Luján tesuri                                               | adrianaromagnanosp@gmail.com                | luisanateamo4                                                                                                                 |
+| Patricio Altolaguirre                                             | patoaltochavesmari@gmail.com                | matias02                                                                                                                      |
+| Jorge Virginio Pio Pavanetto                                      | rpavanetto@outlook.com                      | Sa3l5Ud8                                                                                                                      |
+| GUILLERMO FRANCISCO POSTO                                         | FBOSCH@ESCRIBANIAESPONDA.COM.AR             | 22237Posto                                                                                                                    |
+| Esau ezequiel isaac velos                                         | velosesauezequielisaac@gmail.com            | 38294622                                                                                                                      |
+| Maria Jose rodriguez                                              | josemariabrisarodriguez@gmail.com           | javierribero12                                                                                                                |
+| VALENTINA BARROS                                                  | VALENBARROSS21@gmail.com                    | ROSITA                                                                                                                        |
+| tomas corso                                                       | tomascorso398@gmail.com                     | h5kHrvKZyfv9Kh4                                                                                                               |
+| Gustavo sanchez                                                   | gustavojaviersanchez4@gmail.com             | DAVINA2015                                                                                                                    |
+| María luján dichito                                               | mariluser05@gmail.com                       | mariluser                                                                                                                     |
+| Barroso Cristian                                                  | cristian.estudio2@gmail.com                 | Sanpedro2021                                                                                                                  |
+| Brisa Jazmin                                                      | jasminrodriguez48188@gmail.com              | jasmin1234                                                                                                                    |
+| Brisa Yasmin                                                      | Rodriguezjasmin48188@gmail.com              | Jasmin123                                                                                                                     |
+| Alejandra Noemi Villarruel                                        | ale.n.villarruel@gmail.com                  | pynamar17                                                                                                                     |
+| Adolfo Eduardo Ibazeta Herrera                                    | eduibazeta46@gmail.com                      | Trosky1965                                                                                                                    |
+| Antonella Saffores                                                | anto_saffores@hotmail.com                   | anto2633                                                                                                                      |
+| 018271828282772                                                   | 018271828282772@gmail.com                   | 018271828282772                                                                                                               |
+| iwiqiqoqoqoqoiwjw                                                 | stupidxteam666@gmail.com                    | iwiqiqoqoqoqoiwjw                                                                                                             |
+| Ivan Groppo                                                       | ivangroppo@hotmail.com                      | rubias08                                                                                                                      |
+| Noelia López                                                      | nobeloda@gmail.com                          | aylu262014                                                                                                                    |
+| Sebastián Ríos                                                    | sebit777@hotmail.com                        | 41311978sebiT                                                                                                                 |
+| TECNOTRANS SRL                                                    | contaduria@tecnotrans.com.ar                | TECNO1081                                                                                                                     |
+| Martina Rivero                                                    | martina1015sp@gmail.com                     | 45294705Mi                                                                                                                    |
+| Marisa Fernandez                                                  | marisafernandez494@gmail.com                | 30433462                                                                                                                      |
+| denise                                                            | denu1996@hotmail.es                         | Municipalidadmio1                                                                                                             |
+| NATALIA LARREA                                                    | natlarrea@hotmail.com                       | okinawa                                                                                                                       |
+| luis angel olmedo                                                 | langelolmedo@gmail.com                      | 73jar081                                                                                                                      |
+| Daniela Natalia Villa                                             | danyv22_88@hotmail.com                      | DANIELA                                                                                                                       |
+| Sasha Rodríguez Ortiz                                             | meowrauderss@gmail.com                      | 44114398                                                                                                                      |
+| Lorena Domancich                                                  | lore_domancich@hotmail.com                  | estudio                                                                                                                       |
+| Lorena Domancich                                                  | estudio@perezcasanova.arnetbiz.com.ar       | estudio                                                                                                                       |
+| Santiago Triscali                                                 | santiagotriscali@gmail.com                  | larry123                                                                                                                      |
+| Bruno Ezequiel Ortega                                             | brunoortega1040@gmail.com                   | Bruno2020                                                                                                                     |
+| Gabriela                                                          | Blanco.mgabriela@gmail.com                  | sodaestereo                                                                                                                   |
+| Susana Luján Amaya                                                | susanalujanamaya@hotmail.com                | susana123                                                                                                                     |
+| Susana Luján Amaya                                                | susanalujanamaya@gmail.com                  | susana123                                                                                                                     |
+| Daniel Antonio GAYA                                               | danielgaya@hotmail.com                      | 14021963                                                                                                                      |
+| Johanna altamirano                                                | laroly32@gmail.com                          | 39851052                                                                                                                      |
+| ferro hugo                                                        | priscilaveliche@live.com.ar                 | Augusto12                                                                                                                     |
+| Eduardo                                                           | edurossello@hotmail.com                     | Agus0312                                                                                                                      |
+| Omar ezequiel. Ascua                                              | ezewuielascua1979@gmail.com                 | diosesfiel                                                                                                                    |
+| ZARATE POR TRES GROUP SA                                          | estudiocoarasayasoc@gmail.com               | zarate2019                                                                                                                    |
+| chloe mansilla                                                    | soledad1311@hotmail.com                     | chloe2909                                                                                                                     |
+| Diego Basterrica                                                  | dbasterrica@yahoo.com.ar                    | Violeta1125                                                                                                                   |
+| Génesis Bon                                                       | morganabon24@gmail.com                      | Genesisaitana188                                                                                                              |
+| Lorena Maneiro                                                    | melanyagostina1@gmail.com                   | benitourraco175                                                                                                               |
+| RODOLFO CESAR gutierrez                                           | rolo_elcesar@hotmail.com                    | cesar1966                                                                                                                     |
+| NICOLAS VIDAL BAVIO                                               | siaynoq@gmail.com                           | Impuestos2021                                                                                                                 |
+| GUARDIA FABIAN EMILIO                                             | silvina-caron@hotmail.com                   | Silvina74                                                                                                                     |
+| Walter Alejandro Esteve                                           | walteralejandro.esteve@gmail.com            | 64amor66                                                                                                                      |
+| Felipe Pettone                                                    | felipe.pettone@gmail.com                    | 7486299a62b2                                                                                                                  |
+| María Amélie Sánchez                                              | marusan430@gmail.com                        | 40492233                                                                                                                      |
+| Graciela del Pardo                                                | gdelpardo@gmail.com                         | Malon@pampero6                                                                                                                |
+| Matias ricardo parzon                                             | matias.parzon@yahoo.com                     | stefano2020                                                                                                                   |
+| Matias ricardo parzon                                             | matias.r.parzon@gmail.com                   | stefano2019                                                                                                                   |
+| Calderon Maximiliano                                              | calderonmaximiliano@gimeil.com              | Maxipelu37                                                                                                                    |
+| maximiliano alexis calderon                                       | calderonmaximiliano978@gmail.com            | Pelumaxi37                                                                                                                    |
+| Acuña Rodrigo de la Cruz                                          | rodrodelacruz@hotmail.com                   | estructuras                                                                                                                   |
+| ALBERTO NICOLAS FERRARO                                           | albertonferraro@gmail.com                   | Anaconda46                                                                                                                    |
+| Helena Pereira Liva                                               | ivandagopereira1989@gmail.com               | 12101989                                                                                                                      |
+| PAOLA PASCUALE                                                    | paolapascuale@gmail.com                     | ppsi1642                                                                                                                      |
+| Abril Galeano                                                     | abiabru@gmail.com                           | 40979682                                                                                                                      |
+| Florencia Espíndola                                               | florenciaespindola1@gmail.com               | NicolasArrieta                                                                                                                |
+| Alberto Daniel sanchez                                            | piomer@hotmail.com                          | beto2020                                                                                                                      |
+| CARLOS DANIEL KABA                                                | avilakaba@hotmail.com                       | gatonegr0                                                                                                                     |
+| José Antonio Ducasse                                              | cocopiojoso87@gmail.com                     | Clara1712                                                                                                                     |
+| Antonela ferrari                                                  | ferrarilegales@hotmail.com                  | antonela21                                                                                                                    |
+| Pamela soledad Villalba                                           | antoferrarilegales@gmail.com                | pamela21                                                                                                                      |
+| estefania                                                         | teefiimolinaa@hotmail.com                   | DINAMARCA2020                                                                                                                 |
+| Facundo Robles                                                    | facundorobles732@hotmail.com                | facundorobles                                                                                                                 |
+| roxana                                                            | mariel.acuario@hotmail.com                  | romina18                                                                                                                      |
+| María Inés Villanueva                                             | mariainesvillanueva@gmail.com               | 3329552700                                                                                                                    |
+| zabala griselda nelly                                             | z.aba.9@hotmail.com                         | Pupi2021                                                                                                                      |
+| Patricia Purita                                                   | ppurita@prinwey.com.ar                      | spa2021                                                                                                                       |
+| Jose Luis Ruggeri                                                 | ruggerijl@gmail.com                         | Natalia1a                                                                                                                     |
+| Carlos Arevalo                                                    | arevalogoyo@gmail.com                       | Cayetan0                                                                                                                      |
+| Omar Alejandro ibañez                                             | omar-ibanez@live.com                        | F3QGQuAjU7rdbvh                                                                                                               |
+| Rodrigo Nicolas Bracco                                            | rodrigobacco1@gmail.com                     | 36310518                                                                                                                      |
+| Mariela Elizabeth Turrini                                         | marugesto2020@gmail.com                     | 202020                                                                                                                        |
+| gisela alejandra muchiut                                          | giselamuchiut@hotmail.com                   | edelveis123                                                                                                                   |
+| Espindola Marcelo                                                 | misayrton@gmail.com                         | 16598232                                                                                                                      |
+| Walter argote                                                     | walter.argote@gmail.com                     | rocio2004                                                                                                                     |
+| Rodrigo Nicolas Bracco                                            | rodrigobracco1@gmail.com                    | 36310518                                                                                                                      |
+| Caldentey Pablo                                                   | pac_69@hotmail.com                          | pabloc                                                                                                                        |
+| Maria Noel Beatriz                                                | noelscarponi@yahoo.com                      | Sanpedro33                                                                                                                    |
+| carlos alberto perez                                              | carlyperez05@hotmail.com                    | pototas                                                                                                                       |
+| Federico Arpia                                                    | fede_arpia.sp@hotmail.com                   | Fede14sp                                                                                                                      |
+| Leslie Gonzales                                                   | joshelynim@gmail.com                        | lafurcadofurtado20                                                                                                            |
+| Rebeca Lippai                                                     | lippairebe@gmail.com                        | parcela42                                                                                                                     |
+| aldo venanzoni                                                    | arqvenanzoni@gmail.com                      | Lulibreton1                                                                                                                   |
+| Hector del Busto                                                  | hjdb666@hotmail.com                         | 2021turcoM                                                                                                                    |
+| Maria Laura Pomodoro                                              | laurapomo84@gmail.com                       | 515mitre                                                                                                                      |
+| Solange Anahi Gonzalez                                            | solangegonzalez125@gmail.com                | 41134993                                                                                                                      |
+| Julio C. Airaldi                                                  | jc.airaldi@gmail.com                        | jubijulio                                                                                                                     |
+| María Luján Rodriguez                                             | marialujanr211@gmail.com                    | 22marilu                                                                                                                      |
+| karen ramallo                                                     | karen_ramallo70@yahoo.com.ar                | Ninni1802                                                                                                                     |
+| JOFFRE CARLOS                                                     | oximed@oximedrosario.com                    | Oximed2021                                                                                                                    |
+| Stella Maris Bernan                                               | smbernan@gmail.com                          | smb2021                                                                                                                       |
+| Luis Mamerto Acuña                                                | sandra_baque@yahoo.com.ar                   | Merengue                                                                                                                      |
+| Candela ortega                                                    | ocande42@gmail.com                          | cande2019                                                                                                                     |
+| BES PEDRO EUGENIO                                                 | PEEDROBES@GMAIL.COM                         | PEDRO1962                                                                                                                     |
++-------------------------------------------------------------------+---------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
