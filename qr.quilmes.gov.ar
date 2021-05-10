@@ -1,0 +1,33 @@
+.gov Government
+
+.ar Argentina
+
+Quilmes Government
+
+https://qr.quilmes.gov.ar/servicios/cec.php?id_rubro=22
+
+the back-end DBMS is MySQL
+web server operating system: Linux CentOS 7
+web application technology: PHP 5.4.16, Apache 2.4.6
+back-end DBMS: MySQL >= 5.6
+banner: '5.7.33-0ubuntu0.16.04.1'
+
+available databases [2]:
+[+] cec
+[+] information_schema
+
+Database: cec
+[11 tables]
++----------------+
+| actividades    |
+| comercios      |
+| habilitaciones |
+| nro_tramite    |
+| repartidores   |
+| rubros         |
+| tmp            |
+| vecinos        |
+| vehiculos      |
+| vista_whatsapp |
+| zonas          |
++----------------+
