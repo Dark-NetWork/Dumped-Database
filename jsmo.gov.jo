@@ -1,0 +1,42 @@
+.gov Government
+
+.jo Jordan
+
+The Jordan Standards and Metrology Organization (JSMO)
+
+http://www.jsmo.gov.jo/En/EServices/Standards/Pages/subCat.aspx?ICS=1304040
+
+the back-end DBMS is Oracle
+web server operating system: Windows 2016 or 2019 or 10
+web application technology: ASP.NET 4.0.30319, Microsoft IIS 10.0, Microsoft Share Point 16.0.0.10350
+the back-end DBMS: Oracle
+banner: 'Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production'
+
+available databases [27]:                                                                                                             
+[*] ACC
+[*] ACCRACC
+[*] APEX_030200
+[*] COMMON
+[*] CTXSYS
+[*] DEP
+[*] DIW
+[*] EXFSYS
+[*] HRAPPLIC
+[*] HU1
+[*] IMAN
+[*] JISM
+[*] MDSYS
+[*] OLAPSYS
+[*] PAYROLL
+[*] PMD
+[*] QUAL
+[*] RSS
+[*] STDISO
+[*] STDTEST
+[*] STOCK
+[*] SYS
+[*] SYSTEM
+[*] TA
+[*] TOAD
+[*] WKSYS
+[*] XDB
