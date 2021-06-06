@@ -12,7 +12,8 @@ http://nasp.gov.ge/pages/project.php?id=7
 
 the back-end DBMS is MySQL
 web application technology: Apache
-the back-end DBMS: MySQL >= 5.0 (MariaDB fork)
+back-end DBMS: MySQL >= 5.0 (MariaDB fork)
+banner: '5.5.68-MariaDB'
 
 available databases [2]:                                                                                                                                             
 [+] information_schema
