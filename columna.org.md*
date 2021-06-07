@@ -1,0 +1,324 @@
+.org Organization
+
+.md	Moldova
+
+Columna High School
+
+https://columna.org.md/view_new.php?id=106
+
+the back-end DBMS is MySQL
+web application technology: PHP, Nginx, PHP 5.6.40
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+banner: '10.5.10-MariaDB
+
+available databases [5]:
+[+] 1017-3
+[+] information_schema
+[+] test
+[+] test_adminbr
+[+] test_adminbr1
+
+Database: 1017-3
+[36 tables]
++----------------+
+| bdn_comisii    |
+| bdn_disc       |
+| bdn_disc_dosar |
+| bdn_dosar      |
+| bdn_elevi      |
+| bdn_note       |
+| bdn_note_s1    |
+| bdn_prof_cl    |
+| bdn_prof_dsc   |
+| bdn_profi      |
+| bdn_sem        |
+| bdn_teme_ac    |
+| bdn_teme_ac_s1 |
+| bdn_users      |
+| cercuri        |
+| clase          |
+| cons_sc        |
+| consultatii    |
+| curriculum     |
+| faq            |
+| kontor_news    |
+| libro_carti    |
+| maxima         |
+| news           |
+| noi            |
+| options_gal_ev |
+| or_sun_cls     |
+| or_sun_gl      |
+| or_sun_prim    |
+| orar           |
+| personal       |
+| personal_dn    |
+| personal_list  |
+| regim          |
+| top_reushita   |
+| video          |
++----------------+
+
+Database: 1017-3
+Table: bdn_users
+[426 entries]
++------------------+----------------------+----------------+-------------+
+| name_1           | name_2               | login          | password    |
++------------------+----------------------+----------------+-------------+
+| Pușcă            | Andrei               | apusca         | ap7Kaa5     |
+| V?lcu-Bajurean   | Andrei               | avilcubajurean | vBa74jUn5a  |
+| operator         | note                 | admin13        | pascaru     |
+| Guzun            | Maxim                | mguzun         | mg72Mm2a    |
+| Hatii            | Alex                 | ahatii         | ah82TT2b    |
+| Hlevnoi          | Dumitru              | dhlevnoi       | dh7Vno1d    |
+| G?tlan           | Ion                  | igitlan        | ig99Tas5g   |
+| Pietraru         | Dina                 | dpietraru      | dp95RRa7d   |
+| Damian           | Sabina               | sdamian        | sd79aMnn    |
+| Țurcanu          | Vlada                | vlturcanu      | vLT73aaD2s  |
+| Năstase          | Cristian             | cnastase       | cnST41as    |
+| Zagaiciuc        | Alexei               | azagaiciuc     | az57Ga14u   |
+| Baltaga          | Domnica              | dmbaltaga      | dm6BA22ag   |
+| Bulat            | Octavian             | obulat         | ob77La2a    |
+| Burlacenco       | Nichita              | nburlacenco    | nbUU84en2c  |
+| Caracuian        | Maia                 | mcaracuian     | mc8aC12a    |
+| Chirica          | Ana                  | achirica       | ac7HC2a     |
+| Cozma            | Otilia               | ocozma         | oc73mZa     |
+| Durleșteanu      | Adelia               | adurlesteanu   | ad88RUst1a  |
+| Eremia           | Anamaria             | aeremia        | ae68Re2m    |
+| Eremia           | Silvia               | seremia        | se78Re3m    |
+| Lisnic           | Kiril                | klisnic        | kLsn79c     |
+| Calalb           | Greg                 | gcalalb        | cGG7bL5a    |
+| Repeah           | Ana-Maria            | amrepeah       | am77Re4a    |
+| Scutaru          | Anastasia            | ascutaru       | as55TAs2u   |
+| Severin-Barac    | Anna                 | anseverin      | ansE32eeA   |
+| Harghel          | Teodora              | tharghel       | tHHa7gE5a   |
+| Tanachi          | Laura                | ltanachi       | tnL45ac8h   |
+| Yemets           | Alina                | ayemets        | ayM7me2s    |
+| Stibelschi       | Bogdan               | bstibelschi    | bs67Te2bh   |
+| Botnaru          | Iaroslav             | ibotnaru       | iB55sR2a    |
+| Bulgacov         | Lera                 | lbulgacov      | b78Go4v     |
+| Cimpoieșu        | Alexandra            | acimpoiesu     | ac61SS2es   |
+| Ciubotaru        | Emilia               | emciubotaru    | ec88Br3u    |
+| Cojoc            | Bogdan               | bcojoc         | bc73Cj2o    |
+| Duca             | Xenia                | xduca          | xD15aCu     |
+| P?rțu            | Dumitru              | dpirtu         | dp99uRpp    |
+| Hudic            | Paul-Andrei          | pahudic        | pa56Hd3u    |
+| Maxim            | Alex-Ioan            | aimaxim        | aM222xm     |
+| Poian            | Mișeli               | mpoian         | mp88So2n    |
+| Radcenco         | Roman                | rradcenco      | rR24on4o    |
+| Țăruș            | Cosmin               | ctarus         | ct95As5s    |
+| Țauleanu         | Alexandru            | atauleanu      | at445Cs1m   |
+| Bujor            | Alexandrina          | alxbujor       | aLB95j5Bu   |
+| Burlacu          | Cătălina             | cburlacu       | cb83Ua7a    |
+| Buțuleac         | Bogdan               | bbutuleac      | bB253aRc    |
+| Tomacu           | Victor               | vtomacu        | vt84Ma3c    |
+| Cotorobai        | Maxim                | mcotorobai     | mcT772ab    |
+| Rotari           | Marius               | mrotari        | mRt23am4m   |
+| Murașov          | Anastasia            | amurasov       | am77Rs5vo   |
+| Gandrabur        | Nicoleta             | ngandrabur     | ng68An5au   |
+| H?ncu            | Cristian             | chincu         | ch882Un     |
+| Mereuța          | Sebastian            | smereuta       | sm866mt2a   |
+| Garaba           | Laura                | lgaraba        | Lg63Aa7ab   |
+| Pavalachi        | Daria                | dpavalachi     | dpAA52ac    |
+| Petic            | Alexandrina          | apetic         | aP247ec     |
+| Sochirca         | Casandra             | csochirca      | cs882chRa   |
+| Susarencu        | Nikita               | nsusarencu     | ns44Su3n    |
+| Str?mbanu        | Arina                | astrimbanu     | as7Tm3nab   |
+| Ciumac           | Vladimir             | vciumac        | v71mCa5a    |
+| Chifeac          | Daniil               | dchifeac       | dc72DHc2    |
+| Guțanu           | Sofia                | sgutanu        | sg54AT5u    |
+| Varanița         | Ion                  | ivaranita      | iv7aNN5a    |
+| Ceban            | Sergiu               | sgceban        | sg68Cb5an   |
+| Dolghii          | Chiril               | cdolghii       | cd46Gh2a    |
+| Botezatu         | Minodora             | mbotezatu      | mb42ZZa6u   |
+| Rotaru           | Andreea              | anrotaru       | anR63ta5a   |
+| Bedros           | Cristian             | cbedros        | cb75cd4Bd   |
+| Dulea            | Dragoș               | ddulea         | dL64ea2a    |
+| Rotari           | Ariadna              | arrotari       | aRR48hd2a   |
+| Ceban            | Andreea              | andceban       | anDc44na    |
+| Cozlovschi       | Giulieta             | gcozlovschi    | gcL98uu2c   |
+| Ambros           | David                | dambros        | DaMM4s2b    |
+| Madan            | Adrian               | admadan        | mmD82na7a   |
+| Urum             | Constantin           | cnurum         | cH66uru6ma  |
+| Romanciuc        | Laurențiu            | lromanciuc     | lrM7Nncu2c  |
+| Semionova        | Ecaterina            | esemionova     | es7Sn2ov4a  |
+| Terguță          | Răzvan               | rterguta       | rt7dzz62na  |
+| Moraru           | Camelia-Maria        | cmmoraru       | cmM85uru    |
+| Moisiuc          | Victor               | vmoisiuc       | vm74Scu3s   |
+| Popescu          | Victor               | vpopescu       | vpP64sc4u   |
+| Secrieru         | Arianna              | arsecrieru     | asS56un4s   |
+| Știrbul          | Ana                  | astirbul       | asT72sb4u   |
+| Guțu             | Răzvan               | rgutu          | rG96u4gu    |
+| H?ncu            | Nicoleta             | nhincu         | nh8Nc24u    |
+| Bujor-Cobili     | Carolina             | cbujor         | KVqeDK7cB   |
+| Cartaleanu       | Eugenia              | ecartaleanu    | P3J86kdkC   |
+| Iurco            | Olga                 | oiurco         | Av2bEgEfI   |
+| Damian           | Iulia                | idamian        | dam114      |
+| Untilă           | Dumitru              | duntila        | jC3HCzyCU   |
+| Dorofeev         | Anton                | adorofeev      | 72FAcgmaD   |
+| Rotaru           | Ecaterina            | erotaru        | 2HTHqchHR   |
+| Iacubovschi      | Mariana              | miacubovschi   | HpaMAqdrI   |
+| Demerji          | Sergiu               | sdemerji       | Cp6La3TPD   |
+| Eșanu            | Rodica               | resanu         | jZc5UUzeE   |
+| Pascaru          | Marta                | mpascaru       | 5a7QqnUxP   |
+| Russu            | Ionela               | irussu         | dt6UTVMfR   |
+| Gaidarl?         | Alina                | agaidarli      | aG5LLad4i   |
+| Foghelizang      | Iulia                | iufoghelizang  | uywaTN3YF   |
+| Balațel          | Vitalia              | vbalatel       | vb29tE2a    |
+| Berellini        | Naol                 | nberellini     | nb48N7xx    |
+| Cataraga         | Cornelia             | ccataraga      | cc53Ta7ag   |
+| Grin             | Eva                  | egrin          | eG77n8Ng    |
+| Ciocoi           | Vanessa              | vciocoi        | vc88oC3i    |
+| Gafenco          | Gheorghe             | ghgafenco      | ghG95en7o   |
+| Nichiforov       | Egor                 | enichiforov    | enC73oo6v   |
+| Bargan           | Evelina              | evbargan       | eVB77an5a   |
+| Puzur            | Robert               | rpuzur         | rp89Zu5u    |
+| Velciug          | Alexandra            | alvelciug      | alvE55c9G   |
+| Zolotuhin        | Gabriela             | gzolotuhin     | gZh743uh2   |
+| Tofan            | Alexandrina          | altofan        | aT52afn3a   |
+| Andronic         | Lucas                | landronic      | LA72anD3a   |
+| Baciu            | Beniamin             | bbaciu         | bb22Ac6s    |
+| Creanza          | Antonio              | acreanza       | aC66nZ3a    |
+| Fișer            | David                | dfiser         | dF74sE2a    |
+| Esipenco         | Mihail               | mesipenco      | mEs72eN4n   |
+| Iordachi         | Sophia               | siordachi      | si38Ac2ch   |
+| Josan            | Anatolie             | ajosan         | Aj98ss5n    |
+| Melinceanu       | David                | dmelinceanu    | dm55nC2en   |
+| P?rțu            | Dorin                | dpirtu         | dP72RR5u    |
+| Popa             | Leon                 | leonpopa       | LP46on7p    |
+| Preguza          | Vasile               | vpreguza       | vPG3az7zz   |
+| Radu             | Ilia                 | iradu          | iRR6dDu     |
+| Rusu             | Cezar                | crusu          | CZ62sr7u    |
+| Smerea           | Liubov-Mihaela       | lmsmerea       | LMs5ea7a    |
+| Ț?ju             | Iasmina              | iatiju         | iTJ8aa5s    |
+| Usturoi          | Lavinia              | lusturoi       | LstU7s5oo   |
+| Catană           | Daniel               | dcatana        | DcA52nN2a   |
+| Corobceanu       | Corina               | ccorobceanu    | cC42oN7u    |
+| Creciun          | Victor               | vcreciun       | vCU65nn2u   |
+| Fuior            | Nicoleta             | nfuior         | nF55oou5n   |
+| Grin             | Cristian             | cgrin          | cG7gR4nn    |
+| Mutelica         | Matei                | mmutelica      | mm2uTa4a    |
+| Tarlev           | Nicolae              | ntarlev        | nT4a3van    |
+| Țuvrila          | Eugeniu              | etuvrila       | eTv7rua5L   |
+| B?zgu            | Vlada                | vbizgu         | vBB4u2gu    |
+| Ciofu            | Artiom               | arciofu        | aCaa7e2u    |
+| Gherștioga       | Daniil               | dgherstioga    | dGe68shhh   |
+| Bostan           | Nikita               | nbostan        | nBs22an5b   |
+| Olaru            | Dionisie             | dnolaru        | dn84oa6uu   |
+| Abdușa           | Alin                 | aabdusa        | aA4d7ss2u   |
+| Aizin            | Alisa                | aaizin         | aaZ8n3az    |
+| Antohiev         | Ecaterina            | eantohiev      | eaN44hv2e   |
+| Arnăut           | Alexandra            | alarnaut       | aLn7a5tTu   |
+| Cerescu          | Ioan-Sebastian       | iscerescu      | scc5Ec7ui   |
+| Chifeac          | Anastasia            | achifeac       | ac8He5cc    |
+| Danu             | Ștefan               | stdanu         | sDd69n2u    |
+| Durleșteanu      | Emilia               | edurlesteanu   | eD77se5Tn   |
+| Eșanu            | Răzvan               | rzesanu        | eRz845aNs   |
+| Galațanu         | Nikita               | ngalatanu      | ngAn67Nu    |
+| Lipcean          | Vlad                 | vlipcean       | vLcc5e5ne   |
+| Năstase          | Alexandru            | alnastase      | aNNe72se    |
+| Panfil           | Ștefan               | stpanfil       | sTp8aFF2a   |
+| P?nzari          | Beatrice             | bpinzari       | bPzz85an    |
+| Purice           | Sebastian            | sbpurice       | sBB4u9cce   |
+| Roșca            | Gloria               | glrosca        | gL7oRs2a    |
+| Rotaru           | Daniel               | dnrotaru       | Dn22R6ua    |
+| Semionel         | Alexandru            | alsemionel     | aS8n5Lee    |
+| Simionel         | Alexandru            | alxsimionel    | Ax9s5mMe    |
+| Sunița           | Teodor-Marius        | tmsunita       | tm44Sn2na   |
+| Șubin            | Anastasia            | ansubin        | a1sb3nNb    |
+| Ț?cu             | Adrian               | adticu         | aT7c4cd     |
+| Aremescu         | Magdalena            | maremescu      | mAe6mm3u    |
+| Bargan           | Alex                 | albargan       | aLB62naG4   |
+| Bostan           | Vasile               | vbostan        | vBn8an5o    |
+| Ciorici          | Jacqueline           | jciorici       | jCc7oJii    |
+| Doroftei         | Matvei               | mdoroftei      | mdd5o5De    |
+| Florea           | Edward               | eflorea        | eFo99oRe    |
+| Ghețu            | Gabriel              | gghetu         | GG4eh77u    |
+| Golovat?i        | Dumitrița            | dgolovatii     | dGoo6aTg    |
+| Gucinski         | Valeria              | vgucinski      | vG77uKks    |
+| Lupan            | Dumitru              | dlupan         | dLpp4aN2u   |
+| Lupu             | David                | dvlupu         | dLp7uV2p    |
+| Marcov           | Ioanna               | imarcov        | iMm63oVa    |
+| Moraru           | Maria                | mmoraru        | MmA54rou    |
+| Padure           | Mihai                | mpadure        | mPd24ad4a   |
+| Răscoală         | Emilia               | erascoala      | erSc9Sa7a   |
+| Stamatin         | Sergiu               | sstamatin      | sST4aN3n    |
+| Șișchin          | Traian               | tsischin       | tS7n5Hss    |
+| Balan            | Călin                | cbalan         | cBaa77nb    |
+| Bedros           | Ana-Sofia            | asbedros       | aBs5sd4e    |
+| Buliba           | Leonard              | lbuliba        | Lb6uB4a     |
+| Busuioc          | Matei                | mbusuioc       | mbU55sc2u   |
+| Canț?r           | Alexandra            | acantir        | aCn4Ti2a    |
+| Cazac            | Marius               | mcazac         | mc4Az4c2a   |
+| Cerescu          | Bogdan               | bcerescu       | B7c5es2u    |
+| Cherdivară       | David                | dcherdivara    | dc7Hdd2Aa   |
+| Chiron           | Alex                 | alchiron       | aCh65o2n    |
+| Dolgaliov        | Artiom               | adolgaliov     | aDG82ag6v   |
+| Dumitraș         | Răzvan               | rdumitras      | rD7uMm23s   |
+| Furdui           | Beatrice             | bfurdui        | bF44u2Du    |
+| Ganușceac        | Xenia                | xganusceac     | Xg4Naa2c    |
+| Goriuc           | Gabriel              | ggoriuc        | GG18u5c     |
+| Gorodenco        | Daniela              | dgorodenco     | dG25ooN4da  |
+| Grabari          | Robert               | rgrabari       | Rga63aB2a   |
+| Guțanu           | Emmi                 | emgutanu       | eGmm7u3a    |
+| Josan            | Mihaela              | mjosan         | mJ3a7nn     |
+| Mereuța          | Mariana              | mmereuta       | Mm5Eu7u     |
+| Pasat            | Alexandra            | alpasat        | aPs9s3pa    |
+| Roman            | Delia                | droman         | dRm52o2nn   |
+| Sp?nu            | Cezar                | cspinu         | cSs95n6u    |
+| Stoian           | Darius               | drstoian       | dST72nn4o   |
+| Șeremet          | Alisa                | alseremet      | aSh5ee6m    |
+| Zabolotn?i       | Vladislav            | vzabolotnii    | vZ88oBz4a   |
+| Dulea            | Teodor               | tdulea         | tDu72e5d    |
+| Bolun            | Alex                 | albolun        | aL7aBu2nn   |
+| Cozlovschi       | Andreea              | ancozlovschi   | acZo77ov5hh |
+| Creciun          | Bogdan               | bcreciun       | bcc4Nu7e    |
+| Ojog             | Marius               | mojog          | m8ooJ55g    |
+| Golovat?i        | Veronica             | vgolovatii     | r5ERkngGG   |
+| Porubin          | Lilia                | lporubin       | c8fxxWk8P   |
+| Bejenari         | Stanislav            | sbejenari      | sBB7jJe5a   |
+| Jalbă-Dumitrașcu | Nadejda              | njalba         | jal513      |
+| Lavric           | Ecaterina            | elavric        | lav514      |
+| Colesnic         | Liliana              | lcolesnic      | ZsDpvYmjC   |
+| Căldare          | Olga                 | ocaldare       | oca516      |
+| Tricolici        | Olga                 | otricolici     | tri517      |
+| Lisov            | Diana                | dlisov         | lis518      |
+| Revenco          | Evelina              | erevenco       | eR7nc8Vee   |
+| Cociurca         | Nadejda              | ncociurca      | vUZeK4f4C   |
+| Buga             | Alina                | abuga          | 54Ud6yfuB   |
+| Burea            | Svetlana             | sburea         | sB7uu5Ae    |
+| Golban           | Olesea               | ogolban        | 2hY3RcR2G   |
+| Zabavin          | Inga                 | izabavin       | MMXfU7jCZ   |
+| Bălănuță         | Caterina             | cbalanuta      | cBBa73da5   |
+| Culea            | Marin                | mculea         | mcC42Mrn2   |
+| Descalui         | Constanța            | cdescalui      | cdDL88cn2   |
+| Furtuna          | Beatricia            | bfurtuna       | fbB2Rt8cca  |
+| Gafenco          | Victor               | vgafenco       | vGg67nn7O   |
+| Golban           | Ilie                 | igolban        | iG89Nn5a    |
+| Marcoci          | Ion                  | imarcoci       | mC95nnC77   |
+| Balan            | Victor               | vbalan         | bLn3LL82an  |
+| Ciobanu          | Bianca               | bciobanu       | bc6NNa58u   |
+| Josan            | Mădălina             | mjosan         | mJ24nn6Ajn  |
+| Pistol           | Valeria              | vpistol        | Vps65LLt2   |
+| Toledo           | Alexandra Christine  | actoledo       | acTT16de4A  |
+| Cupcea           | Alexandru            | acupcea        | acA784PPe2  |
+| Cauș             | Mădălina             | mcaus          | MC33as7Ac   |
+| Ciubuc           | Maria                | mciubuc        | mc8CCu5b    |
+| Ciuciu           | Alexandra            | aciuciu        | ccA68cUu2   |
+| Doloșcan         | Alexandra            | adoloscan      | aDL49Csa4n  |
+| Lungu            | Iana                 | ialungu        | iAL7uNN6u   |
+| Marcoci          | Doina                | dmarcoci       | DmM33oC2c   |
+| Mihalache        | Bogdan               | bmihalache     | BMh74AaC3e  |
+| Saftiuc          | Alexandru-Valeriu    | avsaftiuc      | avS75FFu3sc |
+| Malenchi         | Iulia                | iumalenchi     | IUm683NhC6  |
+| Blănaru          | Ionela               | iblanaru       | bLL8aR6uu   |
+| Bodrug           | Daniel               | dbodrug        | DB732dggU   |
+| Lisac            | Lavinia              | llisac         | LL253aVn2a  |
+| Varlan           | Sorin-Gabriel        | sgvarlan       | sgV75aN5a   |
+| Conișesco        | Ion                  | iconisesco     | iCc22eN6nc  |
+| Luca             | Patricia             | pluca          | pLLu74ac5a  |
+| Golban           | Mihai                | mgolban        | mGG85na4    |
+| Certan           | Patricia             | pcertan        | pcC55eRa2n  |
+| Bolohan          | Damian               | dbolohan       | dBB716ana   |
+| Bărbuță          | Maxim                | mbarbuta       | mBB24ua6a   |
++------------------+----------------------+----------------+-------------+
