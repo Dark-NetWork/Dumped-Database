@@ -2,23 +2,24 @@
 
 .mk Macedonia
 
-Republic of Severna Macedonia
+Republic Of North Macedonia
 
-State Plant For Statistics
-
-State Institute of Statistics
+State Statistical Office
 
 http://www.stat.gov.mk/OblastOpsto_en.aspx?id=13
 
-Microsoft SQL Server 2008 (SP3) - 10.0.5512.0 (X64) 
-        Aug 22 2012 19:25:47 
-        Copyright (c) 1988-2008 Microsoft Corporation
-        Enterprise Edition (64-bit) on Windows NT 6.0 <X64> (Build 6003: Service Pack 2) (VM)
-
 the back-end DBMS is Microsoft SQL Server
-web server operating system: Windows 2012 R2 or 8.1
-web application technology: ASP.NET 4.0.30319, ASP.NET, Microsoft IIS 8.5
-the back-end DBMS: Microsoft SQL Server 2008
+web server operating system: Windows 8.1 or 2012 R2
+web application technology: ASP.NET, ASP.NET 4.0.30319, Microsoft IIS 8.5
+back-end DBMS operating system: Windows 2008 or Vista Service Pack 2
+back-end DBMS: Microsoft SQL Server 2008
+banner:
+---
+Microsoft SQL Server 2008 (SP3) - 10.0.5512.0 (X64) 
+	Aug 22 2012 19:25:47 
+	Copyright (c) 1988-2008 Microsoft Corporation
+	Enterprise Edition (64-bit) on Windows NT 6.0 <X64> (Build 6003: Service Pack 2) (VM)
+---
 
 available databases [18]:                                                                                                                                            
 [*] ANKETI
