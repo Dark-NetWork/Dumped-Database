@@ -22,17 +22,17 @@ Microsoft SQL Server 2012 (SP1) - 11.0.3156.0 (X64)
 ---
 
 available databases [14]:                                                                                                                            
-[*] beware
-[*] fodib
-[*] GeolIEP_Sde
-[*] GeolIEPpom
-[*] geoliss_test
-[*] geolweb
-[*] IRindeks
-[*] master
-[*] model
-[*] mreZahtevi
-[*] msdb
-[*] pomBaza
-[*] tempdb
-[*] test
+[+] beware
+[+] fodib
+[+] GeolIEP_Sde
+[+] GeolIEPpom
+[+] geoliss_test
+[+] geolweb
+[+] IRindeks
+[+] master
+[+] model
+[+] mreZahtevi
+[+] msdb
+[+] pomBaza
+[+] tempdb
+[+] test
