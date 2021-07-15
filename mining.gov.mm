@@ -27,3 +27,28 @@ available databases [6]:
 [+] ReportServer
 [+] ReportServerTempDB
 [+] tempdb
+
+Database: MINING_CMS
+[19 tables]
++----------------------+
+| Department           |
+| admin_agree          |
+| dtproperties         |
+| general_content      |
+| hit                  |
+| main_content         |
+| main_menu            |
+| menu                 |
+| menu_permissions     |
+| page_log             |
+| requestpass          |
+| sub_menu             |
+| tbl_EmployeeTypes    |
+| tbl_Employees        |
+| tbl_Permissions      |
+| tbl_folderpermission |
+| tbl_permission       |
+| tbl_permission_bk    |
+| tmp_general_content  |
++----------------------+		
+		
