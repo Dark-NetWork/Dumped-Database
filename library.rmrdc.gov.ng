@@ -6,7 +6,11 @@ RMRDC Library
 
 http://library.rmrdc.gov.ng/books.php?cat=Magazines
 
-the back-end DBMS: MySQL >= 5.0.12
+the back-end DBMS is MySQL
+web server operating system: Windows 8.1 or 2012 R2
+web application technology: Microsoft IIS 8.5, PHP, ASP.NET
+back-end DBMS: MySQL >= 5.0.0
+banner: '5.1.73-community'
 
 available databases [3]:
 [+] information_schema
